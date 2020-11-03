@@ -17,12 +17,16 @@ Es soll ein Batchskript erstellt werden, bei dem die Inhalte von der DOC-Tool-Re
 
 # Status der Idee
 
-- [x]  Die Iddee exisitiert & Die Ideenentwicklung wurde gestartet
+- [x]  Die Idee exisitiert & Die Ideenentwicklung wurde gestartet
 - [x]  Implementierung und die Technologie bekannt
 - [x]  Git Checkout-Developmentbranch 
 - [x]  Implementierung der Technologie
-- [ ]  Tests
-  - [X]  Die Website gänzlich mit den den neusten Inhalten aus content erstellt wurde
-  - [ ] das Doc-Tool Repo gepusht wurde(das kann nur aus dem Push ausgehend vom Master dargestellt)
+- [x]  Tests
+  - [x]  Die Website gänzlich mit den den neusten Inhalten aus content erstellt wurde
+  - [x] das Doc-Tool Repo gepusht wurde(das kann nur aus dem Push ausgehend vom Master dargestellt)
   - [X] Das Output-Repo gepusht wurde
+- [x]  Merge back to master
+- [x]  Push Doc-Tool to remote master mit dem commit-Namen "02-publishContentsRemote.bat"
+- [x]  Lösche den lokalen Branch 
+- [x]  Ideenimplementierung abgeschlossen
 

@@ -1,8 +1,18 @@
+'''''
+{
+"title": "git Überblick",
+"keywords": "git, branch",
+"categories": "",
+"description": "Hier wird das Konzept von Git-Branches in den Grundzügen erklärt",
+"level": "00"
+}
+'''''
+
 <h1>Git-Branches-Überblick</h1>
 
 ![](imgs/2020-11-03-13-45-39.png)
 
-Mit Branches kann das Git-Porjekt an mehrerenEnden gleichzeitig entwicklet werden
+Mit Branches kann das Git-Porjekt an mehreren Enden gleichzeitig entwicklet werden.
 
 Das ist gut für:
 

@@ -20,11 +20,8 @@ Das Repo wird mit dem durchgehenden Wachstum an content immer "schwerfälliger",
 # Status der Idee
 
 - [x]  Die Iddee exisitiert & Die Ideenentwicklung wurde gestartet
-- [x]  Implementierung und die Technologie bekannt
-- [ ]  Git Checkout-Developmentbranch 
-- [x]  Implementierung der Technologie
-- [ ]  Tests
-  - [X]  Die Website gänzlich mit den den neusten Inhalten aus content erstellt wurde
-  - [ ] das Doc-Tool Repo gepusht wurde(das kann nur aus dem Push ausgehend vom Master dargestellt)
-  - [X] Das Output-Repo gepusht wurde
+- [x]  Merge back to master
+- [x]  Push Doc-Tool to remote master mit dem commit-Namen "01-DocTools-JPYNB-HTML-Converter"
+- [x]  Lösche den lokalen Branch 
+- [x]  Ideenimplementierung abgeschlossen
 

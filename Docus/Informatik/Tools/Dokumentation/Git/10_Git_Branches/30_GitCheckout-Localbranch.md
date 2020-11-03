@@ -1,3 +1,13 @@
+'''''
+{
+"title": "git checkout -b",
+"keywords": "git, branch, localBranch, checkout -b",
+"categories": "",
+"description": "Hier wird erklärt wie ein Branch erstellt und genutzt wird",
+"level": "10"
+}
+'''''
+
 <h1>git checkout - Erstellen eines lokalen Branches</h1>
 
 
@@ -17,11 +27,8 @@ kann lokal ein Branch erstellt werden. mit dem Befehl:
 
 wird verifiziert dass dieser Branch lokal erstellt wurde und aktiv ist. 
 
-
-
-
-
-
+zu 'git checkout -b "Branchname"' gibt es folenden redundanten Befehl
+> git "Branchname" & git checkout "Branchname"
 
 
 hier wollen wir von einem Branch in den anderen wechseln

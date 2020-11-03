@@ -22,8 +22,7 @@ Hierbei hilft das CLI-Tool [nbconvert](https://nbconvert.readthedocs.io/en/lates
   - [x]  Lokale-Implementierung bestanden
   - [ ]  Remote-Implementierung bestanden
 - [x]  Merge back to master
-- [x]  Push Doc-Tool to remote master
-- [ ]  Verlinkung zu dezidierten Files in dem Remote Repo und den dortigen Fileänderungen
-  - [X] [ Allgemeiner Commit](https://github.com/JHC90/ownStaticWebsiteGenerator/commit/81c064ba85ed0340e23b19df2fe7c2f3d8b2fe2f) 
-- [X]  Ideenimplementierung abgeschlossen
+- [x]  Push Doc-Tool to remote master mit dem commit-Namen "01-DocTools-JPYNB-HTML-Converter"
+- [x]  Lösche den lokalen Branch 
+- [x]  Ideenimplementierung abgeschlossen
 

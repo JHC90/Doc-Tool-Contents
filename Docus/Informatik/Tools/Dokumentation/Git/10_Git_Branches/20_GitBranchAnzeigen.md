@@ -1,3 +1,13 @@
+'''''
+{
+"title": "git branch -a",
+"keywords": "git, branch, branch -a",
+"categories": "",
+"description": "Hier wird das Anzeigen von Git Branches lokal und remote innerhalb des CLI erklärt",
+"level": "10"
+}
+'''''
+
 <h1>git Branch - Anzeigen</h1>
 
 mit dem Befehl

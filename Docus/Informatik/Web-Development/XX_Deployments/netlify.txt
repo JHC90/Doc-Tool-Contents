@@ -1,0 +1,6 @@
+- die Website muss im Repo abgelegt sein
+- Erstelle netlify account
+- Deploy 
+Done
+
+Wenn andere Domain muss die gekauft werden um diese darzustellen

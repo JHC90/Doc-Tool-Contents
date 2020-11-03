@@ -12,3 +12,12 @@ Dass ein Windows eine Binary im Pfad hinterlegt ist, muss diese entsprechend den
 > hugo version
 
 ![AlternativText](imgs/2020-11-02-05-24-04.png)
+
+Nützlich bei
+- Python
+- Anaconda
+- conda
+- Graphviz
+- phantomjs
+- gecko
+etc

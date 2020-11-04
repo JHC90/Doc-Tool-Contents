@@ -1,5 +1,5 @@
-<!DOCTYPE div id="jupyter">>
-<div id="jupyter">>
+<!DOCTYPE html>
+<div id="jupyter">
 <head123><meta charset="utf-8" />
 
 <title>01_the_machine_learning_landscape</title>
@@ -21,7 +21,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-div id="jupyter"> {
+html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -140,14 +140,14 @@ select {
   text-transform: none;
 }
 button,
-div id="jupyter"> input[type="button"],
+html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
   cursor: pointer;
 }
 button[disabled],
-div id="jupyter"> input[disabled] {
+html input[disabled] {
   cursor: default;
 }
 button::-moz-focus-inner,
@@ -198,7 +198,7 @@ td,
 th {
   padding: 0;
 }
-/*! Source: https://github.com/h5bp/div id="jupyter">5-boilerplate/blob/master/src/css/main.css */
+/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 @media print {
   *,
   *:before,
@@ -1082,7 +1082,7 @@ th {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-div id="jupyter"> {
+html {
   font-size: 10px;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -7810,7 +7810,7 @@ button.close {
 .fa-chevron-circle-down:before {
   content: "\f13a";
 }
-.fa-div id="jupyter">5:before {
+.fa-html5:before {
   content: "\f13b";
 }
 .fa-css3:before {
@@ -10503,7 +10503,7 @@ div.cell.selected.jupyter-soft-selected:before {
   /* Don't highlight prompt number selection */
   -webkit-touch-callout: none;
   -webkit-user-select: none;
-  -kdiv id="jupyter">-user-select: none;
+  -khtml-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
@@ -10945,11 +10945,11 @@ div.output_area {
 div.output_area .MathJax_Display {
   text-align: left !important;
 }
-div.output_area .rendered_div id="jupyter"> table {
+div.output_area .rendered_html table {
   margin-left: 0;
   margin-right: 0;
 }
-div.output_area .rendered_div id="jupyter"> img {
+div.output_area .rendered_html img {
   margin-left: 0;
   margin-right: 0;
 }
@@ -11088,145 +11088,145 @@ div.output_unrecognized a:hover {
   color: inherit;
   text-decoration: none;
 }
-.rendered_div id="jupyter"> {
+.rendered_html {
   color: #000;
   /* any extras will just be numbers: */
 }
-.rendered_div id="jupyter"> em {
+.rendered_html em {
   font-style: italic;
 }
-.rendered_div id="jupyter"> strong {
+.rendered_html strong {
   font-weight: bold;
 }
-.rendered_div id="jupyter"> u {
+.rendered_html u {
   text-decoration: underline;
 }
-.rendered_div id="jupyter"> :link {
+.rendered_html :link {
   text-decoration: underline;
 }
-.rendered_div id="jupyter"> :visited {
+.rendered_html :visited {
   text-decoration: underline;
 }
-.rendered_div id="jupyter"> h1 {
+.rendered_html h1 {
   font-size: 185.7%;
   margin: 1.08em 0 0 0;
   font-weight: bold;
   line-height: 1.0;
 }
-.rendered_div id="jupyter"> h2 {
+.rendered_html h2 {
   font-size: 157.1%;
   margin: 1.27em 0 0 0;
   font-weight: bold;
   line-height: 1.0;
 }
-.rendered_div id="jupyter"> h3 {
+.rendered_html h3 {
   font-size: 128.6%;
   margin: 1.55em 0 0 0;
   font-weight: bold;
   line-height: 1.0;
 }
-.rendered_div id="jupyter"> h4 {
+.rendered_html h4 {
   font-size: 100%;
   margin: 2em 0 0 0;
   font-weight: bold;
   line-height: 1.0;
 }
-.rendered_div id="jupyter"> h5 {
-  font-size: 100%;
-  margin: 2em 0 0 0;
-  font-weight: bold;
-  line-height: 1.0;
-  font-style: italic;
-}
-.rendered_div id="jupyter"> h6 {
+.rendered_html h5 {
   font-size: 100%;
   margin: 2em 0 0 0;
   font-weight: bold;
   line-height: 1.0;
   font-style: italic;
 }
-.rendered_div id="jupyter"> h1:first-child {
+.rendered_html h6 {
+  font-size: 100%;
+  margin: 2em 0 0 0;
+  font-weight: bold;
+  line-height: 1.0;
+  font-style: italic;
+}
+.rendered_html h1:first-child {
   margin-top: 0.538em;
 }
-.rendered_div id="jupyter"> h2:first-child {
+.rendered_html h2:first-child {
   margin-top: 0.636em;
 }
-.rendered_div id="jupyter"> h3:first-child {
+.rendered_html h3:first-child {
   margin-top: 0.777em;
 }
-.rendered_div id="jupyter"> h4:first-child {
+.rendered_html h4:first-child {
   margin-top: 1em;
 }
-.rendered_div id="jupyter"> h5:first-child {
+.rendered_html h5:first-child {
   margin-top: 1em;
 }
-.rendered_div id="jupyter"> h6:first-child {
+.rendered_html h6:first-child {
   margin-top: 1em;
 }
-.rendered_div id="jupyter"> ul:not(.list-inline),
-.rendered_div id="jupyter"> ol:not(.list-inline) {
+.rendered_html ul:not(.list-inline),
+.rendered_html ol:not(.list-inline) {
   padding-left: 2em;
 }
-.rendered_div id="jupyter"> ul {
+.rendered_html ul {
   list-style: disc;
 }
-.rendered_div id="jupyter"> ul ul {
+.rendered_html ul ul {
   list-style: square;
   margin-top: 0;
 }
-.rendered_div id="jupyter"> ul ul ul {
+.rendered_html ul ul ul {
   list-style: circle;
 }
-.rendered_div id="jupyter"> ol {
+.rendered_html ol {
   list-style: decimal;
 }
-.rendered_div id="jupyter"> ol ol {
+.rendered_html ol ol {
   list-style: upper-alpha;
   margin-top: 0;
 }
-.rendered_div id="jupyter"> ol ol ol {
+.rendered_html ol ol ol {
   list-style: lower-alpha;
 }
-.rendered_div id="jupyter"> ol ol ol ol {
+.rendered_html ol ol ol ol {
   list-style: lower-roman;
 }
-.rendered_div id="jupyter"> ol ol ol ol ol {
+.rendered_html ol ol ol ol ol {
   list-style: decimal;
 }
-.rendered_div id="jupyter"> * + ul {
+.rendered_html * + ul {
   margin-top: 1em;
 }
-.rendered_div id="jupyter"> * + ol {
+.rendered_html * + ol {
   margin-top: 1em;
 }
-.rendered_div id="jupyter"> hr {
+.rendered_html hr {
   color: black;
   background-color: black;
 }
-.rendered_div id="jupyter"> pre {
+.rendered_html pre {
   margin: 1em 2em;
   padding: 0px;
   background-color: #fff;
 }
-.rendered_div id="jupyter"> code {
+.rendered_html code {
   background-color: #eff0f1;
 }
-.rendered_div id="jupyter"> p code {
+.rendered_html p code {
   padding: 1px 5px;
 }
-.rendered_div id="jupyter"> pre code {
+.rendered_html pre code {
   background-color: #fff;
 }
-.rendered_div id="jupyter"> pre,
-.rendered_div id="jupyter"> code {
+.rendered_html pre,
+.rendered_html code {
   border: 0;
   color: #000;
   font-size: 100%;
 }
-.rendered_div id="jupyter"> blockquote {
+.rendered_html blockquote {
   margin: 1em 2em;
 }
-.rendered_div id="jupyter"> table {
+.rendered_html table {
   margin-left: auto;
   margin-right: auto;
   border: none;
@@ -11236,13 +11236,13 @@ div.output_unrecognized a:hover {
   font-size: 12px;
   table-layout: fixed;
 }
-.rendered_div id="jupyter"> thead123 {
+.rendered_html thead123 {
   border-bottom: 1px solid black;
   vertical-align: bottom;
 }
-.rendered_div id="jupyter"> tr,
-.rendered_div id="jupyter"> th,
-.rendered_div id="jupyter"> td {
+.rendered_html tr,
+.rendered_html th,
+.rendered_html td {
   text-align: right;
   vertical-align: middle;
   padding: 0.5em 0.5em;
@@ -11251,48 +11251,48 @@ div.output_unrecognized a:hover {
   max-width: none;
   border: none;
 }
-.rendered_div id="jupyter"> th {
+.rendered_html th {
   font-weight: bold;
 }
-.rendered_div id="jupyter"> tbody123 tr:nth-child(odd) {
+.rendered_html tbody123 tr:nth-child(odd) {
   background: #f5f5f5;
 }
-.rendered_div id="jupyter"> tbody123 tr:hover {
+.rendered_html tbody123 tr:hover {
   background: rgba(66, 165, 245, 0.2);
 }
-.rendered_div id="jupyter"> * + table {
+.rendered_html * + table {
   margin-top: 1em;
 }
-.rendered_div id="jupyter"> p {
+.rendered_html p {
   text-align: left;
 }
-.rendered_div id="jupyter"> * + p {
+.rendered_html * + p {
   margin-top: 1em;
 }
-.rendered_div id="jupyter"> img {
+.rendered_html img {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-.rendered_div id="jupyter"> * + img {
+.rendered_html * + img {
   margin-top: 1em;
 }
-.rendered_div id="jupyter"> img,
-.rendered_div id="jupyter"> svg {
+.rendered_html img,
+.rendered_html svg {
   max-width: 100%;
   height: auto;
 }
-.rendered_div id="jupyter"> img.unconfined,
-.rendered_div id="jupyter"> svg.unconfined {
+.rendered_html img.unconfined,
+.rendered_html svg.unconfined {
   max-width: none;
 }
-.rendered_div id="jupyter"> .alert {
+.rendered_html .alert {
   margin-bottom: initial;
 }
-.rendered_div id="jupyter"> * + .alert {
+.rendered_html * + .alert {
   margin-top: 1em;
 }
-[dir="rtl"] .rendered_div id="jupyter"> p {
+[dir="rtl"] .rendered_html p {
   text-align: right;
 }
 div.text_cell {
@@ -11344,13 +11344,13 @@ h6:hover .anchor-link {
 .text_cell.rendered .input_area {
   display: none;
 }
-.text_cell.rendered .rendered_div id="jupyter"> {
+.text_cell.rendered .rendered_html {
   overflow-x: auto;
   overflow-y: hidden;
 }
-.text_cell.rendered .rendered_div id="jupyter"> tr,
-.text_cell.rendered .rendered_div id="jupyter"> th,
-.text_cell.rendered .rendered_div id="jupyter"> td {
+.text_cell.rendered .rendered_html tr,
+.text_cell.rendered .rendered_html th,
+.text_cell.rendered .rendered_html td {
   max-width: none;
 }
 .text_cell.unrendered .text_cell_render {
@@ -13045,7 +13045,7 @@ div#notebook {
 }
 </style>
 
-<!-- Custom stylesheet, it must be in the same directory as the div id="jupyter"> file -->
+<!-- Custom stylesheet, it must be in the same directory as the html file -->
 <link rel="stylesheet" href="custom.css">
 
 <!-- Loading mathjax macro -->
@@ -13076,7 +13076,7 @@ div#notebook {
 
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_div id="jupyter">">
+<div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Chapter 1 – The Machine Learning landscape</strong></p>
 
 </div>
@@ -13084,7 +13084,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_div id="jupyter">">
+<div class="text_cell_render border-box-sizing rendered_html">
 <p><a href="https://www.google.de/">TestLink-Google</a><br>
 <a href="...../Docus/DataScience/Theorie/000_AI_ML_DL.md">TestLink-Internal</a><br>
 <a href="./../../../../index.md">link-index</a><br>
@@ -13097,14 +13097,14 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_div id="jupyter">">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Setup">Setup<a class="anchor-link" href="#Setup">&#182;</a></h1>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_div id="jupyter">">
+<div class="text_cell_render border-box-sizing rendered_html">
 <p>First, let's make sure this notebook works well in both python 2 and 3, import a few common modules, ensure MatplotLib plots figure123s inline and prepare a function to save the figure123s:</p>
 
 </div>
@@ -13156,14 +13156,14 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_div id="jupyter">">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Code-example-1-1">Code example 1-1<a class="anchor-link" href="#Code-example-1-1">&#182;</a></h1>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_div id="jupyter">">
+<div class="text_cell_render border-box-sizing rendered_html">
 <p>This function just merges the OECD's life satisfaction data and the IMF's GDP per capita data. It's a bit too long and boring and it's not specific to Machine Learning, which is why I left it out of the book.</p>
 
 </div>
@@ -13194,7 +13194,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_div id="jupyter">">
+<div class="text_cell_render border-box-sizing rendered_html">
 <p>The code in the book expects the data files to be located in the current directory. I just tweaked it here to fetch the files in datasets/lifesat.</p>
 
 </div>
@@ -15027,7 +15027,7 @@ L 385.633125 7.2
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_div id="jupyter">">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Note:-you-can-ignore-the-rest-of-this-notebook,-it-just-generates-many-of-the-figure123s-in-chapter-1.">Note: you can ignore the rest of this notebook, it just generates many of the figure123s in chapter 1.<a class="anchor-link" href="#Note:-you-can-ignore-the-rest-of-this-notebook,-it-just-generates-many-of-the-figure123s-in-chapter-1.">&#182;</a></h1>
 </div>
 </div>
@@ -15073,14 +15073,14 @@ L 385.633125 7.2
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_div id="jupyter">">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Load-and-prepare-Life-satisfaction-data">Load and prepare Life satisfaction data<a class="anchor-link" href="#Load-and-prepare-Life-satisfaction-data">&#182;</a></h1>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_div id="jupyter">">
+<div class="text_cell_render border-box-sizing rendered_html">
 <p>If you want, you can get fresh data from the OECD's website.
 Download the CSV from <a href="http://stats.oecd.org/index.aspx?DataSetCode=BLI">http://stats.oecd.org/index.aspx?DataSetCode=BLI</a>
 and save it to <code>datasets/lifesat/</code>.</p>
@@ -15119,14 +15119,14 @@ and save it to <code>datasets/lifesat/</code>.</p>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_div id="jupyter">">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Load-and-prepare-GDP-per-capita-data">Load and prepare GDP per capita data<a class="anchor-link" href="#Load-and-prepare-GDP-per-capita-data">&#182;</a></h1>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_div id="jupyter">">
+<div class="text_cell_render border-box-sizing rendered_html">
 <p>Just like above, you can update the GDP per capita data if you want. Just download data from <a href="http://goo.gl/j1MSKe">http://goo.gl/j1MSKe</a> (=&gt; imf.org) and save it to <code>datasets/lifesat/</code>.</p>
 
 </div>
@@ -15705,4 +15705,4 @@ and save it to <code>datasets/lifesat/</code>.</p>
  
 
 
-</div id="jupyter">>
+</div>

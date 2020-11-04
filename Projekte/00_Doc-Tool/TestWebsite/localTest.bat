@@ -1,0 +1,2 @@
+call 00_basicWebsiteAvailiblityBatch-local
+call 01_navBarTestingBatch-local

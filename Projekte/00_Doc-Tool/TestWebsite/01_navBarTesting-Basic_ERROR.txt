@@ -1,0 +1,5 @@
+Fehler im Skript 01_navBarTesting-Basic.py. Der Klickweg:
+['Docus', 'DataScience', 'Docus', 'BewussterFehler']
+konnte nicht aufgerufen werden.
+
+

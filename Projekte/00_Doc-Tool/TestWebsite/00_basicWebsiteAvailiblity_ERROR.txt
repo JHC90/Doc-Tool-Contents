@@ -1,0 +1,15 @@
+Fehler im Skript 00_basicWebsiteAvailiblity.py.Die URL:
+file:///C:/DocTool/output/Docus/DataScience/Praxis/handson-ml/01_the_machine_learning_landscape123.html
+konnte nicht aufgerufen werden.
+
+
+Fehler im Skript 00_basicWebsiteAvailiblity.py.Die URL:
+http://www.fazrnbo0k.com/
+konnte nicht aufgerufen werden.
+
+
+Fehler im Skript 00_basicWebsiteAvailiblity.py.Die URL:
+file:///C:/DocTool/output/Docus/DataScience/Praxis/handson-ml/01_the_machine_learning_landscape123.html
+konnte nicht aufgerufen werden.
+
+

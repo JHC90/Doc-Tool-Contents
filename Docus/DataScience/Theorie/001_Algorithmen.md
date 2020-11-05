@@ -3,6 +3,10 @@
 
 <h1>Algorithmen</h1>
 
+Definition:
+- Software-Entwicklung
+- Mathematik
+
 Die Algorithmen des Maschinellen Lernen können nach unterschiedlichen Möglichkeiten aufgeteilt werden:
 
 ## Aufteilung 1

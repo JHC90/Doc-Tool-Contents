@@ -8,6 +8,8 @@
 }
 '''''
 
+
+
 <h1>Checklist - Datenbeschaffung</h1>
 
 In diesem Teilbereicht geht es darum einen entsprechenden Rahmen für das Projekt zu schaffen. Das entsprechende Domänenwissen zu erlangen und die zugrundliegende Problematik überhaupt zu verstehen.  

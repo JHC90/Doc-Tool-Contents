@@ -1,12 +1,4 @@
-'''''
-{
-"title": "Algorithmen",
-"keywords": "Algorithmen, Regression, Klassifikation, Zeitreihe, Anomalie, Clustering",
-"categories": "Data-Science, Algorithmen",
-"description": "Hier werden die Algorithmen knapp vorgestellt und gegenübergestellt. ",
-"level": "00"
-}
-'''''
+## Bestätige ggf die Erwartungens.
 
 
 <h1>Algorithmen</h1>

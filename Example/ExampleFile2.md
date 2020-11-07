@@ -4,8 +4,8 @@
 "keywords": "Example",
 "categories": "index, welcome, nonDocu",
 "description": "Hier die individuelle Beschreibung der Index-Seite aus dem Frontmatter",
-"level": "00"
-"Page-ID": "002"
+"level": "00",
+"Page-ID": "002",
 }
 '''''
 

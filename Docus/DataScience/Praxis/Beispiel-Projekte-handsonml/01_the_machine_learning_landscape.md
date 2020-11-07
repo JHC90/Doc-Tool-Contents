@@ -13105,11 +13105,8 @@ div#notebook {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><a href="https://www.google.de/">TestLink-Google</a><br>
-<a href="...../Docus/DataScience/Theorie/000_AI_ML_DL.md">TestLink-Internal</a><br>
-<a href="./../../../../index.md">link-index</a><br>
-<a href="./../../../../about.md">link-about</a><br>
-<a href="./../../../Informatik/Web-Development/CSS/01_CSS_Basics.md">link-css</a><br>
-<a href="./../../../../Projekte/00_Doc-Tool/Ideen-Container/00_SwitchMarkdownHtml%20copy.md">link-doctool</a><br></p>
+<a href="...../Docus/DataScience/Theorie/000_AI_ML_DL.md">TestLink-Internal zu Hardlink</a><br>
+<a href="07112020200718-001">TestLink-Internal zu ID</a><br></p>
 
 </div>
 </div>

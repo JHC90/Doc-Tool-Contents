@@ -11,6 +11,6 @@
 
 # Ex1
 
-[LinkZu2Relative](./ExampleFile2.md)
+[LinkZu1JupyterNotebook](07112020200718JupyterML)
 
 [LinkZu1ID2](07112020200718-002)

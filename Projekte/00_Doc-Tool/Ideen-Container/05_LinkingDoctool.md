@@ -8,17 +8,19 @@ Bisher laufen die Links innerhalb des Doctools via Makrdown und relativen Pfaden
 - python
 
 # Test
-1) wenn bei der Ausführung des Skriptes
-   1) Die Website gänzlich mit den den neusten Inhalten aus content erstellt wurde
-   2) das Doc-Tool Repo gepusht wurde
-   3) Das Output-Repo gepusht wurde
-
+1) Test MD-MD
+2) Test MD-MD über mehrere Hierarchiestufen
+3) Test MD-jpynb
+4) Test MD-jpynb über mehrere Hierarchiestufen
+5) 
 
 # Status der Idee
 
 - [x]  Die Iddee exisitiert & Die Ideenentwicklung wurde gestartet
-- [x]  Merge back to master
-- [x]  Push Doc-Tool to remote master mit dem commit-Namen "01-DocTools-JPYNB-HTML-Converter"
-- [x]  Lösche den lokalen Branch 
-- [x]  Ideenimplementierung abgeschlossen
+- [x]  Implementierung und die Technologie bekannt
+- [x]  Git Checkout-Dev-Branch 
+- [ ]  Merge back to master
+- [ ]  Push Doc-Tool to remote master mit dem commit-Namen "01-DocTools-JPYNB-HTML-Converter"
+- [ ]  Lösche den lokalen Branch 
+- [ ]  Ideenimplementierung abgeschlossen
 

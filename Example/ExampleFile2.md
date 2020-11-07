@@ -1,13 +1,12 @@
----
+'''''
 {
-"title": "Zwei",
-"keywords": "Beispiel Implementierungen von Markdown und Web Inhalten für den Test",
-"categories": "Example",
-"description": "Example",
-"PageID": "20201101-0600-Ex2",
-"level": ""
+"title": "Example 2",
+"keywords": "index, welcome",
+"categories": "index, welcome, nonDocu",
+"description": "Hier die individuelle Beschreibung der Index-Seite aus dem Frontmatter",
+"level": "00"
 }
----
+'''''
 
 # Ex 2
 

@@ -2,10 +2,12 @@
 
 # Link zur Implementierung
 
+# Technologien
+- Python Bibliothek markdown2
 
 # Status der Idee
 - [x]  Die Iddee exisitiert & Die Ideenentwicklung wurde gestarte
 - [x]  Implementierung und die Technologie bekannt & dokumentiert
-- [ ]  Implementierung der Technologie
-- [ ]  Test der Implementierung
-- [ ]  Ideenimplementierung abgeschlossen
+- [x]  Implementierung der Technologie
+- [x]  Test der Implementierung
+- [x]  Ideenimplementierung abgeschlossen

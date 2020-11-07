@@ -1,11 +1,11 @@
 '''''
 {
-"title": "JHC - Startseite",
+"title": "JHC-Startseite",
 "keywords": "index, welcome",
 "categories": "index, welcome, nonDocu",
 "description": "Hier die individuelle Beschreibung der Index-Seite aus dem Frontmatter",
 "level": "00",
-"pageID": "Startseite"
+"pageID": "07112020200718Startseite"
 }
 '''''
 

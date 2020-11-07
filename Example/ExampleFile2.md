@@ -1,10 +1,11 @@
 '''''
 {
 "title": "Example 2",
-"keywords": "index, welcome",
+"keywords": "Example",
 "categories": "index, welcome, nonDocu",
 "description": "Hier die individuelle Beschreibung der Index-Seite aus dem Frontmatter",
 "level": "00"
+"Page-ID": "002"
 }
 '''''
 

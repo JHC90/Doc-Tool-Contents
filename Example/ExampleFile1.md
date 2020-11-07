@@ -1,10 +1,10 @@
 '''''
 {
 "title": "Example 1",
-"keywords": "Example, Exampe1",
-"categories": "index, Exampe",
+"keywords": "",
+"categories": "index, Exampel",
 "description": "Hier das 1te Beispiel",
-"level": "00"
+"level": "00",
 "Page-ID": "002"
 }
 '''''

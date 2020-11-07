@@ -1,3 +1,14 @@
+'''''
+{
+"title": "BigPicture-Business Objectives",
+"keywords": "Checkliste, Business-Objective",
+"categories": "",
+"description": "Hier geht es darum Business-Objective erstmalig zu beschreiben",
+"level": "02",
+"pageID": "07112020200718-Nutzung"
+}
+'''''
+
 <h1>Long-Term Verwendung des DS-Projektes</h1>
 
 in diesem Teilbereich des Projektes wird geklärt wie das fertig implementierte Projekt verwendet wird. 

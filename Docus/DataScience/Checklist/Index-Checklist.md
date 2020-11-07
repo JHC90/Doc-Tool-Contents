@@ -4,7 +4,8 @@
 "keywords": "Checklist, Landingpage",
 "categories": "Data-Science, Checklist",
 "description": "Hier eine detailierte Checkliste für DS-Projekte mit den entsprechenden Querverweisen zu meinen Notizen ",
-"level": "00"
+"level": "00",
+"pageID": "0711202020-DS-Checkliste"
 }
 '''''
 

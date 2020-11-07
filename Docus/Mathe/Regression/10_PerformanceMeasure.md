@@ -4,7 +4,7 @@
 "keywords": "Regression, RMSE, MAE, MSE",
 "categories": "Data-Science, Regression, RMSE, MAE, ",
 "description": "Auf dieser Page betrachten wir die Mögölichkeiten Regressions Fragestellungen zu messen. Dabei betrachten wir MAE, MSE und RMSE ",
-"level": "Performance-Measure-Regression"
+"pageID": "0711202020-RegressionPerformance"
 }
 '''''
 <h1>Performance Measure - Regression</h1>

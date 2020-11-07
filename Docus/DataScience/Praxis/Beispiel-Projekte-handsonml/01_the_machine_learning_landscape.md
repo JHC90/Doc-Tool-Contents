@@ -1,3 +1,14 @@
+'''''
+
+{
+"title": "ML-Notebook",
+"keywords": "Basic-Notebook",
+"categories": "Jupyter-Notebook",
+"description": "Hier die individuelle Beschreibung der Index-Seite aus dem Frontmatter",
+"level": "00",
+"pageID": "07112020200718Startseite"
+}
+'''''
 <!DOCTYPE html>
 <div id="jupyter">
 <head123><meta charset="utf-8" />
@@ -13078,6 +13089,14 @@ div#notebook {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Chapter 1 – The Machine Learning landscape</strong></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p></p>
 
 </div>
 </div>

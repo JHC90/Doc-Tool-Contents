@@ -5,7 +5,7 @@
 "categories": "index, Exampel",
 "description": "Hier das 1te Beispiel",
 "level": "00",
-"Page-ID": "002"
+"pageID": "002"
 }
 '''''
 

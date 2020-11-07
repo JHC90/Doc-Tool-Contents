@@ -1,4 +1,13 @@
-
+'''''
+{
+"title": "Example 1",
+"keywords": "Example, Exampe1",
+"categories": "index, Exampe",
+"description": "Hier das 1te Beispiel",
+"level": "00"
+"Page-ID": "002"
+}
+'''''
 
 # Ex1
 

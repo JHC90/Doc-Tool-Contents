@@ -3,7 +3,7 @@
 "title": "Regression-Performance",
 "keywords": "Regression, RMSE, MAE, MSE",
 "categories": "Data-Science, Regression, RMSE, MAE, ",
-"description": "Hier eine detailierte Checkliste für DS-Projekte mit den entsprechenden Querverweisen zu meinen Notizen ",
+"description": "Auf dieser Page betrachten wir die Mögölichkeiten Regressions Fragestellungen zu messen. Dabei betrachten wir MAE, MSE und RMSE ",
 "level": "Performance-Measure-Regression"
 }
 '''''

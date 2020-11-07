@@ -13,4 +13,4 @@
 
 [LinkZu1Relative](./ExampleFile1.md)
 
-[LinkZu1ID](20201101-0600-Ex1)
+[LinkZu1ID](07112020200718-001)

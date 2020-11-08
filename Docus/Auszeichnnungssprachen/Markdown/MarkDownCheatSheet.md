@@ -1,3 +1,13 @@
+'''''
+{
+"title": "JHC-Markdown-Destination-Page",
+"keywords": "Markdown",
+"categories": "",
+"description": "Diese Seite dient lediglich als Landingpage",
+"level": "10",
+"pageID": "07112020200718-MarkdownLanding"
+}
+'''''
 
 # 1. Table of Contents
 [Erklärung wie man TOC einfügt in VSCode](https://marketplace.visualstudio.com/items?itemName=AlanWalk.markdown-toc)

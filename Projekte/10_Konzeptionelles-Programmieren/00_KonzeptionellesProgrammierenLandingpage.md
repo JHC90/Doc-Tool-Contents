@@ -1,3 +1,14 @@
+'''''
+{
+"title": "JHC-KonzeptionellesProgrammieren",
+"keywords": "KonzeptionellesProgrammieren",
+"categories": "",
+"description": "default",
+"level": "00",
+"pageID": "07112020200718-KonzeptProgrammieren-ProjektLanding"
+}
+'''''
+
 <h1>Konzeptionelle Programmieren - Landingpage</h1>
 
 # Link zur Implementierung

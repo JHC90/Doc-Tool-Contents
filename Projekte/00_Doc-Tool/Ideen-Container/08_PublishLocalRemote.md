@@ -1,3 +1,14 @@
+'''''
+{
+"title": "JHC-Doctool-Idee8",
+"keywords": "Doctool",
+"categories": "",
+"description": "default",
+"level": "80",
+"pageID": "07112020200718-Doctool-Idee8"
+}
+'''''
+
 <h1>Idee Frontamatter</h1>
 
 # Link zur Implementierung

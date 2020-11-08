@@ -1,3 +1,14 @@
+'''''
+{
+"title": "JHC-Doctool-Idee2",
+"keywords": "Doctool",
+"categories": "",
+"description": "default",
+"level": "10",
+"pageID": "07112020200718-Doctool-Idee2"
+}
+'''''
+
 <h1>JPYNB-HTML-Converter</h1>
 ID = Filename = 01-DocTools-JPYNB-HTML-Converter
 

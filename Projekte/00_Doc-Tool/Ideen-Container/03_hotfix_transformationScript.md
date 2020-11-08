@@ -1,3 +1,14 @@
+'''''
+{
+"title": "JHC-Doctool-Idee4",
+"keywords": "Doctool",
+"categories": "",
+"description": "default",
+"level": "40",
+"pageID": "07112020200718-Doctool-Idee4"
+}
+'''''
+
 <h1>03_hotfix_transformationScript</h1>
 ID = Filename = 03_hotfix_transformationScript
 

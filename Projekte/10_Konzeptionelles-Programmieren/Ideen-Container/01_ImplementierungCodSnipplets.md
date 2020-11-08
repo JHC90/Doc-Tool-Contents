@@ -1,3 +1,14 @@
+'''''
+{
+"title": "JHC-KonzeptionellesProgrammieren",
+"keywords": "Programmieren",
+"categories": "",
+"description": "default",
+"level": "00",
+"pageID": "07112020200718-KonzeptionellesProgrammieren"
+}
+'''''
+
 <h1>Idee</h1>
 
 # Link zur Implementierung

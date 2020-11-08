@@ -1,3 +1,14 @@
+'''''
+{
+"title": "JHC-Doctool-Idee5",
+"keywords": "Doctool",
+"categories": "",
+"description": "default",
+"level": "50",
+"pageID": "07112020200718-Doctool-Idee5"
+}
+'''''
+
 <h1>04-AddfurtherRepo</h1>
 ID = Filename = 04-Dev-AddfurtherRepo
 

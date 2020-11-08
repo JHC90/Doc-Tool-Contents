@@ -1,3 +1,14 @@
+'''''
+{
+"title": "JHC-Doctool-Idee3",
+"keywords": "Doctool",
+"categories": "",
+"description": "default",
+"level": "30",
+"pageID": "07112020200718-Doctool-Idee3"
+}
+'''''
+
 <h1>02-publishContentsRemote.bat</h1>
 ID = Filename = 02-publishContentsRemote.bat
 

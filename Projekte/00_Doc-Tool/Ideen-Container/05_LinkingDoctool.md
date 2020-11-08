@@ -1,3 +1,15 @@
+'''''
+{
+"title": "JHC-Doctool-Idee6",
+"keywords": "Doctool",
+"categories": "",
+"description": "default",
+"level": "60",
+"pageID": "07112020200718-Doctool-Idee6"
+}
+'''''
+
+
 <h1>05_LinkingDoctool</h1>
 ID = Filename = 05_LinkingDoctool
 

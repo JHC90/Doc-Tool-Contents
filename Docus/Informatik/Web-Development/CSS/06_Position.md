@@ -1,11 +1,11 @@
 '''''
 {
-"title": " CSS - Position",
-"keywords": "CSS, Position"
+"title": " CSS - Posttion",
+"keywords": "CSS, Posttion",
 "categories": "",
-"description": "Hier eine Einführung zu Positioning in CSS",
+"description": "Hier eine Einführung zu Posttion in der Webentwicklung",
 "level": "60",
-"pageID": "091120200814-Position"
+"pageID": "091120200841-Posttion"
 }
 '''''
 

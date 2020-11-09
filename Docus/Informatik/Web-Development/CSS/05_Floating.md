@@ -1,11 +1,11 @@
 '''''
 {
 "title": " CSS - Floating",
-"keywords": "CSS, Float, Ausrichtung"
+"keywords": "CSS, Floating",
 "categories": "",
-"description": "Hier eine Einführung zu Farben und Farbdefinitionen in der Webentwicklung",
+"description": "Hier eine Einführung zu Floating in der Wenentwicklung",
 "level": "50",
-"pageID": "091120200814-Flaoting"
+"pageID": "091120200841-Floating"
 }
 '''''
 

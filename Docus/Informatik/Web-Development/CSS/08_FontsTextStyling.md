@@ -1,14 +1,13 @@
 '''''
 {
 "title": " CSS - Fonts",
-"keywords": "CSS, Fonts"
+"keywords": "CSS, Fonts, Schriftarten",
 "categories": "",
-"description": "Hier eine Einführung zu Fonts in CSS",
+"description": "Hier eine Einführung zu Schriftarten in der Wenentwicklung",
 "level": "80",
-"pageID": "091120200814-Fonts"
+"pageID": "091120200841-Fonts"
 }
 '''''
-
 # CSS-Fonts & Text Styling & Text Alignment
 
 ## Vorwissen

@@ -5,11 +5,11 @@
 "categories": "Roadmap, Motivation, Explaination",
 "description": "Hier die Erklärung meiner Webseite",
 "level": "10",
-"pageID": "07112020200718-About"
+"pageID": "09112020-0745-PcWeltHotKeys"
 }
 '''''
 
-<h1></h1>s
+<h1>PC-Welt HotKeys</h1>
 
 # Problemstellung
 Ich arbeite mit Batchskripten in Windows 10 und öffne diese grundsätzlich per Mausklick. Ich möchte eine globale Tastenkombination anlegen um dieses Batchskript "allzeit" und aus jeder Menütiefe automatisch aufrufen zu können.
@@ -18,3 +18,9 @@ Ich arbeite mit Batchskripten in Windows 10 und öffne diese grundsätzlich per 
 Mit dem Tool [PC-Welt HotKeys](https://www.pcwelt.de/downloads/PC-WELT-HotKeys-10036116.html) lassen sich Hotkeys ersteleln und aufrufen
 
 # Good to know
+
+![](imgs/2020-11-09-07-40-19.png)
+
+1. Pfad zu der Batch-Datei
+2. nach dem Anlegen muss diese auch angewendet werden
+3. Automatischer Start, sodass nach dem Boot von Windows die Tasentkombinationen auch vorliegen

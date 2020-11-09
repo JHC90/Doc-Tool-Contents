@@ -13120,29 +13120,34 @@ div#notebook {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1>Erstellen einer lokalen Info-Datei</h1><p>Dev-ID: 15_CreateLocaInfoDF</p>
-<h1 id="Ziel">Ziel<a class="anchor-link" href="#Ziel">&#182;</a></h1><p>Mit diesem Skript soll eine lokale Info-Datei im TXT Format enstehen, welche als weiter führende Grundlage für die bessere Struktuierung meiner Website dienen soll. Konkret soll ein Pandas-DF entstehen und lokal gespeichert werden welche folgende Informationen zu jedem HTML-File enthält:</p>
+<h1 id="Ziel">Ziel<a class="anchor-link" href="#Ziel">&#182;</a></h1><p>Mit diesem Skript soll eine lokale Info-Datei im CSV Format enstehen, welche als weiter führende Grundlage für die bessere Struktuierung meiner Website dienen soll. Konkret soll ein Pandas-DF entstehen und lokal gespeichert werden welche folgende Informationen zu jedem HTML-File enthält:</p>
 <ul>
-<li>[x]  File-ID</li>
+<li>[x]  pageid</li>
 <li>[x]  Absoluter Pfad lokal</li>
 <li>[x]  Relativer Pfad Remote</li>
 <li>[x]  FielCreationDate</li>
 <li>[x]  FileModifiedDate</li>
-<li>[x]  Remote-Adresse</li>
+<li>[x]  FileSize</li>
+<li>[x]  level für die Hierarchie</li>
+<li>[x]  Keywords = Tags</li>
+<li>[x]  categories=Manuell</li>
+<li>[x]  description</li>
+<li>[x]  categoriesList = Automatisch von Directory Struktuierung</li>
+<li>[x]  section = höchste Categorie</li>
+<li>[x]  sectionPathAbsolute</li>
+<li>[x]  sectionPathRelative</li>
+<li>[x]  Remote-Adresse = webadresse der Seite</li>
+</ul>
+<ul>
 <li>[x]  Liste aller Sections = Ordner</li>
 <li>[x]  Höchste-Sections = Ordner in welchem das File liegt</li>
 <li>[x]  Vorgelagerter Page-ID = File das im gleichen Ordner liegt aber ein kleineres Level hat</li>
 <li>[x]  nachgelagerte Page-ID = File das im gleichen Ordner liegt aber ein größeres Level hat</li>
 <li>[x]  Liste aller manuell zugeordneten Kategorien != </li>
 <li>[x]  Liste aller zugeordneten Tags</li>
+<li>[x]  Remote-Adresse</li>
 </ul>
-<p>{
-"title": "JHC-Startseite",
-"keywords": "index, welcome",
-"categories": "index, welcome, nonDocu",
-"description": "Hier die individuelle Beschreibung der Index-Seite aus dem Frontmatter",
-"level": "00",
-"pageID": "07112020200718-Startseite"
-}</p>
+<p>pageid  fileNameAbsolut fileNameRelative    fileCreationTime    fileLastModifiedTime    fileSizeInBytes level   keywords    categories  description categoriesList  section sectionPathAbsoulte sectionPathRelative webadress   vorgelagerteSectionPage nachgelagerteSectionPage    sectionIndex    lastModified</p>
 <p>Vorbedingung</p>
 <ul>
 <li>Es müssen die Content-Seiten mit einem Frame-Matter ausgestattet sein und dort müssen folgende Informationen <ul>

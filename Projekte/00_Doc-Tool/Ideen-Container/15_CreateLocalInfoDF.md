@@ -13140,21 +13140,21 @@ div#notebook {
 <li>[x]  Vorgelagerter Page-ID = File das im gleichen Ordner liegt aber ein kleineres Level hat</li>
 <li>[x]  nachgelagerte Page-ID = File das im gleichen Ordner liegt aber ein größeres Level hat</li>
 </ul>
-<ul>
-<li>[x]  Liste aller Sections = Ordner</li>
-<li><p>[x]  Höchste-Sections = Ordner in welchem das File liegt</p>
-</li>
-<li><p>[x]  Liste aller manuell zugeordneten Kategorien !=</p>
-</li>
-<li>[x]  Liste aller zugeordneten Tags</li>
-<li>[x]  Remote-Adresse</li>
-</ul>
-<p>pageid  fileNameAbsolut fileNameRelative    fileCreationTime    fileLastModifiedTime    fileSizeInBytes level   keywords    categories  description categoriesList  section sectionPathAbsoulte sectionPathRelative webadress   vorgelagerteSectionPage nachgelagerteSectionPage    sectionIndex    lastModified</p>
-<p>Vorbedingung</p>
-<ul>
+<h1 id="Vorbedingung">Vorbedingung<a class="anchor-link" href="#Vorbedingung">&#182;</a></h1><ul>
 <li>Es müssen die Content-Seiten mit einem Frame-Matter ausgestattet sein und dort müssen folgende Informationen <ul>
 <li>gepflegt sein:<ul>
 <li>pageID</li>
+<li>level</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h1 id="Anschluss">Anschluss<a class="anchor-link" href="#Anschluss">&#182;</a></h1><ul>
+<li>Es müssen die Content-Seiten mit einem Frame-Matter ausgestattet sein und dort müssen folgende Informationen <ul>
+<li>gepflegt sein:<ul>
+<li>pageID</li>
+<li>level</li>
 </ul>
 </li>
 </ul>
@@ -13166,9 +13166,11 @@ div#notebook {
 <h1 id="Status-der-Idee">Status der Idee<a class="anchor-link" href="#Status-der-Idee">&#182;</a></h1><ul>
 <li>[x]  Die Iddee exisitiert &amp; Die Ideenentwicklung wurde gestarte</li>
 <li>[x]  Implementierung und die Technologie bekannt &amp; dokumentiert</li>
-<li>[ ]  Git Checkout-Developmentbranch </li>
-<li>[ ]  Implementierung der Technologie in diesem Notebook</li>
-<li>[ ]  Implementierung der Technologie in den Produktivbereich</li>
+<li>[x]  Git Checkout-Developmentbranch </li>
+<li>[x]  Implementierung der Technologie in diesem Notebook</li>
+<li>[ ]  Implementierung der Technologie in den Produktivbereich = *.py Erstellt und in den Publish Prozess implementiert</li>
+<li>[ ]  Test Local </li>
+<li>[ ]  Test Remote </li>
 </ul>
 
 </div>
@@ -13366,7 +13368,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">labels</span> <span class="o">=</span><span class="p">[</span><span class="s2">&quot;pageid&quot;</span><span class="p">,</span> <span class="s2">&quot;fileNameAbsolut&quot;</span><span class="p">,</span> <span class="s2">&quot;fileNameRelative&quot;</span><span class="p">,</span> <span class="s2">&quot;fileLastModifiedTime&quot;</span><span class="p">,</span> <span class="s2">&quot;fileCreationTime&quot;</span><span class="p">,</span> <span class="s2">&quot;fileSizeInBytes&quot;</span><span class="p">,</span> <span class="s2">&quot;level&quot;</span><span class="p">,</span> <span class="s2">&quot;keywords&quot;</span><span class="p">,</span> <span class="s2">&quot;categories&quot;</span><span class="p">,</span> <span class="s2">&quot;description&quot;</span> <span class="p">]</span>

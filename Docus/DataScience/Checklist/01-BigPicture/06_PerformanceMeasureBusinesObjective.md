@@ -11,5 +11,5 @@
 
 <h1>Fragestellung</h1>
 
-Es ist wichitg dezidiert zu klären ob das Business Objective durch die [Perofmrance-Measures](./../Theorie/005_PerformanceMeasure.md) abgedeckt werden können. 
+Es ist wichitg dezidiert zu klären ob das Business Objective durch die [Perofmrance-Measures](07112020200718-DokTools) abgedeckt werden können. 
 

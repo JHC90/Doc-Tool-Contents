@@ -2,9 +2,9 @@
 {
 "title": "PC-Welt HotKeys",
 "keywords": "Batch, Automation, Tastenkombination, ",
-"categories": "Roadmap, Motivation, Explaination",
-"description": "Hier die Erklärung meiner Webseite",
-"level": "10",
+"categories": "Automation",
+"description": "Beschreibung eines Tools mit welchem sich in Windows globale und lokale Tastenkombinationen verwalten lassen",
+"level": "00",
 "pageID": "09112020-0745-PcWeltHotKeys"
 }
 '''''

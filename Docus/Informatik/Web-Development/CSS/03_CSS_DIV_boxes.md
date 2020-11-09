@@ -1,3 +1,14 @@
+'''''
+{
+"title": " CSS - DIV-Boxen",
+"keywords": "CSS, Div, Div-Boxen",
+"categories": "",
+"description": "Hier eine Einführung zu Div-Boxen im Kontext von CSS",
+"level": "20",
+"pageID": "091120200814-Colors"
+}
+'''''
+
 # CSS-DIV-Boxen
 
 ## Vorwissen

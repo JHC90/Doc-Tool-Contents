@@ -1,3 +1,14 @@
+'''''
+{
+"title": " CSS - Farben",
+"keywords": "CSS, Fraben, Colors, Hex, RGB, HSL, HWB"
+"categories": "",
+"description": "Hier eine Einführung zu Farben und Farbdefinitionen in der Webentwicklung",
+"level": "40",
+"pageID": "091120200814-Div-Boxen"
+}
+'''''
+
 # CSS-Farben
 
 ## Vorwissen

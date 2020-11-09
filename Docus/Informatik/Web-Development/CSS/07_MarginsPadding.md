@@ -1,3 +1,14 @@
+'''''
+{
+"title": " CSS - Margins & Paddings",
+"keywords": "CSS, Margin, Padding"
+"categories": "",
+"description": "Hier eine Einführung zu Margins & Paddings in CSS",
+"level": "70",
+"pageID": "091120200814-MarginPadding"
+}
+'''''
+
 <h1>CSS-Margin&Paddings&Broder</h1>
 
 ## Vorwissen

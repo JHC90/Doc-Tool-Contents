@@ -1,3 +1,14 @@
+'''''
+{
+"title": " CSS - Floating",
+"keywords": "CSS, Float, Ausrichtung"
+"categories": "",
+"description": "Hier eine Einführung zu Farben und Farbdefinitionen in der Webentwicklung",
+"level": "50",
+"pageID": "091120200814-Flaoting"
+}
+'''''
+
 # CSS-Floating
 
 ## Vorwissen

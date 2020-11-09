@@ -13137,13 +13137,15 @@ div#notebook {
 <li>[x]  sectionPathAbsolute</li>
 <li>[x]  sectionPathRelative</li>
 <li>[x]  Remote-Adresse = webadresse der Seite</li>
+<li>[x]  Vorgelagerter Page-ID = File das im gleichen Ordner liegt aber ein kleineres Level hat</li>
+<li>[x]  nachgelagerte Page-ID = File das im gleichen Ordner liegt aber ein größeres Level hat</li>
 </ul>
 <ul>
 <li>[x]  Liste aller Sections = Ordner</li>
-<li>[x]  Höchste-Sections = Ordner in welchem das File liegt</li>
-<li>[x]  Vorgelagerter Page-ID = File das im gleichen Ordner liegt aber ein kleineres Level hat</li>
-<li>[x]  nachgelagerte Page-ID = File das im gleichen Ordner liegt aber ein größeres Level hat</li>
-<li>[x]  Liste aller manuell zugeordneten Kategorien != </li>
+<li><p>[x]  Höchste-Sections = Ordner in welchem das File liegt</p>
+</li>
+<li><p>[x]  Liste aller manuell zugeordneten Kategorien !=</p>
+</li>
 <li>[x]  Liste aller zugeordneten Tags</li>
 <li>[x]  Remote-Adresse</li>
 </ul>

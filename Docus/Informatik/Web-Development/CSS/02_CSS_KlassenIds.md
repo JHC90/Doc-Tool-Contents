@@ -1,3 +1,14 @@
+'''''
+{
+"title": " CSS - IDs und Klassen",
+"keywords": "CSS, IDs, Classes",
+"categories": "",
+"description": "Hier eine kurze Einführung zu Ids und Klassen im Kontext von CSS",
+"level": "10",
+"pageID": "091120200814-IDsKlassen"
+}
+'''''
+
 # CSS-Classes & Ids
 
 ## Unterscheidung

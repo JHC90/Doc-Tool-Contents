@@ -1,3 +1,16 @@
+'''''
+{
+"title": " Cascading Style Sheet - Basics",
+"keywords": "CSS, Basics",
+"categories": "",
+"description": "Hier ein Überblick über die CSS-Basics, ein Beispiel was damit erstellt werden kann",
+"level": "00",
+"pageID": "091120200813-Basics"
+}
+'''''
+
+
+
 # Cascading Style Sheet
 
 ## Beispiel Implementierung

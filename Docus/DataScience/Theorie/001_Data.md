@@ -1,4 +1,15 @@
 
+'''''
+{
+"title": "Data",
+"keywords": "Data",
+"categories": "Data",
+"description": "Hier die Definition und die Aufteilung zu Data",
+"level": "20"
+"pageID": "07112020200718-Data"
+}
+'''''
+
 <h1>Daten - Defintion entlang des DS-Prozesses</h1>
 
 ML / DS / DL Modelle benötigen Daten. Dabei sind "Daten" nicht per se "Daten" in diesem Kontext. Diese Webpage gibt eine nkleinen aber feinen Überblick wie der Begriff Daten zu welchem Zeitpunkt in einem MDS-Project verstanden werden kann

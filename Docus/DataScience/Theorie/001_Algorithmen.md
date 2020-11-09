@@ -1,3 +1,14 @@
+'''''
+{
+"title": "Algorithmen",
+"keywords": "Algorithmen",
+"categories": "Algorithmen",
+"description": "Hier die Definition und die Aufteilung zu Algorithmen",
+"level": "10"
+"pageID": "07112020200718-Algorithmen"
+}
+'''''
+
 ## Bestätige ggf die Erwartungens.
 
 

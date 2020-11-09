@@ -1,8 +1,4 @@
 Die Website: 
-C:/DocTool/content/BeispielSeite.md
-hat keine Page-ID 
-
-Die Website: 
 C:/DocTool/content/Docus/DataScience/Checklist/02_GetTheData/01_ListDataNeed.md
 hat keine Page-ID 
 
@@ -1335,166 +1331,6 @@ C:/DocTool/content/Docus/Informatik/Tools/Dokumentation/VS-Code/VS-Code-Landing.
 hat keine description 
 
 Die Website: 
-C:/DocTool/content/Docus/Informatik/Web-Development/CSS/01_CSS_Basics.md
-hat keine Page-ID 
-
-Die Website: 
-C:/DocTool/content/Docus/Informatik/Web-Development/CSS/01_CSS_Basics.md
-hat keine keywords 
-
-Die Website: 
-C:/DocTool/content/Docus/Informatik/Web-Development/CSS/01_CSS_Basics.md
-hat keine categories 
-
-Die Website: 
-C:/DocTool/content/Docus/Informatik/Web-Development/CSS/01_CSS_Basics.md
-hat keine level 
-
-Die Website: 
-C:/DocTool/content/Docus/Informatik/Web-Development/CSS/01_CSS_Basics.md
-hat keine description 
-
-Die Website: 
-C:/DocTool/content/Docus/Informatik/Web-Development/CSS/02_CSS_KlassenIds.md
-hat keine Page-ID 
-
-Die Website: 
-C:/DocTool/content/Docus/Informatik/Web-Development/CSS/02_CSS_KlassenIds.md
-hat keine keywords 
-
-Die Website: 
-C:/DocTool/content/Docus/Informatik/Web-Development/CSS/02_CSS_KlassenIds.md
-hat keine categories 
-
-Die Website: 
-C:/DocTool/content/Docus/Informatik/Web-Development/CSS/02_CSS_KlassenIds.md
-hat keine level 
-
-Die Website: 
-C:/DocTool/content/Docus/Informatik/Web-Development/CSS/02_CSS_KlassenIds.md
-hat keine description 
-
-Die Website: 
-C:/DocTool/content/Docus/Informatik/Web-Development/CSS/03_CSS_DIV_boxes.md
-hat keine Page-ID 
-
-Die Website: 
-C:/DocTool/content/Docus/Informatik/Web-Development/CSS/03_CSS_DIV_boxes.md
-hat keine keywords 
-
-Die Website: 
-C:/DocTool/content/Docus/Informatik/Web-Development/CSS/03_CSS_DIV_boxes.md
-hat keine categories 
-
-Die Website: 
-C:/DocTool/content/Docus/Informatik/Web-Development/CSS/03_CSS_DIV_boxes.md
-hat keine level 
-
-Die Website: 
-C:/DocTool/content/Docus/Informatik/Web-Development/CSS/03_CSS_DIV_boxes.md
-hat keine description 
-
-Die Website: 
-C:/DocTool/content/Docus/Informatik/Web-Development/CSS/04_Farben.md
-hat keine Page-ID 
-
-Die Website: 
-C:/DocTool/content/Docus/Informatik/Web-Development/CSS/04_Farben.md
-hat keine keywords 
-
-Die Website: 
-C:/DocTool/content/Docus/Informatik/Web-Development/CSS/04_Farben.md
-hat keine categories 
-
-Die Website: 
-C:/DocTool/content/Docus/Informatik/Web-Development/CSS/04_Farben.md
-hat keine level 
-
-Die Website: 
-C:/DocTool/content/Docus/Informatik/Web-Development/CSS/04_Farben.md
-hat keine description 
-
-Die Website: 
-C:/DocTool/content/Docus/Informatik/Web-Development/CSS/05_Floating.md
-hat keine Page-ID 
-
-Die Website: 
-C:/DocTool/content/Docus/Informatik/Web-Development/CSS/05_Floating.md
-hat keine keywords 
-
-Die Website: 
-C:/DocTool/content/Docus/Informatik/Web-Development/CSS/05_Floating.md
-hat keine categories 
-
-Die Website: 
-C:/DocTool/content/Docus/Informatik/Web-Development/CSS/05_Floating.md
-hat keine level 
-
-Die Website: 
-C:/DocTool/content/Docus/Informatik/Web-Development/CSS/05_Floating.md
-hat keine description 
-
-Die Website: 
-C:/DocTool/content/Docus/Informatik/Web-Development/CSS/06_Position.md
-hat keine Page-ID 
-
-Die Website: 
-C:/DocTool/content/Docus/Informatik/Web-Development/CSS/06_Position.md
-hat keine keywords 
-
-Die Website: 
-C:/DocTool/content/Docus/Informatik/Web-Development/CSS/06_Position.md
-hat keine categories 
-
-Die Website: 
-C:/DocTool/content/Docus/Informatik/Web-Development/CSS/06_Position.md
-hat keine level 
-
-Die Website: 
-C:/DocTool/content/Docus/Informatik/Web-Development/CSS/06_Position.md
-hat keine description 
-
-Die Website: 
-C:/DocTool/content/Docus/Informatik/Web-Development/CSS/07_MarginsPadding.md
-hat keine Page-ID 
-
-Die Website: 
-C:/DocTool/content/Docus/Informatik/Web-Development/CSS/07_MarginsPadding.md
-hat keine keywords 
-
-Die Website: 
-C:/DocTool/content/Docus/Informatik/Web-Development/CSS/07_MarginsPadding.md
-hat keine categories 
-
-Die Website: 
-C:/DocTool/content/Docus/Informatik/Web-Development/CSS/07_MarginsPadding.md
-hat keine level 
-
-Die Website: 
-C:/DocTool/content/Docus/Informatik/Web-Development/CSS/07_MarginsPadding.md
-hat keine description 
-
-Die Website: 
-C:/DocTool/content/Docus/Informatik/Web-Development/CSS/08_FontsTextStyling.md
-hat keine Page-ID 
-
-Die Website: 
-C:/DocTool/content/Docus/Informatik/Web-Development/CSS/08_FontsTextStyling.md
-hat keine keywords 
-
-Die Website: 
-C:/DocTool/content/Docus/Informatik/Web-Development/CSS/08_FontsTextStyling.md
-hat keine categories 
-
-Die Website: 
-C:/DocTool/content/Docus/Informatik/Web-Development/CSS/08_FontsTextStyling.md
-hat keine level 
-
-Die Website: 
-C:/DocTool/content/Docus/Informatik/Web-Development/CSS/08_FontsTextStyling.md
-hat keine description 
-
-Die Website: 
 C:/DocTool/content/Docus/Informatik/Web-Development/Grundbegriffe-Webentwicklung/Tag.md
 hat keine Page-ID 
 
@@ -1512,46 +1348,6 @@ hat keine level
 
 Die Website: 
 C:/DocTool/content/Docus/Informatik/Web-Development/Grundbegriffe-Webentwicklung/Tag.md
-hat keine description 
-
-Die Website: 
-C:/DocTool/content/Docus/Informatik/Web-Development/HTML/01-HTML-Grundlagen.md
-hat keine Page-ID 
-
-Die Website: 
-C:/DocTool/content/Docus/Informatik/Web-Development/HTML/01-HTML-Grundlagen.md
-hat keine keywords 
-
-Die Website: 
-C:/DocTool/content/Docus/Informatik/Web-Development/HTML/01-HTML-Grundlagen.md
-hat keine categories 
-
-Die Website: 
-C:/DocTool/content/Docus/Informatik/Web-Development/HTML/01-HTML-Grundlagen.md
-hat keine level 
-
-Die Website: 
-C:/DocTool/content/Docus/Informatik/Web-Development/HTML/01-HTML-Grundlagen.md
-hat keine description 
-
-Die Website: 
-C:/DocTool/content/Docus/Informatik/Web-Development/HTML/02-HTML-TextEingaben.md
-hat keine Page-ID 
-
-Die Website: 
-C:/DocTool/content/Docus/Informatik/Web-Development/HTML/02-HTML-TextEingaben.md
-hat keine keywords 
-
-Die Website: 
-C:/DocTool/content/Docus/Informatik/Web-Development/HTML/02-HTML-TextEingaben.md
-hat keine categories 
-
-Die Website: 
-C:/DocTool/content/Docus/Informatik/Web-Development/HTML/02-HTML-TextEingaben.md
-hat keine level 
-
-Die Website: 
-C:/DocTool/content/Docus/Informatik/Web-Development/HTML/02-HTML-TextEingaben.md
 hat keine description 
 
 Die Website: 
@@ -2217,6 +2013,10 @@ hat keine level
 Die Website: 
 C:/DocTool/content/Projekte/00_Doc-Tool/00_Doctool.md
 hat keine description 
+
+Die Website: 
+C:/DocTool/content/Projekte/00_Doc-Tool/xx_BeispielSeite.md
+hat keine Page-ID 
 
 Die Website: 
 C:/DocTool/content/Projekte/00_Doc-Tool/Ideen-Container/15_CreateLocalInfoDF.md

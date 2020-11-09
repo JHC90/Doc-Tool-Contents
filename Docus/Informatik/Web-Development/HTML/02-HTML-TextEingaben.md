@@ -1,3 +1,15 @@
+'''''
+{
+"title": "HTML - Implementierungen",
+"keywords": "HTML, Basics",
+"categories": "",
+"description": "Hier ein Überblick üebr die HTML Implementierungen",
+"level": "10",
+"pageID": "091120200845-HTML-implementieurngen"
+}
+'''''
+
+
 # Text-Darstellungen
 
 ## Hier BSP-Projekt

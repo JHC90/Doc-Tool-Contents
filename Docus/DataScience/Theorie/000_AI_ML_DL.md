@@ -4,7 +4,7 @@
 "keywords": "AI, KI, DS, ML, DL, welcome",
 "categories": "Data-Science, Theorie",
 "description": "hier der theoretische First-Touch für die Berührung mit dem Thema Data_Science",
-"level": "00"
+"level": "5"
 "pageID": "07112020200718-DSOverview"
 }
 '''''

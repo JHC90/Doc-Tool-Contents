@@ -36,12 +36,6 @@ Floating ist im Gegensatz zu positioning
 <iframe src="https://determined-varahamihira-d7b5b4.netlify.app/02_CSS/2.7+float2" width="1005"></iframe> <br>
 
 <hr>
-
-<em>Floating</em><br>
-<p>hier eine Erweiterung des Oberen Floating Beispielse. Hier wird der spass von Flaot left und right mit einer eigenes erstellten Option zum Zentrieren erweitert</p>
-<iframe src="https://determined-varahamihira-d7b5b4.netlify.app/02_CSS/2.7+float7" width="1005"></iframe> <br>
-
-<hr>
 <em>Floating</em><br>
 <p>Hier sind beide Div-Blöcke linksbündig</p>
 

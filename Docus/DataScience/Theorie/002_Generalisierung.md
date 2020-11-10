@@ -6,7 +6,7 @@
 "keywords": "Generalisierung",
 "categories": "Generalisierung",
 "description": "Hier die Definition und die Aufteilung zu Generalisierung",
-"level": "30"
+"level": "30",
 "pageID": "07112020200718-Generalisierung"
 }
 '''''

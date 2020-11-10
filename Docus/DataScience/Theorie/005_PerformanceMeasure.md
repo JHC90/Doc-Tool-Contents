@@ -1,12 +1,10 @@
-
-
 '''''
 {
 "title": "Performance-Measure",
 "keywords": "Performance-Measure",
 "categories": "Performance-Measure",
 "description": "Hier die Definition und die Aufteilung zu Paramter",
-"level": "60"
+"level": "60",
 "pageID": "07112020200718-Performance-Measure"
 }
 '''''

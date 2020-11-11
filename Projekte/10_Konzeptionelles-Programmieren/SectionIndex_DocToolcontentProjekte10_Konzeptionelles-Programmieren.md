@@ -15,5 +15,5 @@
 <hr><hr><hr><hr><hr>
 
 
-[JHC-KonzeptionellesProgrammieren](./00_KonzeptionellesProgrammierenLandingpage.md)
+[JHC-KonzeptionellesProgrammieren](C:/DocTool/output/Projekte/10_Konzeptionelles-Programmieren/00_KonzeptionellesProgrammierenLandingpage.md)
 default<hr>

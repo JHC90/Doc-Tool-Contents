@@ -15,9 +15,9 @@
 <hr><hr><hr><hr><hr>
 
 
-[JHC-Markdown-Destination-Page](./DestinationMarkDownCheatSheet.md)
+[JHC-Markdown-Destination-Page](C:/DocTool/output/Docus/Auszeichnnungssprachen/Markdown/DestinationMarkDownCheatSheet.md)
 Diese Seite dient lediglich als Landingpage<hr>
 
 
-[JHC-Markdown-Destination-Page](./MarkDownCheatSheet.md)
+[JHC-Markdown-Destination-Page](C:/DocTool/output/Docus/Auszeichnnungssprachen/Markdown/MarkDownCheatSheet.md)
 Diese Seite dient lediglich als Landingpage<hr>

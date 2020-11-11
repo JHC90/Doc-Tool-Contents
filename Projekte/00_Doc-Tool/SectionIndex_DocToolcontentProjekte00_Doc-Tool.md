@@ -15,9 +15,9 @@
 <hr><hr><hr><hr><hr>
 
 
-[00_Doctool.md](./00_Doctool.md)
+[00_Doctool.md](C:/DocTool/output/Projekte/00_Doc-Tool/00_Doctool.md)
 Kein Frontmatter gepglegt und somit auch kein Titelinformation bzw Description<hr>
 
 
-[Example-Test-Site](./xx_BeispielSeite.md)
+[Example-Test-Site](C:/DocTool/output/Projekte/00_Doc-Tool/xx_BeispielSeite.md)
 Example<hr>

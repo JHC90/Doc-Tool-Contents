@@ -15,5 +15,5 @@
 <hr><hr><hr><hr><hr>
 
 
-[PC-Welt HotKeys](./Intro.md)
+[PC-Welt HotKeys](C:/DocTool/output/Docus/Informatik/Operating-Informatik/Windows/Tools/PC-WELTHotKeys/Intro.md)
 Beschreibung eines Tools mit welchem sich in Windows globale und lokale Tastenkombinationen verwalten lassen<hr>

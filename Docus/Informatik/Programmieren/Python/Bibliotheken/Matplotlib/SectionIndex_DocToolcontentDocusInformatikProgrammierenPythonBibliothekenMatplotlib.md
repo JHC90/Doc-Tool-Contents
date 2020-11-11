@@ -15,9 +15,9 @@
 <hr><hr><hr><hr><hr>
 
 
-[interim.md](./interim.md)
+[interim.md](C:/DocTool/output/Docus/Informatik/Programmieren/Python/Bibliotheken/Matplotlib/interim.md)
 Kein Frontmatter gepglegt und somit auch kein Titelinformation bzw Description<hr>
 
 
-[Matplotlib.md](./Matplotlib.md)
+[Matplotlib.md](C:/DocTool/output/Docus/Informatik/Programmieren/Python/Bibliotheken/Matplotlib/Matplotlib.md)
 Kein Frontmatter gepglegt und somit auch kein Titelinformation bzw Description<hr>

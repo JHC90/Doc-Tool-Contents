@@ -15,5 +15,5 @@
 <hr><hr><hr><hr><hr>
 
 
-[JHC-KonzeptionellesProgrammieren](./01_ImplementierungCodSnipplets.md)
+[JHC-KonzeptionellesProgrammieren](C:/DocTool/output/Projekte/10_Konzeptionelles-Programmieren/Ideen-Container/01_ImplementierungCodSnipplets.md)
 default<hr>

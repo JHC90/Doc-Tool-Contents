@@ -15,5 +15,5 @@
 <hr><hr><hr><hr><hr>
 
 
-[Example 2](./ExampleFile2.md)
+[Example 2](C:/DocTool/output/Docus/Mathe/Stochastik/ExampleFile2.md)
 Hier die individuelle Beschreibung der Index-Seite aus dem Frontmatter<hr>

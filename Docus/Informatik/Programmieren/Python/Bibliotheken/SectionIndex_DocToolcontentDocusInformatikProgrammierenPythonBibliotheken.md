@@ -15,5 +15,5 @@
 <hr><hr><hr><hr><hr>
 
 
-[PythonVisualisirungen-Overview.md](./PythonVisualisirungen-Overview.md)
+[PythonVisualisirungen-Overview.md](C:/DocTool/output/Docus/Informatik/Programmieren/Python/Bibliotheken/PythonVisualisirungen-Overview.md)
 Kein Frontmatter gepglegt und somit auch kein Titelinformation bzw Description<hr>

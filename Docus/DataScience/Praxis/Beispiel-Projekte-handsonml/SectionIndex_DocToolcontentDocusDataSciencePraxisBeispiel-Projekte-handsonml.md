@@ -15,9 +15,9 @@
 <hr><hr><hr><hr><hr>
 
 
-[ML-Notebook](./01_the_machine_learning_landscape.md)
+[ML-Notebook](C:/DocTool/output/Docus/DataScience/Praxis/Beispiel-Projekte-handsonml/01_the_machine_learning_landscape.md)
 Hier die individuelle Beschreibung der Index-Seite aus dem Frontmatter<hr>
 
 
-[California-Housing-Notebook](./02_California_Housing_Regression.md)
+[California-Housing-Notebook](C:/DocTool/output/Docus/DataScience/Praxis/Beispiel-Projekte-handsonml/02_California_Housing_Regression.md)
 Hier die individuelle Beschreibung der Index-Seite aus dem Frontmatter<hr>

@@ -15,29 +15,29 @@
 <hr><hr><hr><hr><hr>
 
 
-[Begriffsabgrenzungen Data-Science](./000_AI_ML_DL.md)
+[Begriffsabgrenzungen Data-Science](C:/DocTool/output/Docus/DataScience/Theorie/000_AI_ML_DL.md)
 AIDef<hr>
 
 
-[Algorithmen](./001_Algorithmen.md)
+[Algorithmen](C:/DocTool/output/Docus/DataScience/Theorie/001_Algorithmen.md)
 Hier die Definition und die Aufteilung zu Algorithmen<hr>
 
 
-[Data](./001_Data.md)
+[Data](C:/DocTool/output/Docus/DataScience/Theorie/001_Data.md)
 Hier die Definition und die Aufteilung zu Data<hr>
 
 
-[Generalisierung](./002_Generalisierung.md)
+[Generalisierung](C:/DocTool/output/Docus/DataScience/Theorie/002_Generalisierung.md)
 Hier die Definition und die Aufteilung zu Generalisierung<hr>
 
 
-[Validation](./003_Validation.md)
+[Validation](C:/DocTool/output/Docus/DataScience/Theorie/003_Validation.md)
 Hier die Definition und die Aufteilung zu Validation<hr>
 
 
-[Paramter](./004_Parameter.md)
+[Paramter](C:/DocTool/output/Docus/DataScience/Theorie/004_Parameter.md)
 Hier die Definition und die Aufteilung zu Paramter<hr>
 
 
-[Performance-Measure](./005_PerformanceMeasure.md)
+[Performance-Measure](C:/DocTool/output/Docus/DataScience/Theorie/005_PerformanceMeasure.md)
 Hier die Definition und die Aufteilung zu Paramter<hr>

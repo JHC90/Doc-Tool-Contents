@@ -15,5 +15,5 @@
 <hr><hr><hr><hr><hr>
 
 
-[Jupyter-Notebook-VSC.md](./Jupyter-Notebook-VSC.md)
+[Jupyter-Notebook-VSC.md](C:/DocTool/output/Docus/Informatik/Programmieren/Python/PyhonInteraktion/Jupyter-Notebook-VSC.md)
 Kein Frontmatter gepglegt und somit auch kein Titelinformation bzw Description<hr>

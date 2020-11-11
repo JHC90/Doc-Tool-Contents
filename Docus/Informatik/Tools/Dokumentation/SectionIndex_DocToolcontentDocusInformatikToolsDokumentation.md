@@ -15,5 +15,5 @@
 <hr><hr><hr><hr><hr>
 
 
-[DokumenatationstoolsIndex](./DocumenationsToolsOverview.md)
+[DokumenatationstoolsIndex](C:/DocTool/output/Docus/Informatik/Tools/Dokumentation/DocumenationsToolsOverview.md)
 IndexSeite der Dokumentationstools<hr>

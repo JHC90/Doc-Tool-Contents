@@ -15,9 +15,9 @@
 <hr><hr><hr><hr><hr>
 
 
-[00_Implementierung.md](./00_Implementierung.md)
+[00_Implementierung.md](C:/DocTool/output/Docus/Mathe/Regression/00_Implementierung.md)
 Kein Frontmatter gepglegt und somit auch kein Titelinformation bzw Description<hr>
 
 
-[Regression-Performance](./10_PerformanceMeasure.md)
+[Regression-Performance](C:/DocTool/output/Docus/Mathe/Regression/10_PerformanceMeasure.md)
 Auf dieser Page betrachten wir die Mögölichkeiten Regressions Fragestellungen zu messen. Dabei betrachten wir MAE, MSE und RMSE <hr>

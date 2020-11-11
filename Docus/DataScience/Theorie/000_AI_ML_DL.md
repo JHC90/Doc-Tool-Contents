@@ -1,6 +1,6 @@
 '''''
 {
-"title": "AIDef",
+"title": "Begriffsabgrenzungen Data-Science",
 "keywords": "AIDef",
 "categories": "AiAIDef",
 "description": "AIDef",

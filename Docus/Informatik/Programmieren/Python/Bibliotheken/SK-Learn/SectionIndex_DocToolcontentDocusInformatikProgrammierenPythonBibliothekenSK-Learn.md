@@ -15,9 +15,7 @@
 <hr><hr><hr><hr><hr>
 
 
-[Packet_ML_SK-Learn.md](C:/DocTool/output/Docus/Informatik/Programmieren/Python/Bibliotheken/SK-Learn/Packet_ML_SK-Learn.md)
-Kein Frontmatter gepglegt und somit auch kein Titelinformation bzw Description<hr>
+<h3>[Packet_ML_SK-Learn.md](C:/DocTool/output/Docus/Informatik/Programmieren/Python/Bibliotheken/SK-Learn/Packet_ML_SK-Learn.md)</h3><br>Kein Frontmatter gepglegt und somit auch kein Titelinformation bzw Description<hr>
 
 
-[SK-Learn.md](C:/DocTool/output/Docus/Informatik/Programmieren/Python/Bibliotheken/SK-Learn/SK-Learn.md)
-Kein Frontmatter gepglegt und somit auch kein Titelinformation bzw Description<hr>
+<h3>[SK-Learn.md](C:/DocTool/output/Docus/Informatik/Programmieren/Python/Bibliotheken/SK-Learn/SK-Learn.md)</h3><br>Kein Frontmatter gepglegt und somit auch kein Titelinformation bzw Description<hr>

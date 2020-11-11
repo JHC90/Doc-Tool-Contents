@@ -1,6 +1,6 @@
 '''''
 {
-"title": "Get the Data - List needed Data",
+"title": "List needed Data",
 "keywords": "Checkliste, ListData",
 "categories": "",
 "description": "Hier geht es darum zu ermitteln und niederzuschreiben welche Daten ebnötigt werden",

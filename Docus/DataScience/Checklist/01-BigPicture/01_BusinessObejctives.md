@@ -4,7 +4,7 @@
 "keywords": "Checkliste, Business-Objective",
 "categories": "",
 "description": "Hier geht es darum Business-Objective erstmalig zu beschreiben",
-"level": "01",
+"level": "10",
 "pageID": "07112020200718-BusinessObjectives"
 }
 '''''

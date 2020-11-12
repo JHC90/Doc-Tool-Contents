@@ -15,4 +15,4 @@
 <hr><hr><hr><hr><hr>
 
 
-<h3>[JHC-KonzeptionellesProgrammieren](C:/DocTool/output/Projekte/10_Konzeptionelles-Programmieren/00_KonzeptionellesProgrammierenLandingpage.md)</h3><br>default<hr>
+<h3>[JHC-KonzeptionellesProgrammieren](C:/DocTool/output/Projekte/10_Konzeptionelles-Programmieren/00_KonzeptionellesProgrammierenLandingpage.md)</h3><br>default<hr><hr><hr><hr><h3>[Vorherige Section: Projekte](C:/DocTool/output/Projekte/SectionIndex_DocTooloutputProjekte.html)</h3><br>Hier die Default Description zu den Projekten<hr>

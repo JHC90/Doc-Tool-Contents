@@ -15,4 +15,4 @@
 <hr><hr><hr><hr><hr>
 
 
-<h3>[JHC-KonzeptionellesProgrammieren](C:/DocTool/output/Projekte/10_Konzeptionelles-Programmieren/Ideen-Container/01_ImplementierungCodSnipplets.md)</h3><br>default<hr>
+<h3>[JHC-KonzeptionellesProgrammieren](C:/DocTool/output/Projekte/10_Konzeptionelles-Programmieren/Ideen-Container/01_ImplementierungCodSnipplets.md)</h3><br>default<hr><hr><hr><hr><h3>[Vorherige Section: 10_Konzeptionelles-Programmieren](C:/DocTool/output/Projekte/10_Konzeptionelles-Programmieren/SectionIndex_DocTooloutputProjekte10_Konzeptionelles-Programmieren.html)</h3><br>Default Section Index Description<hr>

@@ -3,7 +3,7 @@
 "title": "Section Index - Projekte",
 "keywords": "SectionIndex",
 "categories": "",
-"description": "Default Section Index Description",
+"description": "Hier die Default Description zu den Projekten",
 "level": "00",
 "pageID": "VORLAGE_PageID"
 }

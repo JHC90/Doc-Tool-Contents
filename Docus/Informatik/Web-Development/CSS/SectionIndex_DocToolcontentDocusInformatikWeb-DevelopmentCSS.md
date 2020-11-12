@@ -36,4 +36,4 @@
 <h3>[ CSS - MarginsPaddings](C:/DocTool/output/Docus/Informatik/Web-Development/CSS/07_MarginsPadding.md)</h3><br>Hier eine Einführung zu MarginsPaddings in der Wenentwicklung<hr>
 
 
-<h3>[ CSS - Fonts](C:/DocTool/output/Docus/Informatik/Web-Development/CSS/08_FontsTextStyling.md)</h3><br>Hier eine Einführung zu Schriftarten in der Wenentwicklung<hr>
+<h3>[ CSS - Fonts](C:/DocTool/output/Docus/Informatik/Web-Development/CSS/08_FontsTextStyling.md)</h3><br>Hier eine Einführung zu Schriftarten in der Wenentwicklung<hr><hr><hr><hr><h3>[Vorherige Section: Web-Development](C:/DocTool/output/Docus/Informatik/Web-Development/SectionIndex_DocTooloutputDocusInformatikWeb-Development.html)</h3><br>Default Section Index Description<hr>

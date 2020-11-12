@@ -75,4 +75,4 @@
 <h3>[xx_Documentation-MenüFührung.md](C:/DocTool/output/Docus/Informatik/Web-Development/StaticWebsiteGeneratoren/xx_Documentation-MenüFührung.md)</h3><br>Kein Frontmatter gepglegt und somit auch kein Titelinformation bzw Description<hr>
 
 
-<h3>[XX_hugo-Commands.md](C:/DocTool/output/Docus/Informatik/Web-Development/StaticWebsiteGeneratoren/XX_hugo-Commands.md)</h3><br>Kein Frontmatter gepglegt und somit auch kein Titelinformation bzw Description<hr>
+<h3>[XX_hugo-Commands.md](C:/DocTool/output/Docus/Informatik/Web-Development/StaticWebsiteGeneratoren/XX_hugo-Commands.md)</h3><br>Kein Frontmatter gepglegt und somit auch kein Titelinformation bzw Description<hr><hr><hr><hr><h3>[Vorherige Section: Web-Development](C:/DocTool/output/Docus/Informatik/Web-Development/SectionIndex_DocTooloutputDocusInformatikWeb-Development.html)</h3><br>Default Section Index Description<hr>

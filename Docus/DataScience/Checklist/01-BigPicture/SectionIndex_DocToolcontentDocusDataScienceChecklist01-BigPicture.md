@@ -48,4 +48,4 @@
 <h3>[BigPicture-Business Objectives](C:/DocTool/output/Docus/DataScience/Checklist/01-BigPicture/11_List_Assumptions.md)</h3><br>Hier geht es darum Business-Objective erstmalig zu beschreiben<hr>
 
 
-<h3>[BigPicture-Business Objectives](C:/DocTool/output/Docus/DataScience/Checklist/01-BigPicture/12-VerifyAssumptions.md)</h3><br>Hier geht es darum Business-Objective erstmalig zu beschreiben<hr>
+<h3>[BigPicture-Business Objectives](C:/DocTool/output/Docus/DataScience/Checklist/01-BigPicture/12-VerifyAssumptions.md)</h3><br>Hier geht es darum Business-Objective erstmalig zu beschreiben<hr><hr><hr><hr><h3>[Vorherige Section: Checklist](C:/DocTool/output/Docus/DataScience/Checklist/SectionIndex_DocTooloutputDocusDataScienceChecklist.html)</h3><br>Default Section Index Description<hr>

@@ -19,4 +19,4 @@
 
 
 <h3>[Regression-Performance](C:/DocTool/output/Docus/Mathe/Regression/10_PerformanceMeasure.md)</h3><br>Auf dieser Page betrachten wir die Mögölichkeiten Regressions Fragestellungen zu messen. Dabei betrachten wir MAE, MSE und RMSE <hr><center><hr><hr><hr> # Umliegende Sections
- </h2><br><table><thead> <tr> <th><center>Vorgelagerte Section</center></th> <th><center>Nachgelagerte Section</center></th></tr></thead><tbody><tr><td><h3>[Vorherige Section: Mathe](C:/DocTool/output/Docus/Mathe/SectionIndex_DocTooloutputDocusMathe.html)</h3><br>Default Section Index Description<hr></td><td>ListeNachgelagerte Sections</td></tr></tbody></table>
+ </h2><br><table><thead> <tr> <th><center>Vorgelagerte Section</center></th> <th><center>Nachgelagerte Section</center></th></tr></thead><tbody><tr><td><h3>[Vorherige Section: Mathe](C:/DocTool/output/Docus/Mathe/SectionIndex_DocTooloutputDocusMathe.html)</h3><br>Default Section Index Description<hr></td><td>Es gibt keine Subfolder</td></tr></tbody></table>

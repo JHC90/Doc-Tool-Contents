@@ -12,4 +12,4 @@
 
 <h1>Section-Index Webpage zur Section <i>DataScience</i></h1>
 
-<hr><hr><hr><hr><hr><hr><hr><hr><h3>Vorherige Section</h3><br><p>Es gibt keine höhere Section</p><hr>
+<hr><hr><hr><hr><hr><table><thead> <tr> <th>Vorgelagerte Section</th> <th>Nachgelagerte Section</th></tr></thead><tbody><tr><td><hr><hr><hr><h3>Vorherige Section</h3><br><p>Es gibt keine höhere Section</p><hr></td><td>ListeNachgelagerte Sections</td></tr></tbody></table>

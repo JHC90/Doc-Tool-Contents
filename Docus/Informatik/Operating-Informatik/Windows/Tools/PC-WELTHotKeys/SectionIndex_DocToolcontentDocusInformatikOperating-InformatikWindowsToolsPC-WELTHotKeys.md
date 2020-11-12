@@ -15,4 +15,4 @@
 <hr><hr><hr><hr><hr>
 
 
-<h3>[PC-Welt HotKeys](C:/DocTool/output/Docus/Informatik/Operating-Informatik/Windows/Tools/PC-WELTHotKeys/Intro.md)</h3><br>Beschreibung eines Tools mit welchem sich in Windows globale und lokale Tastenkombinationen verwalten lassen<hr><hr><hr><hr><h3>[Vorherige Section: Tools](C:/DocTool/output/Docus/Informatik/Operating-Informatik/Windows/Tools/SectionIndex_DocTooloutputDocusInformatikOperating-InformatikWindowsTools.html)</h3><br>Default Section Index Description<hr>
+<h3>[PC-Welt HotKeys](C:/DocTool/output/Docus/Informatik/Operating-Informatik/Windows/Tools/PC-WELTHotKeys/Intro.md)</h3><br>Beschreibung eines Tools mit welchem sich in Windows globale und lokale Tastenkombinationen verwalten lassen<hr><table><thead> <tr> <th>Vorgelagerte Section</th> <th>Nachgelagerte Section</th></tr></thead><tbody><tr><td><hr><hr><hr><h3>[Vorherige Section: Tools](C:/DocTool/output/Docus/Informatik/Operating-Informatik/Windows/Tools/SectionIndex_DocTooloutputDocusInformatikOperating-InformatikWindowsTools.html)</h3><br>Default Section Index Description<hr></td><td>ListeNachgelagerte Sections</td></tr></tbody></table>

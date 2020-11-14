@@ -1,10 +1,10 @@
 '''''
 {
-"title": "BigPicture-Business Objectives",
+"title": "BigPicture-Nutzung des Produktes",
 "keywords": "Checkliste, Business-Objective",
 "categories": "",
-"description": "Hier geht es darum Business-Objective erstmalig zu beschreiben",
-"level": "02",
+"description": "Hier geht es darum die spätere Nutzung des Modelles zu beschreiben",
+"level": "20",
 "pageID": "07112020200718-Nutzung"
 }
 '''''

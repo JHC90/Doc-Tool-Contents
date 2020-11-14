@@ -1,6 +1,6 @@
 '''''
 {
-"title": "BigPicture-Business Objectives",
+"title": "BigPicture-Detailiertes DS Framing",
 "keywords": "Checkliste, Business-Objective",
 "categories": "",
 "description": "Hier geht es darum Business-Objective erstmalig zu beschreiben",

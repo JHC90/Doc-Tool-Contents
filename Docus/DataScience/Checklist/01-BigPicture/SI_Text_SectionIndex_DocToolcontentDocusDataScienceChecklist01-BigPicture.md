@@ -3,9 +3,9 @@
 "title": "Section Index - 01-BigPicture",
 "keywords": "SectionIndex",
 "categories": "",
-"description": "Default Section Index Description",
+"description": "Landing-Page für die Aufgabenstellung des Big-Pictures.",
 "level": "00",
-"pageID": "VORLAGE_PageID"
+"pageID": "14112020-SectionIndex-BigPicture"
 }
 '''''
 

@@ -1,10 +1,10 @@
 '''''
 {
-"title": "BigPicture-Business Objectives",
+"title": "BigPicture-Current Solutions",
 "keywords": "Checkliste, Business-Objective",
 "categories": "",
-"description": "Hier geht es darum Business-Objective erstmalig zu beschreiben",
-"level": "03",
+"description": "Hier geht es darum die gegenwärtigen Löäsungen zu beschreiben",
+"level": "30",
 "pageID": "07112020200718-CurrentSolutions"
 }
 '''''

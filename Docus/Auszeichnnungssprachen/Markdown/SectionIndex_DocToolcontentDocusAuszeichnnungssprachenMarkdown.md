@@ -19,4 +19,4 @@
 
 
 <h3>[JHC-Markdown-Destination-Page](C:/DocTool/output/Docus/Auszeichnnungssprachen/Markdown/MarkDownCheatSheet.md)</h3><br>Diese Seite dient lediglich als Landingpage<hr><center><hr><hr><hr> # Umliegende Sections
- </h2><br><table><thead> <tr> <th><center>Vorgelagerte Section</center></th> <th><center>Nachgelagerte Section</center></th></tr></thead><tbody><tr><td><h3>[Vorherige Section: Auszeichnnungssprachen](C:/DocTool/output/Docus/Auszeichnnungssprachen/SectionIndex_DocTooloutputDocusAuszeichnnungssprachen.html)</h3><br>Default Section Index Description<hr></td><td><h3>noch gabs keine Zuordnung<hr></td></tr></tbody></table>
+ </h2><br><table><thead> <tr> <th><center>Vorgelagerte Section</center></th> <th><center>Nachgelagerte Section</center></th></tr></thead><tbody><tr><td><h3>[Vorherige Section: Auszeichnnungssprachen](C:/DocTool/output/Docus/Auszeichnnungssprachen/SectionIndex_DocTooloutputDocusAuszeichnnungssprachen.html)</h3><br>Default Section Index Description<hr></td><td>Es gibt keine Unterordner // falscher IF-Zweig</td></tr></tbody></table>

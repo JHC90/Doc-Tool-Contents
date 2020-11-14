@@ -30,16 +30,16 @@
 <h3>[BigPicture-Performance Measure](C:/DocTool/output/Docus/DataScience/Checklist/01-BigPicture/05_PerformanceMeasure.md)</h3><br>Hier geht es darum Business-Objective erstmalig zu beschreiben<hr>
 
 
-<h3>[BigPicture-Business Objectives](C:/DocTool/output/Docus/DataScience/Checklist/01-BigPicture/06_PerformanceMeasureBusinesObjective.md)</h3><br>Hier geht es darum Business-Objective erstmalig zu beschreiben<hr>
+<h3>[BigPicture-Performance Measure mit Business Objectives](C:/DocTool/output/Docus/DataScience/Checklist/01-BigPicture/06_PerformanceMeasureBusinesObjective.md)</h3><br>Hier geht es darum abzugleichen ob die Performance Measure für das erreichen des Zieles auch die geeignete ist.<hr>
 
 
-<h3>[BigPicture-Business Objectives](C:/DocTool/output/Docus/DataScience/Checklist/01-BigPicture/07_MinimumPerformnace.md)</h3><br>Hier geht es darum Business-Objective erstmalig zu beschreiben<hr>
+<h3>[BigPicture-Minimum Performance](C:/DocTool/output/Docus/DataScience/Checklist/01-BigPicture/07_MinimumPerformnace.md)</h3><br>Festlegen der mindest Performance die erzielt werden muss<hr>
 
 
-<h3>[BigPicture-Business Objectives](C:/DocTool/output/Docus/DataScience/Checklist/01-BigPicture/08_ComparableProblems.md)</h3><br>Hier geht es darum Business-Objective erstmalig zu beschreiben<hr>
+<h3>[BigPicture-Vergleichbare Problemstellungen](C:/DocTool/output/Docus/DataScience/Checklist/01-BigPicture/08_ComparableProblems.md)</h3><br>Hier geht es darum Business-Objective erstmalig zu beschreiben<hr>
 
 
-<h3>[BigPicture-Business Objectives](C:/DocTool/output/Docus/DataScience/Checklist/01-BigPicture/09_HumanExpertise.md)</h3><br>Hier geht es darum Business-Objective erstmalig zu beschreiben<hr>
+<h3>[BigPicture - Human Expertise](C:/DocTool/output/Docus/DataScience/Checklist/01-BigPicture/09_HumanExpertise.md)</h3><br>Hier geht es darum Business-Objective erstmalig zu beschreiben<hr>
 
 
 <h3>[BigPicture-Business Objectives](C:/DocTool/output/Docus/DataScience/Checklist/01-BigPicture/10_CurrentSolutions.md)</h3><br>Hier geht es darum Business-Objective erstmalig zu beschreiben<hr>

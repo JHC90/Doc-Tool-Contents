@@ -1,6 +1,6 @@
 '''''
 {
-"title": "Section Index - 01-BigPicture",
+"title": "Section Index - Big-Picture",
 "keywords": "SectionIndex",
 "categories": "",
 "description": "Landing-Page für die Aufgabenstellung des Big-Pictures.",
@@ -12,7 +12,9 @@
 
 <h1>Section-Index Webpage zur Section <i>01-BigPicture</i></h1>
 
-<hr><hr><hr><hr><hr>
+Hier ist die Checkliste, welche die erste Berührung mit einem DS-Projekt unterstützt. Zusammenfassend werden die organisatorischen Rahmenbedingungen festgelegt. Diese sind wichtig, da hierauf aufbauend die technische Implementierung konkretisiert werden kann.
+
+<hr><hr><hr>
 
 
 <h3>[BigPicture-Business Objectives](C:/DocTool/output/Docus/DataScience/Checklist/01-BigPicture/01_BusinessObejctives.md)</h3><br>Hier geht es darum Business-Objective erstmalig zu beschreiben<hr>

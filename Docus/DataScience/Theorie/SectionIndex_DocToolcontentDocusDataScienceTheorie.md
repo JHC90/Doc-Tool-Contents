@@ -33,5 +33,8 @@
 <h3>[Paramter](C:/DocTool/output/Docus/DataScience/Theorie/004_Parameter.md)</h3><br>Hier die Definition und die Aufteilung zu Paramter<hr>
 
 
-<h3>[Performance-Measure](C:/DocTool/output/Docus/DataScience/Theorie/005_PerformanceMeasure.md)</h3><br>Hier die Definition und die Aufteilung zu Paramter<hr><center><hr><hr><hr> # Umliegende Sections
+<h3>[Performance-Measure](C:/DocTool/output/Docus/DataScience/Theorie/005_PerformanceMeasure.md)</h3><br>Hier die Definition und die Aufteilung zu Paramter<hr>
+
+
+<h3>[Supervised vs Unsupervised Data](C:/DocTool/output/Docus/DataScience/Theorie/006_SupervisedUnsupervised.md)</h3><br>Hier die Definition und die Aufteilung zu Paramter<hr><center><hr><hr><hr> # Umliegende Sections
  </h2><br><table><thead> <tr> <th><center>Vorgelagerte Section</center></th> <th><center>Nachgelagerte Section</center></th></tr></thead><tbody><tr><td><h3>[Vorherige Section: DataScience](C:/DocTool/output/Docus/DataScience/SectionIndex_DocTooloutputDocusDataScience.html)</h3><br>Default Section Index Description<hr></td><td><h3>[Nachfolgende Section:</h3><h2><br> AnwendungenVonMachineLearning</h2>](C:/DocTool/output/Docus/DataScience/Theorie/AnwendungenVonMachineLearning/SectionIndex_DocTooloutputDocusDataScienceTheorieAnwendungenVonMachineLearning.html)<br>Default Section Index Description<hr></td></tr></tbody></table>

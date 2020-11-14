@@ -39,4 +39,5 @@
 <h3>[GitCheckoutVsReset.md](C:/DocTool/output/Docus/Informatik/Tools/Dokumentation/Git/10_Git_Branches/GitCheckoutVsReset.md)</h3><br>Kein Frontmatter gepglegt und somit auch kein Titelinformation bzw Description<hr>
 
 
-<h3>[GitMerge.md](C:/DocTool/output/Docus/Informatik/Tools/Dokumentation/Git/10_Git_Branches/GitMerge.md)</h3><br>Kein Frontmatter gepglegt und somit auch kein Titelinformation bzw Description<hr>
+<h3>[GitMerge.md](C:/DocTool/output/Docus/Informatik/Tools/Dokumentation/Git/10_Git_Branches/GitMerge.md)</h3><br>Kein Frontmatter gepglegt und somit auch kein Titelinformation bzw Description<hr><center><hr><hr><hr> # Umliegende Sections
+ </h2><br><table><thead> <tr> <th><center>Vorgelagerte Section</center></th> <th><center>Nachgelagerte Section</center></th></tr></thead><tbody><tr><td><h3>[Vorherige Section: Git](C:/DocTool/output/Docus/Informatik/Tools/Dokumentation/Git/SectionIndex_DocTooloutputDocusInformatikToolsDokumentationGit.html)</h3><br>Default Section Index Description<hr></td><td>Es gibt keine weiteren nachgelagerten Sections</td></tr></tbody></table>

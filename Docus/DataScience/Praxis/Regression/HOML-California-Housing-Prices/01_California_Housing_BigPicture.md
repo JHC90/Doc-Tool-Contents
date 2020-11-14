@@ -31,4 +31,12 @@ in dem gegebenen Szenario wird das Modell  in folgendem Setup verwendet:
    - Menschliches Experten-Team ~ Error rate 15%
 
 
+4. [Problem Framing](7112020200718-Detailed-DS-Framing)<br>
+   - Regressions-Fragestellung
+   - Supervised Mode, da gelablete Daten vorliegen
+
+
+07112020200718-Detailed-DS-Framing
+
+
 

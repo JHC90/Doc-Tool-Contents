@@ -37,4 +37,4 @@
 
 
 <h3>[ CSS - Fonts](C:/DocTool/output/Docus/Informatik/Web-Development/CSS/08_FontsTextStyling.md)</h3><br>Hier eine Einführung zu Schriftarten in der Wenentwicklung<hr><center><hr><hr><hr> # Umliegende Sections
- </h2><br><table><thead> <tr> <th><center>Vorgelagerte Section</center></th> <th><center>Nachgelagerte Section</center></th></tr></thead><tbody><tr><td><h3>[Vorherige Section: Web-Development](C:/DocTool/output/Docus/Informatik/Web-Development/SectionIndex_DocTooloutputDocusInformatikWeb-Development.html)</h3><br>Default Section Index Description<hr></td><td>Es gibt keine Unterordner // falscher IF-Zweig</td></tr></tbody></table>
+ </h2><br><table><thead> <tr> <th><center>Vorgelagerte Section</center></th> <th><center>Nachgelagerte Section</center></th></tr></thead><tbody><tr><td><h3>[Vorherige Section: Web-Development](C:/DocTool/output/Docus/Informatik/Web-Development/SectionIndex_DocTooloutputDocusInformatikWeb-Development.html)</h3><br>Default Section Index Description<hr></td><td>Es gibt keine weiteren Unterordner</td></tr></tbody></table>

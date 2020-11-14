@@ -13,4 +13,4 @@
 <h1>Section-Index Webpage zur Section <i>Git_CheatSheetsPDF</i></h1>
 
 <hr><hr><hr><hr><hr><center><hr><hr><hr> # Umliegende Sections
- </h2><br><table><thead> <tr> <th><center>Vorgelagerte Section</center></th> <th><center>Nachgelagerte Section</center></th></tr></thead><tbody><tr><td><h3>[<h2>Vorherige Section:</h2><br><h3>Git</h3>](C:/DocTool/output/Docus/Informatik/Tools/Dokumentation/Git/SectionIndex_DocTooloutputDocusInformatikToolsDokumentationGit.html)</h3><br>Default Section Index Description<hr></td><td>Es gibt keine weiteren Unterordner</td></tr></tbody></table>
+ </h2><br><table><thead> <tr> <th><center>Vorgelagerte Section</center></th> <th><center>Nachgelagerte Section</center></th></tr></thead><tbody><tr><td><h3>[Vorherige Section: Git](C:/DocTool/output/Docus/Informatik/Tools/Dokumentation/Git/SectionIndex_DocTooloutputDocusInformatikToolsDokumentationGit.html)</h3><br>Default Section Index Description<hr></td><td>Es gibt keine weiteren Unterordner</td></tr></tbody></table>

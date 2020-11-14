@@ -1,10 +1,10 @@
 '''''
 {
-"title": "BigPicture-Business Objectives",
+"title": "BigPicture-Minimum Performance",
 "keywords": "Checkliste, Business-Objective",
 "categories": "",
-"description": "Hier geht es darum Business-Objective erstmalig zu beschreiben",
-"level": "07",
+"description": "Festlegen der mindest Performance die erzielt werden muss",
+"level": "70",
 "pageID": "07112020200718-MinmumPerformance"
 }
 '''''

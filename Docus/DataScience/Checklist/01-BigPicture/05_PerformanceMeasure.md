@@ -1,10 +1,10 @@
 '''''
 {
-"title": "BigPicture-Business Objectives",
-"keywords": "Checkliste, Business-Objective",
+"title": "BigPicture-Performance Measure",
+"keywords": "Checkliste, Performance Measure",
 "categories": "",
 "description": "Hier geht es darum Business-Objective erstmalig zu beschreiben",
-"level": "05",
+"level": "50",
 "pageID": "07112020200718-PerformanceMeasure"
 }
 '''''

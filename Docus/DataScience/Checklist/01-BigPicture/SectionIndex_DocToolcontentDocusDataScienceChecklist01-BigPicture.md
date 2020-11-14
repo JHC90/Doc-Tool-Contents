@@ -18,16 +18,16 @@
 <h3>[BigPicture-Business Objectives](C:/DocTool/output/Docus/DataScience/Checklist/01-BigPicture/01_BusinessObejctives.md)</h3><br>Hier geht es darum Business-Objective erstmalig zu beschreiben<hr>
 
 
-<h3>[BigPicture-Business Objectives](C:/DocTool/output/Docus/DataScience/Checklist/01-BigPicture/02_UseOfImplementation.md)</h3><br>Hier geht es darum Business-Objective erstmalig zu beschreiben<hr>
+<h3>[BigPicture-Nutzung des Produktes](C:/DocTool/output/Docus/DataScience/Checklist/01-BigPicture/02_UseOfImplementation.md)</h3><br>Hier geht es darum die spätere Nutzung des Modelles zu beschreiben<hr>
 
 
-<h3>[BigPicture-Business Objectives](C:/DocTool/output/Docus/DataScience/Checklist/01-BigPicture/03_CurrentSolutions.md)</h3><br>Hier geht es darum Business-Objective erstmalig zu beschreiben<hr>
+<h3>[BigPicture-Current Solutions](C:/DocTool/output/Docus/DataScience/Checklist/01-BigPicture/03_CurrentSolutions.md)</h3><br>Hier geht es darum die gegenwärtigen Löäsungen zu beschreiben<hr>
 
 
-<h3>[BigPicture-Business Objectives](C:/DocTool/output/Docus/DataScience/Checklist/01-BigPicture/04_ProbemFraming.md)</h3><br>Hier geht es darum Business-Objective erstmalig zu beschreiben<hr>
+<h3>[BigPicture-Detailiertes DS Framing](C:/DocTool/output/Docus/DataScience/Checklist/01-BigPicture/04_ProbemFraming.md)</h3><br>Hier geht es darum Das Modell und die DS-Problemstellung genau zu beschreiben<hr>
 
 
-<h3>[BigPicture-Business Objectives](C:/DocTool/output/Docus/DataScience/Checklist/01-BigPicture/05_PerformanceMeasure.md)</h3><br>Hier geht es darum Business-Objective erstmalig zu beschreiben<hr>
+<h3>[BigPicture-Performance Measure](C:/DocTool/output/Docus/DataScience/Checklist/01-BigPicture/05_PerformanceMeasure.md)</h3><br>Hier geht es darum Business-Objective erstmalig zu beschreiben<hr>
 
 
 <h3>[BigPicture-Business Objectives](C:/DocTool/output/Docus/DataScience/Checklist/01-BigPicture/06_PerformanceMeasureBusinesObjective.md)</h3><br>Hier geht es darum Business-Objective erstmalig zu beschreiben<hr>

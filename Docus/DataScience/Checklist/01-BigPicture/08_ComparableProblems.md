@@ -1,10 +1,10 @@
 '''''
 {
-"title": "BigPicture-Business Objectives",
+"title": "BigPicture-Vergleichbare Problemstellungen",
 "keywords": "Checkliste, Business-Objective",
 "categories": "",
 "description": "Hier geht es darum Business-Objective erstmalig zu beschreiben",
-"level": "08",
+"level": "80",
 "pageID": "07112020200718-ComparableProblems"
 }
 '''''

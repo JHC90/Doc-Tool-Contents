@@ -3,8 +3,8 @@
 "title": "BigPicture-Detailiertes DS Framing",
 "keywords": "Checkliste, Business-Objective",
 "categories": "",
-"description": "Hier geht es darum Business-Objective erstmalig zu beschreiben",
-"level": "04",
+"description": "Hier geht es darum Das Modell und die DS-Problemstellung genau zu beschreiben",
+"level": "40",
 "pageID": "07112020200718-Detailed-DS-Framing"
 }
 '''''

@@ -1,10 +1,10 @@
 '''''
 {
-"title": "BigPicture-Business Objectives",
+"title": "BigPicture - Ausflistung Annahmen",
 "keywords": "Checkliste, Business-Objective",
 "categories": "",
-"description": "Hier geht es darum Business-Objective erstmalig zu beschreiben",
-"level": "11",
+"description": "Hier geht es darum die angenommennen Assumptions niederzuschreiben",
+"level": "110",
 "pageID": "07112020200718-ListAssumptions"
 }
 '''''

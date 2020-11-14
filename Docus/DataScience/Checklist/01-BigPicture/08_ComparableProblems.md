@@ -1,6 +1,6 @@
 '''''
 {
-"title": "BigPicture-Vergleichbare Problemstellungen",
+"title": "BigPicture - Vergleichbare Problemstellungen",
 "keywords": "Checkliste, Business-Objective",
 "categories": "",
 "description": "Hier geht es darum Business-Objective erstmalig zu beschreiben",

@@ -12,7 +12,7 @@
 <h1>Performance-Measure</h1>
 
 # Regressionen
-- RMSE
+- [RMSE](0711202020-RegressionPerformanceRegression) = Standardabweichung der Fehler
 - MAE
 
 # Klassifikationen

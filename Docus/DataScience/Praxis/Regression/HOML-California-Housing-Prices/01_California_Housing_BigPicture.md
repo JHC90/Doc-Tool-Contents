@@ -49,6 +49,7 @@ in dem gegebenen Szenario wird das Modell  in folgendem Setup verwendet:
 9. [Akutelle Lösungen](07112020200718-CurrentSolutions)<br>
 10. [Akutelle Lösungen](07112020200718-CurrentSolutions)<br>
 11. [Annahmen  niederschreiben](07112020200718-ListAssumptions)<br>
+    - BSPW wir bleiben unseren Worten treu, dass wir einen konitnuilerichen Wert (Regression) vorhersagen. Eine Alternative wäre, dass wir eine Kategorie übergeben könnten.(teuer/Medium/Günstig)
 12. [Annahmen verifizieren](07112020200718-VerifyAssumptions)<br>
 13. [Verwendung der Technologie](07112020200718-VerifyAssumptions)<br>
     - Für die Abarbeitung dieses Beispiel-Projektes verwende ich Jupyter Notebooks und Markdown-Files.

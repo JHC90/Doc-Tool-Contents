@@ -1,7 +1,18 @@
+'''''
+
+{
+"title": "Python Lösungen - DatenBeschaffung",
+"keywords": "python, Datenbeschaffung ",
+"categories": "",
+"description": "Hier werden unterschiedliche Methoden aufgezeigt wie Remote Datensätze lokal verfügbar gemacht werden können",
+"level": "10",
+"pageID": "15112020-PythonSolutionsDataDownload"
+}
+'''''
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Beschreibung">Beschreibung<a class="anchor-link" href="#Beschreibung">&#182;</a></h1><p>Dieses Notebook dient dazu, Möglichkeiten darzustellen wie Inhalte von remote Geräten geladen werden können.</p>
+<p></p>
 
 </div>
 </div>
@@ -24,6 +35,14 @@ und hier der link zu den beiden Dateien, die sich in dem Folder befinden:<br>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Beschreibung">Beschreibung<a class="anchor-link" href="#Beschreibung">&#182;</a></h1><p>Dieses Notebook dient dazu, Möglichkeiten darzustellen wie Inhalte von remote Geräten geladen werden können.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Requests">Requests<a class="anchor-link" href="#Requests">&#182;</a></h2><p>Download PDF-Datei von willkürlicher Quelle. Ist aber an sich egal von wo, hier kann ich auch andere Daten mit herunterladen. Wichtig ist nur dass hierbei keine Anmeldung an dem Remote Standort stattfindet.</p>
 
 </div>
@@ -31,7 +50,7 @@ und hier der link zu den beiden Dateien, die sich in dem Folder befinden:<br>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">requests</span>
@@ -77,7 +96,7 @@ Download Completed!!!
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
@@ -114,7 +133,7 @@ Download Completed!!!
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="ch">#!pip install gdown</span>
@@ -142,14 +161,14 @@ Download Completed!!!
 <pre>Downloading...
 From: https://drive.google.com/uc?id=0B9P1L--7Wd2vU3VUVlFnbTgtS2c
 To: c:\DocTool\content\Docus\Informatik\Programmieren\Python\Lösungen\datasets\spam.txt
-100%|██████████| 5.00/5.00 [00:00&lt;00:00, 5.00kB/s]
+100%|██████████| 5.00/5.00 [00:00&lt;00:00, 1.67kB/s]
 </pre>
 </div>
 </div>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[4]:</div>
+    <div class="prompt output_prompt">Out[11]:</div>
 
 
 
@@ -174,7 +193,7 @@ To: c:\DocTool\content\Docus\Informatik\Programmieren\Python\Lösungen\datasets\
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
@@ -214,8 +233,7 @@ To: c:\DocTool\content\Docus\Informatik\Programmieren\Python\Lösungen\datasets\
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>started loading archive from url http://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz
-finished loading archive from url http://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz to datasets/moviereviews/aclImdb_v1.tar.gz
+<pre>archive already downloaded.
 ############
 Hier ein erneuter aufruf der Funktion mit den gleichen Paramtertern =&gt; Kein weitere Download:
 archive already downloaded.
@@ -223,19 +241,6 @@ archive already downloaded.
 </div>
 </div>
 
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-    </div>
 </div>
 </div>
 

@@ -18,7 +18,7 @@
 <h3>[00_DatenBeschaffung-Download.md](C:/DocTool/output/Docus/Informatik/Programmieren/Python/Lösungen/00_DatenBeschaffung-Download.md)</h3><br>Kein Frontmatter gepglegt und somit auch kein Titelinformation bzw Description<hr>
 
 
-<h3>[0_DatenBeschaffung-Download.md](C:/DocTool/output/Docus/Informatik/Programmieren/Python/Lösungen/0_DatenBeschaffung-Download.md)</h3><br>Kein Frontmatter gepglegt und somit auch kein Titelinformation bzw Description<hr>
+<h3>[Python Lösungen - DatenBeschaffung](C:/DocTool/output/Docus/Informatik/Programmieren/Python/Lösungen/0_DatenBeschaffung-Download.md)</h3><br>Hier werden unterschiedliche Methoden aufgezeigt wie Remote Datensätze lokal verfügbar gemacht werden können<hr>
 
 
 <h3>[10_DatenEinlesen.md](C:/DocTool/output/Docus/Informatik/Programmieren/Python/Lösungen/10_DatenEinlesen.md)</h3><br>Kein Frontmatter gepglegt und somit auch kein Titelinformation bzw Description<hr>

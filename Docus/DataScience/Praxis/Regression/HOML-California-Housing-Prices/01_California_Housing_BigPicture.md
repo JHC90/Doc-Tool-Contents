@@ -52,7 +52,8 @@ in dem gegebenen Szenario wird das Modell  in folgendem Setup verwendet:
     - BSPW wir bleiben unseren Worten treu, dass wir einen konitnuilerichen Wert (Regression) vorhersagen. Eine Alternative wäre, dass wir eine Kategorie übergeben könnten.(teuer/Medium/Günstig)
 12. [Annahmen verifizieren](07112020200718-VerifyAssumptions)<br>
 13. [Verwendung der Technologie](07112020200718-VerifyAssumptions)<br>
-    - Für die Abarbeitung dieses Beispiel-Projektes verwende ich Jupyter Notebooks und Markdown-Files.
+    - Für die Abarbeitung dieses Beispiel-Projektes verwende ich Jupyter-Lab Notebooks und Markdown-Files.
+    - Ich verwende die klassische [Base-Envrionment]() meines Entwicklungsrechners
 
 
 07112020200718-ListAssumptions

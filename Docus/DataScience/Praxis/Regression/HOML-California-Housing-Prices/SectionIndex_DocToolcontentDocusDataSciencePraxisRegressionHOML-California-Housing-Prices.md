@@ -15,10 +15,10 @@
 <hr><hr><hr><hr><hr>
 
 
-<h3>[1_California-Housing-Notebook](C:/DocTool/output/Docus/DataScience/Praxis/Regression/HOML-California-Housing-Prices/01_California_Housing_BigPicture.md)</h3><br>Hier geht es um die individuelle Abarbeitung der Checkliste Big-Picture im Kontext der California-Housing Problematik<hr>
+<h3>[01_California-Housing-Notebook](C:/DocTool/output/Docus/DataScience/Praxis/Regression/HOML-California-Housing-Prices/01_California_Housing_BigPicture.md)</h3><br>Hier geht es um die individuelle Abarbeitung der <em>Big-Picture</em>-Checkliste  im Kontext der California-Housing Problematik<hr>
 
 
-<h3>[California-Housing-Notebook-Data](C:/DocTool/output/Docus/DataScience/Praxis/Regression/HOML-California-Housing-Prices/02_Califronia_Housing_Data.md)</h3><br>Hier geht es um die individuelle Abarbeitung der Checkliste Data im Kontext der California-Housing Problematik<hr>
+<h3>[02_California-Housing-Notebook-Data](C:/DocTool/output/Docus/DataScience/Praxis/Regression/HOML-California-Housing-Prices/02_Califronia_Housing_Data.md)</h3><br>Hier geht es um die individuelle Abarbeitung der <em>Data</em>-Checkliste im Kontext der California-Housing Problematik<hr>
 
 
 <h3>[California-Housing-Notebook Complete Solution](C:/DocTool/output/Docus/DataScience/Praxis/Regression/HOML-California-Housing-Prices/XX_California_Housing_Regression.md)</h3><br>Hier die individuelle Beschreibung der Index-Seite aus dem Frontmatter<hr><center><hr><hr><hr> # Umliegende Sections

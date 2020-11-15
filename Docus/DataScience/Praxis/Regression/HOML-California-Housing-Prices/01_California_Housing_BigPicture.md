@@ -1,9 +1,9 @@
 '''''
 {
-"title": "1_California-Housing-Notebook",
+"title": "01_California-Housing-Notebook",
 "keywords": "Regression, Big-Picture ",
 "categories": "",
-"description": "Hier geht es um die individuelle Abarbeitung der Checkliste Big-Picture im Kontext der California-Housing Problematik",
+"description": "Hier geht es um die individuelle Abarbeitung der <em>Big-Picture</em>-Checkliste  im Kontext der California-Housing Problematik",
 "level": "10",
 "pageID": "14112020-10-California-Housing-BigPicture"
 }

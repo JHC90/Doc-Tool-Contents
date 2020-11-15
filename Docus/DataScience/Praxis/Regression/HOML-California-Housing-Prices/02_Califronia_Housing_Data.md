@@ -1,10 +1,10 @@
 '''''
 
 {
-"title": "California-Housing-Notebook-Data",
+"title": "02_California-Housing-Notebook-Data",
 "keywords": "Regression, Big-Picture, ",
 "categories": "",
-"description": "Hier geht es um die individuelle Abarbeitung der Checkliste Data im Kontext der California-Housing Problematik",
+"description": "Hier geht es um die individuelle Abarbeitung der <em>Data</em>-Checkliste im Kontext der California-Housing Problematik",
 "level": "20",
 "pageID": "14112020-10-California-Housing"
 }
@@ -30,39 +30,40 @@
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <ol>
-<li><a href="07112020200718-ListNeededData">Auflistung der benötigten Daten</a></li>
+<li><a href="07112020200718-ListNeededData">Auflistung der benötigten Daten</a><br></li>
 </ol>
 <ul>
 <li>Werden in dem Beispiel gegeben</li>
 </ul>
 <ol>
-<li><a href="07112020200718-ListNeededData">Dokumentiere DatenQuellen</a>
+<li><a href="07112020200718-ListNeededData">Dokumentiere DatenQuellen</a><br>
 in diesem Beispiel werden die Dateneinmalig bereitgesetellt und dann durchgehend verwendet</li>
-<li><a href="07112020200718-CheckDataSpace">Prüfe Speicherbedarf</a></li>
+<li><a href="07112020200718-CheckDataSpace">Prüfe Speicherbedarf</a><br></li>
 </ol>
 <ul>
 <li>Im beispiel irrelevant, da lediglich eine CSV Datei mit  + mb vorliegt</li>
 </ul>
 <ol>
-<li><a href="07112020200718-LegalObligations">Prüfe Legal Obligations</a></li>
+<li><a href="07112020200718-LegalObligations">Prüfe Legal Obligations</a><br></li>
 </ol>
 <ul>
 <li>Im Beispiel irrelevant</li>
 </ul>
 <ol>
-<li><a href="07112020200718-GetAccess">Erhalte Zugriff</a></li>
+<li><a href="07112020200718-GetAccess">Erhalte Zugriff</a><br></li>
 </ol>
 <ul>
 <li>ist gegeben</li>
 </ul>
 <ol>
-<li><a href="07112020200718-CreateWorkspace">Erstelle Workspace</a></li>
+<li><a href="07112020200718-CreateWorkspace">Erstelle Workspace</a><br></li>
 </ol>
 <ul>
 <li>Python Jupyter Lab &amp; Markdowns</li>
 </ul>
 <ol>
-<li><a href="07112020200718-GetDownloadData">Tatsächliche Datenbeschaffung</a></li>
+<li><a href="07112020200718-GetDownloadData">Tatsächliche Datenbeschaffung</a><br>
+Hier das <a href="15112020-PythonSolutionsDataDownload">Python-Solutions-sNotebook</a>, welches Downloadoptionen listet</li>
 </ol>
 
 </div>
@@ -71,7 +72,6 @@ in diesem Beispiel werden die Dateneinmalig bereitgesetellt und dann durchgehend
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Hier das <a href="15112020-PythonSolutionsDataDownload">Notebook</a>, welches Downloadoptionen listet</p>
 
 </div>
 </div>
@@ -107,10 +107,10 @@ in diesem Beispiel werden die Dateneinmalig bereitgesetellt und dann durchgehend
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <ol>
-<li><a href="07112020200718-ConvertData">Convert Data</a></li>
-<li><a href="07112020200718-SensibleData">Sensible Daten</a></li>
-<li><a href="07112020200718-CheckSizeAndType">Prüfe Größe und Typ des Datensatzes</a></li>
-<li><a href="07112020200718-TrainTestValidation">Train Validation Test Split</a></li>
+<li><a href="07112020200718-ConvertData">Convert Data</a><br></li>
+<li><a href="07112020200718-SensibleData">Sensible Daten</a><br></li>
+<li><a href="07112020200718-CheckSizeAndType">Prüfe Größe und Typ des Datensatzes</a><br></li>
+<li><a href="07112020200718-TrainTestValidation">Train Validation Test Split</a><br></li>
 </ol>
 
 </div>

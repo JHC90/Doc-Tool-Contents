@@ -9,7 +9,8 @@
 }
 '''''
 
-# California Housing
+<center><h1>California Housing <br> Big-Picture</h1></center>
+
 ![](imgs/2020-11-14-21-31-19.png)
 
 
@@ -33,9 +34,33 @@ in dem gegebenen Szenario wird das Modell  in folgendem Setup verwendet:
 
 4. [Problem Framing](7112020200718-Detailed-DS-Framing)<br>
    - Regressions-Fragestellung
-   - Supervised Mode, da gelablete Daten vorliegen
+   - [Supervised Mode](07112020200718-SupervisedUnsupervised),  die Daten liegen gelabelt vor
+
+5. [Perfomrance Measure](07112020200718-PerformanceMeasure)<br>
+   - Da eine Regression vorliegt, werden die [Performance Measures](07112020200718-Performance-Measure) von der Regression verwendet.
+
+6. [Perfomrance Measure-Business Objectives](07112020200718-PerformanceMeasureBusinessObjectives)<br>
+   Bisheriges menschliches System hat eine Fehlerrate von 15%
+
+7. [Minimum Performance](07112020200718-MinmumPerformance)<br>
+   
+8. [Vergleichbare Problemstellungen](07112020200718-ComparableProblems)<br>
+
+9. [Akutelle Lösungen](07112020200718-CurrentSolutions)<br>
+10. [Akutelle Lösungen](07112020200718-CurrentSolutions)<br>
+11. [Annahmen  niederschreiben](07112020200718-ListAssumptions)<br>
+12. [Annahmen verifizieren](07112020200718-VerifyAssumptions)<br>
+13. [Verwendung der Technologie](07112020200718-VerifyAssumptions)<br>
+    - Für die Abarbeitung dieses Beispiel-Projektes verwende ich Jupyter Notebooks und Markdown-Files.
 
 
+07112020200718-ListAssumptions
+   
+  
+
+
+
+   
 07112020200718-Detailed-DS-Framing
 
 

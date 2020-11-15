@@ -12,4 +12,17 @@
 <center><h1>Jupyter Lab</h1></center>
 
 ## Vorteile gegenüber Jupyter Noteebook
-- Es können Bilder direkt aus dem Clipboard heraus eingefügt werden.
+- Es können Bilder direkt aus dem Windows-Clipboard heraus eingefügt werden.
+
+## Starten
+- aus der CMD / Powershell / Bash aus der Base bzw individuellen Env
+   > Jupyter Lab
+- Aus 
+
+
+## IDES
+- Installation in der Base-Env
+  > pip install jupyter notebook
+- Installation in der individuellen-Env
+  > pip install jupyter notebook
+- 

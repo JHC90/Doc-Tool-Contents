@@ -11,7 +11,7 @@
 
 <center><h1>California Housing <br> Big-Picture</h1></center>
 
-![](imgs/2020-11-14-21-31-19.png)
+<p><img src="imgs/2020-11-14-21-31-19.png width="55%" alt="Banner California Housing" /></p>
 
 
 In diesem Notebook werden die ersten Problemstellungen von der California Hosuing Challenge aus dem Buch Handson Machine Learning bearbeitet. Dazu wird folgende erste  [Checkliste für das Big-Picture-Framing](14112020-SectionIndex-BigPicture)  in diesem Notebook abgearbeitet.

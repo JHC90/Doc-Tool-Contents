@@ -18,9 +18,6 @@
 <h3>[1_California-Housing-Notebook](C:/DocTool/output/Docus/DataScience/Praxis/Regression/HOML-California-Housing-Prices/01_California_Housing_BigPicture.md)</h3><br>Hier geht es um die individuelle Abarbeitung der Checkliste Big-Picture im Kontext der California-Housing Problematik<hr>
 
 
-<h3>[01_referentz.md](C:/DocTool/output/Docus/DataScience/Praxis/Regression/HOML-California-Housing-Prices/01_referentz.md)</h3><br>Kein Frontmatter gepglegt und somit auch kein Titelinformation bzw Description<hr>
-
-
 <h3>[California-Housing-Notebook-Data](C:/DocTool/output/Docus/DataScience/Praxis/Regression/HOML-California-Housing-Prices/02_Califronia_Housing_Data.md)</h3><br>Hier geht es um die individuelle Abarbeitung der Checkliste Data im Kontext der California-Housing Problematik<hr>
 
 

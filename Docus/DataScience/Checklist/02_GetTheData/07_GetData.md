@@ -1,3 +1,14 @@
+'''''
+{
+"title": "Get the Data",
+"keywords": "Checkliste, DataSources",
+"categories": "",
+"description": "Hier geht es darum Datenquellen zu ermitteln  ermitteln und niederzuschreiben welche Daten ebnötigt werden",
+"level": "70",
+"pageID": "07112020200718-GetDownloadData"
+}
+'''''
+
 <h1>Speicherbedarf</h1>
 
 

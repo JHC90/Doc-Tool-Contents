@@ -4,7 +4,7 @@
 "keywords": "Checkliste, Business-Objective",
 "categories": "",
 "description": "Hier geht es darum Business-Objective erstmalig zu beschreiben",
-"level": "120",
+"level": "130",
 "pageID": "07112020200718-ClarifyTechnology"
 }
 '''''

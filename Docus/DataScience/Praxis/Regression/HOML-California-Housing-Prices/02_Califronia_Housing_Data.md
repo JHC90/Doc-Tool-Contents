@@ -20,7 +20,8 @@
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<center><h1>California Housing <br> Data-Checkliste</h1></center><p><img src="imgs/2020-11-14-21-31-19.png width="55%" alt="Banner California Housing" /></p><p>In diesem Notebook wird die <a href="15112020-DataChecklist">Data-Checkliste</a> im Kontext des California-Housing Problem abgeabreitet.</p>
+<center><h1>California Housing <br> Data-Checkliste</h1></center><p><img src="imgs/2020-11-14-21-31-19.png" alt="&quot;California Housing Banner&quot;"></p>
+<p>In diesem Notebook wird die <a href="15112020-DataChecklist">Data-Checkliste</a> im Kontext des California-Housing Problem abgeabreitet.</p>
 
 </div>
 </div>

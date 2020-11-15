@@ -3,9 +3,9 @@
 "title": "JHC-Markdown-Destination-Page",
 "keywords": "Markdown",
 "categories": "",
-"description": "Diese Seite dient lediglich als Landingpage",
-"level": "10",
-"pageID": "07112020200718-MarkdownLanding"
+"description": "Diese Seite dient lediglich als Aufrufseite für die Markdown Erklärungen",
+"level": "1000",
+"pageID": "07112020200718-MarkdownDestination"
 }
 '''''
 

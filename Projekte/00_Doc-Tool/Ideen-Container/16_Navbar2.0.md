@@ -6,7 +6,7 @@
 "categories": "",
 "description": "Dieses Notebook liefert die Grunlagen für die Nav-Bar 2.0. Die Navbar 2.0 integirert die hierarchie stufen kommend von dem local Metadatainfo File ",
 "level": "120",
-"pageID": "07112020200718-16_NavBar2"
+"pageID": "07112020200718-16-NavBar2"
 }
 '''''
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">

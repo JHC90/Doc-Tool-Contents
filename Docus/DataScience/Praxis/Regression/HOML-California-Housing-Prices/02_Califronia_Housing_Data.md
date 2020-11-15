@@ -31,19 +31,38 @@
 <div class="text_cell_render border-box-sizing rendered_html">
 <ol>
 <li><a href="07112020200718-ListNeededData">Auflistung der benötigten Daten</a></li>
-<li><a href="07112020200718-ListNeededData">Dokumentiere DatenQuellen</a></li>
+</ol>
+<ul>
+<li>Werden in dem Beispiel gegeben</li>
+</ul>
+<ol>
+<li><a href="07112020200718-ListNeededData">Dokumentiere DatenQuellen</a>
+in diesem Beispiel werden die Dateneinmalig bereitgesetellt und dann durchgehend verwendet</li>
 <li><a href="07112020200718-CheckDataSpace">Prüfe Speicherbedarf</a></li>
+</ol>
+<ul>
+<li>Im beispiel irrelevant, da lediglich eine CSV Datei mit  + mb vorliegt</li>
+</ul>
+<ol>
 <li><a href="07112020200718-LegalObligations">Prüfe Legal Obligations</a></li>
-<li><a href="07112020200718-ListNeededData">Dokumentiere DatenQuellen</a></li>
-<li><a href="07112020200718-ListNeededData">Dokumentiere DatenQuellen</a></li>
-<li><a href="07112020200718-ListNeededData">Dokumentiere DatenQuellen</a></li>
-<li><a href="07112020200718-ListNeededData">Dokumentiere DatenQuellen</a></li>
-<li><a href="07112020200718-ListNeededData">Dokumentiere DatenQuellen</a></li>
-<li><a href="07112020200718-ListNeededData">Dokumentiere DatenQuellen</a></li>
-<li><a href="07112020200718-ListNeededData">Dokumentiere DatenQuellen</a></li>
-<li><a href="07112020200718-ListNeededData">Dokumentiere DatenQuellen</a></li>
-<li><a href="07112020200718-ListNeededData">Dokumentiere DatenQuellen</a></li>
-<li><a href="07112020200718-ListNeededData">Dokumentiere DatenQuellen</a></li>
+</ol>
+<ul>
+<li>Im Beispiel irrelevant</li>
+</ul>
+<ol>
+<li><a href="07112020200718-GetAccess">Erhalte Zugriff</a></li>
+</ol>
+<ul>
+<li>ist gegeben</li>
+</ul>
+<ol>
+<li><a href="07112020200718-CreateWorkspace">Erstelle Workspace</a></li>
+</ol>
+<ul>
+<li>Python Jupyter Lab &amp; Markdowns</li>
+</ul>
+<ol>
+<li><a href="07112020200718-GetDownloadData">Tatsächliche Datenbeschaffung</a></li>
 </ol>
 
 </div>
@@ -84,36 +103,18 @@
 </div>
 
 </div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>11
-</pre>
-</div>
-</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ol>
+<li><a href="07112020200718-ConvertData">Convert Data</a></li>
+<li><a href="07112020200718-SensibleData">Sensible Daten</a></li>
+<li><a href="07112020200718-CheckSizeAndType">Prüfe Größe und Typ des Datensatzes</a></li>
+<li><a href="07112020200718-TrainTestValidation">Train Validation Test Split</a></li>
+</ol>
 
 </div>
 </div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">

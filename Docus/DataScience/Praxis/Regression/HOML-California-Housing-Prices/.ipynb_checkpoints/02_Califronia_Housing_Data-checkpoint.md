@@ -6,7 +6,7 @@
 "categories": "",
 "description": "Hier geht es um die individuelle Abarbeitung der Checkliste Data im Kontext der California-Housing Problematik",
 "level": "20",
-"pageID": "14112020-10-California-Housing"
+"pageID": "14112020-10-California-Housing-Data"
 }
 '''''
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
@@ -34,16 +34,13 @@
 <li><a href="07112020200718-ListNeededData">Dokumentiere DatenQuellen</a></li>
 <li><a href="07112020200718-CheckDataSpace">Prüfe Speicherbedarf</a></li>
 <li><a href="07112020200718-LegalObligations">Prüfe Legal Obligations</a></li>
-<li><a href="07112020200718-ListNeededData">Dokumentiere DatenQuellen</a></li>
-<li><a href="07112020200718-ListNeededData">Dokumentiere DatenQuellen</a></li>
-<li><a href="07112020200718-ListNeededData">Dokumentiere DatenQuellen</a></li>
-<li><a href="07112020200718-ListNeededData">Dokumentiere DatenQuellen</a></li>
-<li><a href="07112020200718-ListNeededData">Dokumentiere DatenQuellen</a></li>
-<li><a href="07112020200718-ListNeededData">Dokumentiere DatenQuellen</a></li>
-<li><a href="07112020200718-ListNeededData">Dokumentiere DatenQuellen</a></li>
-<li><a href="07112020200718-ListNeededData">Dokumentiere DatenQuellen</a></li>
-<li><a href="07112020200718-ListNeededData">Dokumentiere DatenQuellen</a></li>
-<li><a href="07112020200718-ListNeededData">Dokumentiere DatenQuellen</a></li>
+<li><a href="07112020200718-GetAccess">Erhalte Zugriff</a></li>
+<li><a href="07112020200718-CreateWorkspace">Erstelle Workspace</a></li>
+<li><a href="07112020200718-GetDownloadData">Tatsächliche Datenbeschaffung</a></li>
+<li><a href="07112020200718-ConvertData">Convert Data</a></li>
+<li><a href="07112020200718-SensibleData">Sensible Daten</a></li>
+<li><a href="07112020200718-CheckSizeAndType">Prüfe Größe und Typ des Datensatzes</a></li>
+<li><a href="07112020200718-TrainTestValidation">Train Validation Test Split</a></li>
 </ol>
 
 </div>

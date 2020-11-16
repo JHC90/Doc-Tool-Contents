@@ -8,3 +8,7 @@
 "pageID": "07112020200718-ListNeededData"
 }
 '''''
+
+# Auflistung Datenmenge
+
+

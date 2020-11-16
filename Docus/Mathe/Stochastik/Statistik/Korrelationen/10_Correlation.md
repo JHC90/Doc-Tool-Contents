@@ -1,6 +1,6 @@
 '''''
 {
-"title": "Statistic Basics - Definitionen",
+"title": "Korrelation",
 "keywords": "Statistic-Basics",
 "categories": "",
 "description": "Hier die Erklärung meiner Webseite",
@@ -10,14 +10,16 @@
 '''''
 
 # Korrelation & Kovarianz
-Bisher haben wir ein Feature jeweils isoliert betrachtet(Std & Varianz dienen nur für die Darstellung von jeweils einem Feature). Mit der Korrelation betrachten wir nun wie zwei Variablen zuammen sich verhalten. 
+Bisher haben wurden die Feature jeweils isoliert betrachtet(Std & Varianz dienen nur für die Darstellung von jeweils einem Feature). Mit der Korrelation betrachten wir nun wie zwei Variablen zuammen sich verhalten. 
 
 bei poisitiver Kovarianz = nehmen die Variabelen gemeinsam zu
 bei negativer Kovarianz = nehmen die Variabelen vice versa zu und ab
 
+![](imgs/2020-11-16-11-25-13.png)
 
 
-[eigene Implementierung](https://github.com/JHC90/Basic-DataScience-Skills/blob/master/EDA_5_Correlations.ipynb)
+
+[Technische Implementierung Korrelation](16112020-KorrelationPythonImplementierung)
 
 
 
@@ -42,7 +44,7 @@ bei negativer Kovarianz = nehmen die Variabelen vice versa zu und ab
    $$cov(X,Y) =
   \frac{1}{N}\sum_{i=1}^{n}(x_i-\bar{x})(y_i-\bar{y})$$
   
-* Pearson-Korrelation
+* Pearson-Korrelation = standard correlation coefficient
   * Formel<br>
   $$r =
   \frac{ \sum_{i=1}^{n}(x_i-\bar{x})(y_i-\bar{y}) }{%

@@ -213,7 +213,7 @@ Da ich in dem vorliegenden <a href="16112020-Doctool">Doctool</a> sowieso andaue
 <div class="text_cell_render border-box-sizing rendered_html">
 <ol>
 <li><a href="07112020200718-Correlations">Korrelationen</a><br>
-Die Korrelationen </li>
+Die Korrelationen zeigen das Verhalten von Variablen in gegenseitiger Abhängigkeit. Die Theorie wird <a href="16112020-KorrelationDefinition">hier</a> erklärt und die  Python Implementierung kann <a href="16112020-KorrelationPythonImplementierung">hier</a> eingesehen werden</li>
 </ol>
 
 </div>

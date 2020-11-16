@@ -9,6 +9,9 @@
 }
 '''''
 
-# Auflistung Datenmenge
+# Check out Attribute
 
+- Ist jedes Attribut klar?
+- Human Expertise
+- 
 

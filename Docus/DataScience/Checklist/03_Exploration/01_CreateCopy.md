@@ -9,6 +9,7 @@
 }
 '''''
 
-# Auflistung Datenmenge
+# Data-Copy - EDA
+Während der EDA werden die Daten deskriptiv analysiert. Da jedoch "Sorge" besteht, dass bei dieser Analyse die Daten auch manipuliert werden, wird vor der Analyse ein seperates Dataset erstellt welches der Analyse dient.
 
 

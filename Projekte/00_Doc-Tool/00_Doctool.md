@@ -1,3 +1,14 @@
+'''''
+{
+"title": "Section Index - 00_Doc-Tool",
+"keywords": "SectionIndex",
+"categories": "",
+"description": "Default Section Index Description",
+"level": "10",
+"pageID": "16112020-Doctool"
+}
+'''''
+
 <h1>DocTool- Landingpage</h1>
 
 # Link zur Implementierung

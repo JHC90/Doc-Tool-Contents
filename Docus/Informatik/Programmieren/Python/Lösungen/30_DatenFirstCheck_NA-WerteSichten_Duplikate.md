@@ -1,3 +1,22 @@
+'''''
+
+{
+"title": "Python-DataChecker",
+"keywords": "Checkliste, DataSources",
+"categories": "",
+"description": "Hier eine Sammlung von Coding Snippet für den first Data-Check",
+"level": "30",
+"pageID": "07112020200718-Mini-Exploration"
+}
+'''''
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p></p>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -56,6 +75,12 @@ df.isin([" "]).any().any()<br><br><br></p>
 <p>df.isin(["?"])<br>
 df.isin(["?"]).any()<br>
 df.isin(["?"]).any().any()<br></p>
+<p>print(df.isna())
+print(df.isna().any())
+print(df.isna().any().any())</p>
+<p>print(df.isnull())
+print(df.isnull().any())
+print(df.isnull().any().any())</p>
 </blockquote>
 <p>Möglcihe Zeichen für naN "?", " "(leerzeichen)</p>
 

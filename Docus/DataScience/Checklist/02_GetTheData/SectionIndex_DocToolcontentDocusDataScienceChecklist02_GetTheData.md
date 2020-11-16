@@ -45,5 +45,8 @@
 <h3>[CheckSizeAndType](C:/DocTool/output/Docus/DataScience/Checklist/02_GetTheData/10_CheckSizeAndType.md)</h3><br>Hier geht es darum Datenquellen zu ermitteln  ermitteln und niederzuschreiben welche Daten ebnötigt werden<hr>
 
 
-<h3>[Get the Data - Sample Train Test Validation](C:/DocTool/output/Docus/DataScience/Checklist/02_GetTheData/11_SampleTestTrainValidation.md)</h3><br>Aufteilung in Train Test Validation<hr><center><hr><hr><hr> # Umliegende Sections
+<h3>[Get the Data - Mini Exploration](C:/DocTool/output/Docus/DataScience/Checklist/02_GetTheData/11_Mini-Eploration.md)</h3><br>Aufteilung in Train Test Validation<hr>
+
+
+<h3>[Get the Data - Sample Train Test Validation](C:/DocTool/output/Docus/DataScience/Checklist/02_GetTheData/12_SampleTestTrainValidation.md)</h3><br>Aufteilung in Train Test Validation<hr><center><hr><hr><hr> # Umliegende Sections
  </h2><br><table><thead> <tr> <th><center>Vorgelagerte Section</center></th> <th><center>Nachgelagerte Section</center></th></tr></thead><tbody><tr><td><h3>[Vorherige Section: Checklist](C:/DocTool/output/Docus/DataScience/Checklist/SectionIndex_DocTooloutputDocusDataScienceChecklist.html)</h3><br>Default Section Index Description<hr></td><td>Es gibt keine weiteren nachgelagerten Sections</td></tr></tbody></table>

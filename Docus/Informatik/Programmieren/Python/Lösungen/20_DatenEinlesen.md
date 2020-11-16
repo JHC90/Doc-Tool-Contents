@@ -1,3 +1,22 @@
+'''''
+
+{
+"title": "Python Lösungen - Daten einlesen",
+"keywords": "python, Datenbeschaffung ",
+"categories": "",
+"description": "Hier werden unterschiedliche Methoden aufgezeigt wie Remote Datensätze lokal verfügbar gemacht werden können",
+"level": "10",
+"pageID": "15112020-Daten Einlesen"
+}
+'''''
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p></p>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -446,7 +465,7 @@ Die Input Dateiein können offensichtlich csv-Dateien sein, aber auch keine offe
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Laden-eines-Datensatzes,-aus-einem--zus&#228;tzlichen-paket-heraus">Laden eines Datensatzes, aus einem  zus&#228;tzlichen paket heraus<a class="anchor-link" href="#Laden-eines-Datensatzes,-aus-einem--zus&#228;tzlichen-paket-heraus">&#182;</a></h1><p>in dem Beispiel lade ich aus dem mnist datensatz, konkret heist das, dass in dem Packet Keras Testdatensätze wie bspw mnist hinterlegt sind, welche per methode aufgerufen und dann verwendet werden können.</p>
+<h1 id="Laden-eines-Datensatzes,-aus-einem--dritten-Paket/Bibliothek-heraus">Laden eines Datensatzes, aus einem  dritten Paket/Bibliothek heraus<a class="anchor-link" href="#Laden-eines-Datensatzes,-aus-einem--dritten-Paket/Bibliothek-heraus">&#182;</a></h1><p>in dem Beispiel lade ich aus dem mnist datensatz, konkret heist das, dass in dem Packet Keras Testdatensätze wie bspw mnist hinterlegt sind, welche per methode aufgerufen und dann verwendet werden können.</p>
 
 </div>
 </div>

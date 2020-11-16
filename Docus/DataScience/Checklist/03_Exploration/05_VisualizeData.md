@@ -13,5 +13,8 @@
 
 - Geografische Daten
   - [BSP-California Housing](16112020-10-California-Housing-EDA)<br> hier wird sequenziell die Vosualisierung entlang von Koordinaten dargestellt
+- Boxplots
+- Korrelationen
+- Histogramme
 - 
 

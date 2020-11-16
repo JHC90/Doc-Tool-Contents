@@ -1,3 +1,14 @@
+'''''
+{
+"title": "Statistic Basics - Definitionen",
+"keywords": "Statistic-Basics",
+"categories": "",
+"description": "Hier die Erklärung meiner Webseite",
+"level": "10",
+"pageID": "07112020200718-StatisticsBasicsDefinitionen"
+}
+'''''
+
 # Daten
 
 

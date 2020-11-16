@@ -23,9 +23,7 @@ ML / DS / DL Modelle benötigen Daten. Dabei sind "Daten" nicht per se "Daten" i
 Das sind alle Daten, auf welche wir zugreifen können. Normalerweise lädt man dieses Set von einer [REMOTE-Quelle](15112020-PythonSolutionsDataDownload) herunter und lädt innerhalb eines DS-Projectes diese gesamten Daten zunächst in ein Data-Frame(entweder numpy oder Pandas) 
 
 ## Train-Data
-
-Auf diesem Trainings-Set werden die Algorithmen trainiert.
-
+Auf dem Trainings-Set werden die Algorithmen trainiert. Das Trainingsset ist ein Subset von allenen Daten. 
 ---
 ---
 

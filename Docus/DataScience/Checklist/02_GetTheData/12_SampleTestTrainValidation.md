@@ -8,3 +8,8 @@
 "pageID": "07112020200718-TrainTestValidation"
 }
 '''''
+
+# Train Test Split
+
+
+[Technische Implementierung in Train-Test-Implementierung](16112020-TrainTestSplit-Implementation)

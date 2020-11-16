@@ -986,8 +986,11 @@ Name: ocean_proximity, dtype: int64
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <ol>
-<li><a href="07112020200718-TrainTestValidation">Train Validation Test Split</a><br></li>
+<li><a href="07112020200718-TrainTestValidation">Train Validation Test Split</a><br>
+Vergleiche hierzu die <a href="16112020-TrainTestSplit-Implementation">Train-Test-Implementierung</a><br>
+hier die <a href="07112020200718-Data">Theorie zu den Datensätzen</a></li>
 </ol>
+<p>In diesem Beispiel wird ein Stratified Sdampling auf den Median Hosue Value gesetzt. Dazu wird zunächst ein Stratum eingefügt, entlang dieses Stratums gesplittet und zuletzt das Stratum wieder gelöscht. Die beiden resultierenden Datensätze werden persistent gespeichert</p>
 
 </div>
 </div>

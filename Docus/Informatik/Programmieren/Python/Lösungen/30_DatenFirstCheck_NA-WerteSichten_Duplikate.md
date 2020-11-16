@@ -75,12 +75,12 @@ df.isin([" "]).any().any()<br><br><br></p>
 <p>df.isin(["?"])<br>
 df.isin(["?"]).any()<br>
 df.isin(["?"]).any().any()<br></p>
-<p>print(df.isna())
-print(df.isna().any())
-print(df.isna().any().any())</p>
-<p>print(df.isnull())
-print(df.isnull().any())
-print(df.isnull().any().any())</p>
+<p>print(df.isna())<br>
+print(df.isna().any())<br>
+print(df.isna().any().any())<br></p>
+<p>print(df.isnull())<br>
+print(df.isnull().any())<br>
+print(df.isnull().any().any())<br></p>
 </blockquote>
 <p>Möglcihe Zeichen für naN "?", " "(leerzeichen)</p>
 

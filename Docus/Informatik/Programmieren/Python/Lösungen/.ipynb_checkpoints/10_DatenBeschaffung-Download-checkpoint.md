@@ -1,12 +1,12 @@
 '''''
 
 {
-"title": "Python Lösungen - DatenBeschaffung",
-"keywords": "python, Datenbeschaffung ",
+"title": "SK-Learn-Pipeline",
+"keywords": "SK-Learn, Sampling, Stratified",
 "categories": "",
-"description": "Hier werden unterschiedliche Methoden aufgezeigt wie Remote Datensätze lokal verfügbar gemacht werden können",
+"description": "hier werden die Möglihckeiten gelitste wie man ein Train Test split vollziehen kann",
 "level": "10",
-"pageID": "15112020-PythonSolutionsDataDownload"
+"pageID": "16112020-SK-Learn"
 }
 '''''
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">

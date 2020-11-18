@@ -1,12 +1,12 @@
 '''''
 
 {
-"title": "Python Lösungen - SK-Learn Pipelines,
-"keywords": "python, SK-Learn, Pipeline ",
+"title": "SK-Learn-Beispiel",
+"keywords": "SectionIndex",
 "categories": "",
-"description": "Hier werden unterschiedliche Methoden aufgezeigt wie Remote Datensätze lokal verfügbar gemacht werden können",
+"description": "Default Section Index Description",
 "level": "10",
-"pageID": "15112020-SK-Learn-Pipelines"
+"pageID": "18112020-SkLearnPipeline-Basics"
 }
 '''''
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">

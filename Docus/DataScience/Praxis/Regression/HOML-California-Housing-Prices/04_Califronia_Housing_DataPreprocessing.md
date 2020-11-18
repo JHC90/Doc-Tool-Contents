@@ -173,7 +173,7 @@
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x2033ccc1100&gt;</pre>
+<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x182b8bc2100&gt;</pre>
 </div>
 
 </div>
@@ -968,7 +968,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[26]:</div>
+<div class="prompt input_prompt">In&nbsp;[25]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">num_attribs</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">housing_num</span><span class="p">)</span>
@@ -1004,6 +1004,83 @@ dtype: object</pre>
 (20640, 17)
 &lt;class &#39;numpy.ndarray&#39;&gt;
 </pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[30]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.base</span> <span class="kn">import</span> <span class="n">BaseEstimator</span><span class="p">,</span> <span class="n">TransformerMixin</span>
+<span class="k">class</span> <span class="nc">DataFrameSelector</span><span class="p">(</span><span class="n">BaseEstimator</span><span class="p">,</span> <span class="n">TransformerMixin</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;Select Feature by name&#39;&#39;&#39;</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">attribute_names</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">attribute_names</span> <span class="o">=</span> <span class="n">attribute_names</span>
+    <span class="k">def</span> <span class="nf">fit</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span>
+    <span class="k">def</span> <span class="nf">transform</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">X</span><span class="p">):</span>
+        <span class="k">return</span> <span class="n">X</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">attribute_names</span><span class="p">]</span><span class="o">.</span><span class="n">values</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[29]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.pipeline</span> <span class="kn">import</span> <span class="n">FeatureUnion</span>
+<span class="n">num_attribs</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">housing_num</span><span class="p">)</span>
+<span class="n">cat_attribs</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;ocean_proximity&quot;</span><span class="p">]</span>
+<span class="n">num_pipeline</span> <span class="o">=</span> <span class="n">Pipeline</span><span class="p">([</span>
+    <span class="p">(</span><span class="s1">&#39;selector&#39;</span><span class="p">,</span> <span class="n">DataFrameSelector</span><span class="p">(</span><span class="n">num_attribs</span><span class="p">)),</span>
+    <span class="p">(</span><span class="s1">&#39;imputer&#39;</span><span class="p">,</span> <span class="n">SimpleImputer</span><span class="p">(</span><span class="n">strategy</span><span class="o">=</span><span class="s2">&quot;median&quot;</span><span class="p">)),</span>
+    <span class="p">(</span><span class="s1">&#39;attribs_adder&#39;</span><span class="p">,</span> <span class="n">CombinedAttributesAdder</span><span class="p">()),</span>
+    <span class="p">(</span><span class="s1">&#39;std_scaler&#39;</span><span class="p">,</span> <span class="n">StandardScaler</span><span class="p">()),</span>
+    <span class="p">])</span>
+<span class="n">cat_pipeline</span> <span class="o">=</span> <span class="n">Pipeline</span><span class="p">([</span>
+    <span class="p">(</span><span class="s1">&#39;selector&#39;</span><span class="p">,</span> <span class="n">DataFrameSelector</span><span class="p">(</span><span class="n">cat_attribs</span><span class="p">)),</span>
+    <span class="p">(</span><span class="s1">&#39;label_binarizer&#39;</span><span class="p">,</span> <span class="n">LabelBinarizer</span><span class="p">()),</span>
+    <span class="p">])</span>
+<span class="n">full_pipeline</span> <span class="o">=</span> <span class="n">FeatureUnion</span><span class="p">(</span><span class="n">transformer_list</span><span class="o">=</span><span class="p">[</span>
+    <span class="p">(</span><span class="s2">&quot;num_pipeline&quot;</span><span class="p">,</span> <span class="n">num_pipeline</span><span class="p">),</span>
+    <span class="p">(</span><span class="s2">&quot;cat_pipeline&quot;</span><span class="p">,</span> <span class="n">cat_pipeline</span><span class="p">),</span>
+    <span class="p">])</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_text output_error">
+<pre>
+<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
+<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-29-60de06d59e2d&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-fg">     10</span> cat_pipeline = Pipeline([
+<span class="ansi-green-fg">     11</span>     <span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-blue-intense-fg ansi-bold">&#39;selector&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> DataFrameSelector<span class="ansi-yellow-intense-fg ansi-bold">(</span>cat_attribs<span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">,</span>
+<span class="ansi-green-intense-fg ansi-bold">---&gt; 12</span><span class="ansi-yellow-intense-fg ansi-bold">     </span><span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-blue-intense-fg ansi-bold">&#39;label_binarizer&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> LabelBinarizer<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">,</span>
+<span class="ansi-green-fg">     13</span>     ])
+<span class="ansi-green-fg">     14</span> full_pipeline = FeatureUnion(transformer_list=[
+
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>: name &#39;LabelBinarizer&#39; is not defined</pre>
 </div>
 </div>
 

@@ -20,3 +20,6 @@ Außerdem wird grob skiziertz wie das Model in den gesamten Werschöpfungsprozes
 - mit Prozessbeteiligten(IT & Fachabteilung) so früh wie möglich einbinden.
 - Check welche [Dokumenationsplatformen](./../../Informatik/Tools/Dokumentation/DocumenationsToolsOverview.md) bereits etabliert sind
 - Schaffen einer Austauschplatform für die Projektbeteiligten(Git, Git-Wiki, Blog, Shared-Folder )
+
+Dieser Schritt im CRISP-DM Zyklus läuft in der Regel ohne Technische Unterstützung ab. Hier geht es vorrangig darum, die Domäne in der wir uns bewegen zu verstehen. Das klingt einfach, ist es aber in der Regel nicht. Beim Kick-Off eines ML Projekts klingt vieles noch wenig vertraut und muss erst hinterfragt werden. Hier ein paar Fragen...
+Was macht das Unternehmen; womit verdient es sein Geld?Was wird mit dem aktuellen ML Projekt (wirklich) bezweckt?Wer unterstützt das Projekt (nicht)?Woher kommen die Daten, mit denen wir arbeiten sollen?Wer gewährt uns Zugriff zu welchen Daten?Warum sehen die Daten so aus, wie sie eben aussehen und nicht anders?Welche Features können wir nutzen versus Welche Features würden wir benötigen?Welche Möglichkeiten haben wir, unsere Daten zu erweitern?

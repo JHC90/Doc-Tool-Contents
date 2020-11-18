@@ -15,6 +15,15 @@
 <hr><hr><hr><hr><hr>
 
 
+<h3>[10_Basic-Idea-one-Step_Data-Pipeline.md](C:/DocTool/output/Docus/Informatik/Programmieren/Python/Lösungen/sklearn-pipelines/10_Basic-Idea-one-Step_Data-Pipeline.md)</h3><br>Kein Frontmatter gepglegt und somit auch kein Titelinformation bzw Description<hr>
+
+
+<h3>[20_Data-Pipeline_MediumAusbau.md](C:/DocTool/output/Docus/Informatik/Programmieren/Python/Lösungen/sklearn-pipelines/20_Data-Pipeline_MediumAusbau.md)</h3><br>Kein Frontmatter gepglegt und somit auch kein Titelinformation bzw Description<hr>
+
+
+<h3>[Python SK-Learn-Titanic Michi](C:/DocTool/output/Docus/Informatik/Programmieren/Python/Lösungen/sklearn-pipelines/30_BSP-Kohlegger.md)</h3><br>Hier werden unterschiedliche Methoden aufgezeigt wie Remote Datensätze lokal verfügbar gemacht werden können<hr>
+
+
 <h3>[Basic-Idea-one-Step_Data-Pipeline.md](C:/DocTool/output/Docus/Informatik/Programmieren/Python/Lösungen/sklearn-pipelines/Basic-Idea-one-Step_Data-Pipeline.md)</h3><br>Kein Frontmatter gepglegt und somit auch kein Titelinformation bzw Description<hr>
 
 

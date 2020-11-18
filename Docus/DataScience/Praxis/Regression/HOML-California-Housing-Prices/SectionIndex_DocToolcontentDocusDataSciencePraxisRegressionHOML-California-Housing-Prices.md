@@ -18,6 +18,9 @@
 <h3>[Big-Picutre](C:/DocTool/output/Docus/DataScience/Praxis/Regression/HOML-California-Housing-Prices/01_California_Housing_BigPicture.md)</h3><br>Hier geht es um die individuelle Abarbeitung der <em>Big-Picture</em>-Checkliste  im Kontext der California-Housing Problematik<hr>
 
 
+<h3>[1_California-Housing-Notebook](C:/DocTool/output/Docus/DataScience/Praxis/Regression/HOML-California-Housing-Prices/01_Califronia Housing.md)</h3><br>Hier geht es um die individuelle Abarbeitung der Checkliste Big-Picture im Kontext der California-Housing Problematik<hr>
+
+
 <h3>[Data-Management-Checklist](C:/DocTool/output/Docus/DataScience/Praxis/Regression/HOML-California-Housing-Prices/02_Califronia_Housing_Data.md)</h3><br>Hier geht es um die individuelle Abarbeitung der <em>Data</em>-Checkliste im Kontext der California-Housing Problematik<hr>
 
 
@@ -25,6 +28,9 @@
 
 
 <h3>[Data-Preprocessing-Checklist](C:/DocTool/output/Docus/DataScience/Praxis/Regression/HOML-California-Housing-Prices/04_Califronia_Housing_DataPreprocessing.md)</h3><br>Hier geht es um die individuelle Abarbeitung der <em>EDA</em>-Checkliste im Kontext der California-Housing Problematik<hr>
+
+
+<h3>[Orginal.md](C:/DocTool/output/Docus/DataScience/Praxis/Regression/HOML-California-Housing-Prices/Orginal.md)</h3><br>Kein Frontmatter gepglegt und somit auch kein Titelinformation bzw Description<hr>
 
 
 <h3>[California-Housing-Notebook Complete Solution](C:/DocTool/output/Docus/DataScience/Praxis/Regression/HOML-California-Housing-Prices/XX_California_Housing_Regression.md)</h3><br>Hier die individuelle Beschreibung der Index-Seite aus dem Frontmatter<hr><center><hr><hr><hr> # Umliegende Sections

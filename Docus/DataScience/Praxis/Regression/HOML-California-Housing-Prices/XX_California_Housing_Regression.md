@@ -3080,7 +3080,7 @@ Name: median_house_value, dtype: float64</pre>
 <div class="prompt input_prompt">In&nbsp;[57]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">X</span> <span class="o">=</span> <span class="n">imputer</span><span class="o">.</span><span class="n">transform</span><span class="p">(</span><span class="n">housing_num</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">housing_num</span><span class="o">.</span><span class="n">median</span><span class="p">()</span><span class="o">.</span><span class="n">values</span>
 </pre></div>
 
     </div>

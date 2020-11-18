@@ -30,7 +30,7 @@
 <h3>[50_DataCleaningNA-Werte.md](C:/DocTool/output/Docus/Informatik/Programmieren/Python/Lösungen/50_DataCleaningNA-Werte.md)</h3><br>Kein Frontmatter gepglegt und somit auch kein Titelinformation bzw Description<hr>
 
 
-<h3>[60_OneHotEncoding.md](C:/DocTool/output/Docus/Informatik/Programmieren/Python/Lösungen/60_OneHotEncoding.md)</h3><br>Kein Frontmatter gepglegt und somit auch kein Titelinformation bzw Description<hr>
+<h3>[One Hot Encoding](C:/DocTool/output/Docus/Informatik/Programmieren/Python/Lösungen/60_OneHotEncoding.md)</h3><br>hier werden die Möglihckeiten gelitste wie man ein Train Test split vollziehen kann<hr>
 
 
 <h3>[test.md](C:/DocTool/output/Docus/Informatik/Programmieren/Python/Lösungen/test.md)</h3><br>Kein Frontmatter gepglegt und somit auch kein Titelinformation bzw Description<hr><center><hr><hr><hr> # Umliegende Sections

@@ -1,49 +1,26 @@
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[30]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&#39;&#39;&#39;&#39;&#39;</span>
-<span class="sd">{</span>
-<span class="sd">&quot;title&quot;: &quot;One Hot Encoding&quot;,</span>
-<span class="sd">&quot;keywords&quot;: &quot;Ordinal Encoder, OHE, One-Hot-Encoder&quot;,</span>
-<span class="sd">&quot;categories&quot;: &quot;&quot;,</span>
-<span class="sd">&quot;description&quot;: &quot;hier werden die Möglihckeiten gelitste wie man ein Train Test split vollziehen kann&quot;,</span>
-<span class="sd">&quot;level&quot;: &quot;50&quot;,</span>
-<span class="sd">&quot;pageID&quot;: &quot;16112020-OneHotEncodingOrdinalEncoding&quot;</span>
-<span class="sd">}</span>
-<span class="sd">&#39;&#39;&#39;</span><span class="s1">&#39;&#39;</span>
-</pre></div>
+'''''
 
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[30]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>&#39;\&#39;\&#39;\n{\n&#34;title&#34;: &#34;One Hot Encoding&#34;,\n&#34;keywords&#34;: &#34;Ordinal Encoder, OHE, One-Hot-Encoder&#34;,\n&#34;categories&#34;: &#34;&#34;,\n&#34;description&#34;: &#34;hier werden die Möglihckeiten gelitste wie man ein Train Test split vollziehen kann&#34;,\n&#34;level&#34;: &#34;50&#34;,\n&#34;pageID&#34;: &#34;16112020-OneHotEncodingOrdinalEncoding&#34;\n}\n&#39;</pre>
-</div>
-
-</div>
+{
+"title": "One Hot Encoding",
+"keywords": "Ordinal Encoder, OHE, One-Hot-Encoder",
+"categories": "",
+"description": "hier werden die Möglihckeiten gelitste wie man ein Train Test split vollziehen kann",
+"level": "50",
+"pageID": "16112020-OneHotEncodingOrdinalEncoding"
+}
+'''''
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p></p>
 
 </div>
 </div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Na-Werte">Na-Werte<a class="anchor-link" href="#Na-Werte">&#182;</a></h1><p>Die meisten Algorithmen können nicht mit NAN werten umgehen. Daher gibt es hierbei unterschiedliche Anwendungsoptionen. Die zeilen oder Spalten könnnen entweder weggelassen werden. Alternativ können mit hilfe eines Imputers Ein Wert in das leere Feld gesetzt werden.</p>
+<h1 id="NaN-Werte">NaN-Werte<a class="anchor-link" href="#NaN-Werte">&#182;</a></h1><p>Die meisten Algorithmen können nicht mit NAN werten umgehen. Daher gibt es hierbei unterschiedliche Anwendungsoptionen. Die zeilen oder Spalten könnnen entweder weggelassen werden. Alternativ können mit hilfe eines Imputers Ein Wert in das leere Feld gesetzt werden.</p>
 
 </div>
 </div>

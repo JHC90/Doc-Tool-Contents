@@ -9,6 +9,8 @@
 }
 '''''
 
+# Feature Engineering
+
 # Beispiel
 es werden gerne Relative Zahle eingeführt. z.B.:
 ```Python
@@ -16,6 +18,8 @@ housing["rooms_per_household"] = housing["total_rooms"]/housing["households"]
 housing["bedrooms_per_room"] = housing["total_bedrooms"]/housing["total_rooms"]
 housing["population_per_household"]=housing["population"]/housing["households"]
 ```
+
+Die Qualität eines erstellten Features kann an der [Korrelation](16112020-KorrelationDefinition) mit der zu erklärenden Variable.
 
 
 

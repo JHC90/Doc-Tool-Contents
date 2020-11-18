@@ -18,10 +18,13 @@
 <h3>[Big-Picutre](C:/DocTool/output/Docus/DataScience/Praxis/Regression/HOML-California-Housing-Prices/01_California_Housing_BigPicture.md)</h3><br>Hier geht es um die individuelle Abarbeitung der <em>Big-Picture</em>-Checkliste  im Kontext der California-Housing Problematik<hr>
 
 
-<h3>[Data-Checklist](C:/DocTool/output/Docus/DataScience/Praxis/Regression/HOML-California-Housing-Prices/02_Califronia_Housing_Data.md)</h3><br>Hier geht es um die individuelle Abarbeitung der <em>Data</em>-Checkliste im Kontext der California-Housing Problematik<hr>
+<h3>[Data-Management-Checklist](C:/DocTool/output/Docus/DataScience/Praxis/Regression/HOML-California-Housing-Prices/02_Califronia_Housing_Data.md)</h3><br>Hier geht es um die individuelle Abarbeitung der <em>Data</em>-Checkliste im Kontext der California-Housing Problematik<hr>
 
 
 <h3>[EDA-Checklist](C:/DocTool/output/Docus/DataScience/Praxis/Regression/HOML-California-Housing-Prices/03_Califronia_Housing_EDA.md)</h3><br>Hier geht es um die individuelle Abarbeitung der <em>EDA</em>-Checkliste im Kontext der California-Housing Problematik<hr>
+
+
+<h3>[Data-Preprocessing-Checklist](C:/DocTool/output/Docus/DataScience/Praxis/Regression/HOML-California-Housing-Prices/04_Califronia_Housing_DataPreprocessing.md)</h3><br>Hier geht es um die individuelle Abarbeitung der <em>EDA</em>-Checkliste im Kontext der California-Housing Problematik<hr>
 
 
 <h3>[California-Housing-Notebook Complete Solution](C:/DocTool/output/Docus/DataScience/Praxis/Regression/HOML-California-Housing-Prices/XX_California_Housing_Regression.md)</h3><br>Hier die individuelle Beschreibung der Index-Seite aus dem Frontmatter<hr><center><hr><hr><hr> # Umliegende Sections

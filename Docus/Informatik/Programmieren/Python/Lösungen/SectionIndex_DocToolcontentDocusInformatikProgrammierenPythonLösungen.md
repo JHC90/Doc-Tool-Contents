@@ -27,5 +27,11 @@
 <h3>[40_DataTrainTestSplit.md](C:/DocTool/output/Docus/Informatik/Programmieren/Python/Lösungen/40_DataTrainTestSplit.md)</h3><br>Kein Frontmatter gepglegt und somit auch kein Titelinformation bzw Description<hr>
 
 
+<h3>[50_DataCleaningNA-Werte.md](C:/DocTool/output/Docus/Informatik/Programmieren/Python/Lösungen/50_DataCleaningNA-Werte.md)</h3><br>Kein Frontmatter gepglegt und somit auch kein Titelinformation bzw Description<hr>
+
+
+<h3>[60_OneHotEncoding.md](C:/DocTool/output/Docus/Informatik/Programmieren/Python/Lösungen/60_OneHotEncoding.md)</h3><br>Kein Frontmatter gepglegt und somit auch kein Titelinformation bzw Description<hr>
+
+
 <h3>[test.md](C:/DocTool/output/Docus/Informatik/Programmieren/Python/Lösungen/test.md)</h3><br>Kein Frontmatter gepglegt und somit auch kein Titelinformation bzw Description<hr><center><hr><hr><hr> # Umliegende Sections
  </h2><br><table><thead> <tr> <th><center>Vorgelagerte Section</center></th> <th><center>Nachgelagerte Section</center></th></tr></thead><tbody><tr><td><h3>[Vorherige Section: Python](C:/DocTool/output/Docus/Informatik/Programmieren/Python/SectionIndex_DocTooloutputDocusInformatikProgrammierenPython.html)</h3><br>Default Section Index Description<hr></td><td><h3>Nachfolgende Section:</h3><br><h2> Die Metadaten wurde nicht eingelesen<br></h2></td></tr></tbody></table>

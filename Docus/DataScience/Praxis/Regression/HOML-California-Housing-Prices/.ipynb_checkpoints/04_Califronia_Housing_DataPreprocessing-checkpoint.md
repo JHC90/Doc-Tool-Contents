@@ -173,7 +173,7 @@
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x1a598cd3100&gt;</pre>
+<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x202646d1100&gt;</pre>
 </div>
 
 </div>
@@ -547,17 +547,69 @@ dtype: object
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="4.-Feature-Scaling"><a href="07112020200718-FeatureScaling">4. Feature Scaling</a><a class="anchor-link" href="#4.-Feature-Scaling">&#182;</a></h1><p>wichtig ist, dass die Skalierungen später(nach den Predictions) wieder zurück skaliert werden</p>
+<h1 id="4.-Feature-Scaling"><a href="07112020200718-FeatureScaling">4. Feature Scaling</a><a class="anchor-link" href="#4.-Feature-Scaling">&#182;</a></h1><p>wichtig ist, dass die Skalierungen später(nach den Predictions) wieder zurück skaliert werden.</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">housingDF</span><span class="o">.</span><span class="n">dtypes</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[14]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>Unnamed: 0                    float64
+longitude                     float64
+latitude                      float64
+housing_median_age            float64
+total_rooms                   float64
+total_bedrooms                float64
+population                    float64
+households                    float64
+median_income                 float64
+income_cat                    float64
+ocean_proximity_&lt;1H OCEAN     float64
+ocean_proximity_INLAND        float64
+ocean_proximity_ISLAND        float64
+ocean_proximity_NEAR BAY      float64
+ocean_proximity_NEAR OCEAN    float64
+dtype: object</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.preprocessing</span> <span class="kn">import</span> <span class="n">MinMaxScaler</span>
+<span class="n">scaler</span> <span class="o">=</span> <span class="n">MinMaxScaler</span><span class="p">()</span>
+<span class="c1">#print(housing_tr)</span>
+<span class="n">scaler</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">housingDF</span><span class="p">)</span>
+<span class="n">housing_tr_scaled</span> <span class="o">=</span> <span class="n">scaler</span><span class="o">.</span><span class="n">transform</span><span class="p">(</span><span class="n">housingDF</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -567,13 +619,48 @@ dtype: object
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">housing_tr_scaled</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+<span class="c1">#print(houhousingDF.colsing_tr_scaled)</span>
+<span class="n">titles</span> <span class="o">=</span> <span class="n">housingDF</span><span class="o">.</span><span class="n">columns</span>
+<span class="n">finalPreporcessedDF</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">housing_tr_scaled</span><span class="p">,</span> <span class="n">columns</span><span class="o">=</span><span class="n">titles</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">finalPreporcessedDF</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">finalPreporcessedDF</span><span class="o">.</span><span class="n">head123</span><span class="p">(</span><span class="mi">1</span><span class="p">))</span>
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>(16512, 15)
+(16512, 15)
+   Unnamed: 0  longitude  latitude  housing_median_age  total_rooms  \
+0    0.853087    0.24502  0.504782             0.72549     0.039731   
+
+   total_bedrooms  population  households  median_income  income_cat  \
+0        0.056218    0.019816     0.06292       0.152019        0.25   
+
+   ocean_proximity_&lt;1H OCEAN  ocean_proximity_INLAND  ocean_proximity_ISLAND  \
+0                        1.0                     0.0                     0.0   
+
+   ocean_proximity_NEAR BAY  ocean_proximity_NEAR OCEAN  
+0                       0.0                         0.0  
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 

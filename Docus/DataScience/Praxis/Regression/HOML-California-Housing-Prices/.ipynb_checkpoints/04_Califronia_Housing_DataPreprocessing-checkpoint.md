@@ -173,7 +173,7 @@
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x202646d1100&gt;</pre>
+<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x177acf61100&gt;</pre>
 </div>
 
 </div>
@@ -665,12 +665,311 @@ dtype: object</pre>
 </div>
 
 </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="5.-SK-Learn-Pipeline"><a href="07112020200718-FeatureScaling">5. SK-Learn Pipeline</a><a class="anchor-link" href="#5.-SK-Learn-Pipeline">&#182;</a></h1><p>Die oberen Schritte waren bisher primär für die Entwicklung. Für einen vernünftigen Einsatz werden nun <a href="">SK-Learn Pipelines</a> verwendet.</p>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[39]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">housing</span> <span class="o">=</span> <span class="n">ffc</span><span class="o">.</span><span class="n">load_housing_data</span><span class="p">()</span>
+<span class="n">strat_test_set</span> <span class="o">=</span> <span class="n">ffc</span><span class="o">.</span><span class="n">load_housing_data</span><span class="p">(</span><span class="n">filename</span><span class="o">=</span><span class="s2">&quot;strat_test_set.csv&quot;</span><span class="p">)</span>
+<span class="n">strat_train_set</span> <span class="o">=</span> <span class="n">ffc</span><span class="o">.</span><span class="n">load_housing_data</span><span class="p">(</span><span class="n">filename</span><span class="o">=</span><span class="s2">&quot;strat_train_set.csv&quot;</span><span class="p">)</span>
+<span class="n">housing_num</span> <span class="o">=</span> <span class="n">housing</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="s1">&#39;ocean_proximity&#39;</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">housing_cat</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;ocean_proximity&quot;</span><span class="p">]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[40]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.preprocessing</span> <span class="kn">import</span> <span class="n">FunctionTransformer</span>
+
+<span class="k">def</span> <span class="nf">add_extra_features</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">add_bedrooms_per_room</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+    <span class="n">rooms_per_household</span> <span class="o">=</span> <span class="n">X</span><span class="p">[:,</span> <span class="n">rooms_ix</span><span class="p">]</span> <span class="o">/</span> <span class="n">X</span><span class="p">[:,</span> <span class="n">household_ix</span><span class="p">]</span>
+    <span class="n">population_per_household</span> <span class="o">=</span> <span class="n">X</span><span class="p">[:,</span> <span class="n">population_ix</span><span class="p">]</span> <span class="o">/</span> <span class="n">X</span><span class="p">[:,</span> <span class="n">household_ix</span><span class="p">]</span>
+    <span class="k">if</span> <span class="n">add_bedrooms_per_room</span><span class="p">:</span>
+        <span class="n">bedrooms_per_room</span> <span class="o">=</span> <span class="n">X</span><span class="p">[:,</span> <span class="n">bedrooms_ix</span><span class="p">]</span> <span class="o">/</span> <span class="n">X</span><span class="p">[:,</span> <span class="n">rooms_ix</span><span class="p">]</span>
+        <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">c_</span><span class="p">[</span><span class="n">X</span><span class="p">,</span> <span class="n">rooms_per_household</span><span class="p">,</span> <span class="n">population_per_household</span><span class="p">,</span>
+                     <span class="n">bedrooms_per_room</span><span class="p">]</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">c_</span><span class="p">[</span><span class="n">X</span><span class="p">,</span> <span class="n">rooms_per_household</span><span class="p">,</span> <span class="n">population_per_household</span><span class="p">]</span>
+
+<span class="n">attr_adder</span> <span class="o">=</span> <span class="n">FunctionTransformer</span><span class="p">(</span><span class="n">add_extra_features</span><span class="p">,</span> <span class="n">validate</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+                                 <span class="n">kw_args</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;add_bedrooms_per_room&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">})</span>
+<span class="n">housing_extra_attribs</span> <span class="o">=</span> <span class="n">attr_adder</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">housing</span><span class="o">.</span><span class="n">values</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[41]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">housing_extra_attribs</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span>
+    <span class="n">housing_extra_attribs</span><span class="p">,</span>
+    <span class="n">columns</span><span class="o">=</span><span class="nb">list</span><span class="p">(</span><span class="n">housing</span><span class="o">.</span><span class="n">columns</span><span class="p">)</span><span class="o">+</span><span class="p">[</span><span class="s2">&quot;rooms_per_household&quot;</span><span class="p">,</span> <span class="s2">&quot;population_per_household&quot;</span><span class="p">],</span>
+    <span class="n">index</span><span class="o">=</span><span class="n">housing</span><span class="o">.</span><span class="n">index</span><span class="p">)</span>
+<span class="n">housing_extra_attribs</span><span class="o">.</span><span class="n">head123</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[41]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody123 tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody123 tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead123 th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead123>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>longitude</th>
+      <th>latitude</th>
+      <th>housing_median_age</th>
+      <th>total_rooms</th>
+      <th>total_bedrooms</th>
+      <th>population</th>
+      <th>households</th>
+      <th>median_income</th>
+      <th>median_house_value</th>
+      <th>ocean_proximity</th>
+      <th>rooms_per_household</th>
+      <th>population_per_household</th>
+    </tr>
+  </thead123>
+  <tbody123>
+    <tr>
+      <th>0</th>
+      <td>-122.23</td>
+      <td>37.88</td>
+      <td>41</td>
+      <td>880</td>
+      <td>129</td>
+      <td>322</td>
+      <td>126</td>
+      <td>8.3252</td>
+      <td>452600</td>
+      <td>NEAR BAY</td>
+      <td>15.4951</td>
+      <td>15.1348</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>-122.22</td>
+      <td>37.86</td>
+      <td>21</td>
+      <td>7099</td>
+      <td>1106</td>
+      <td>2401</td>
+      <td>1138</td>
+      <td>8.3014</td>
+      <td>358500</td>
+      <td>NEAR BAY</td>
+      <td>133.231</td>
+      <td>137.085</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>-122.24</td>
+      <td>37.85</td>
+      <td>52</td>
+      <td>1467</td>
+      <td>190</td>
+      <td>496</td>
+      <td>177</td>
+      <td>7.2574</td>
+      <td>352100</td>
+      <td>NEAR BAY</td>
+      <td>26.1802</td>
+      <td>24.3889</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>-122.25</td>
+      <td>37.85</td>
+      <td>52</td>
+      <td>1274</td>
+      <td>235</td>
+      <td>558</td>
+      <td>219</td>
+      <td>5.6431</td>
+      <td>341300</td>
+      <td>NEAR BAY</td>
+      <td>41.6438</td>
+      <td>38.8085</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>-122.25</td>
+      <td>37.85</td>
+      <td>52</td>
+      <td>1627</td>
+      <td>280</td>
+      <td>565</td>
+      <td>259</td>
+      <td>3.8462</td>
+      <td>342200</td>
+      <td>NEAR BAY</td>
+      <td>72.7991</td>
+      <td>67.3392</td>
+    </tr>
+  </tbody123>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[42]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.pipeline</span> <span class="kn">import</span> <span class="n">Pipeline</span>
+<span class="kn">from</span> <span class="nn">sklearn.preprocessing</span> <span class="kn">import</span> <span class="n">StandardScaler</span>
+
+<span class="n">num_pipeline</span> <span class="o">=</span> <span class="n">Pipeline</span><span class="p">([</span>
+        <span class="p">(</span><span class="s1">&#39;imputer&#39;</span><span class="p">,</span> <span class="n">SimpleImputer</span><span class="p">(</span><span class="n">strategy</span><span class="o">=</span><span class="s2">&quot;median&quot;</span><span class="p">)),</span>
+        <span class="p">(</span><span class="s1">&#39;attribs_adder&#39;</span><span class="p">,</span> <span class="n">FunctionTransformer</span><span class="p">(</span><span class="n">add_extra_features</span><span class="p">,</span> <span class="n">validate</span><span class="o">=</span><span class="kc">False</span><span class="p">)),</span>
+        <span class="p">(</span><span class="s1">&#39;std_scaler&#39;</span><span class="p">,</span> <span class="n">StandardScaler</span><span class="p">()),</span>
+    <span class="p">])</span>
+
+<span class="n">housing_num_tr</span> <span class="o">=</span> <span class="n">num_pipeline</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">housing_num</span><span class="p">)</span>
+<span class="n">housing_num_tr</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[42]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>array([[-1.32783522,  1.05254828,  0.98214266, ..., -0.99781525,
+        -1.01678287, -0.0366776 ],
+       [-1.32284391,  1.04318455, -0.60701891, ..., -0.23407697,
+        -0.13791471, -0.0651508 ],
+       [-1.33282653,  1.03850269,  1.85618152, ..., -0.92850235,
+        -0.9500906 , -0.02666216],
+       ...,
+       [-0.8237132 ,  1.77823747, -0.92485123, ...,  0.75234478,
+         0.70974842, -0.0734324 ],
+       [-0.87362627,  1.77823747, -0.84539315, ...,  0.32259029,
+         0.22116619, -0.09659286],
+       [-0.83369581,  1.75014627, -1.00430931, ...,  0.57458763,
+         0.47323279, -0.05808259]])</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[43]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">try</span><span class="p">:</span>
+    <span class="kn">from</span> <span class="nn">sklearn.compose</span> <span class="kn">import</span> <span class="n">ColumnTransformer</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;SK-Learn Version passt&quot;</span><span class="p">)</span>
+<span class="k">except</span> <span class="ne">ImportError</span><span class="p">:</span>
+    <span class="kn">from</span> <span class="nn">future_encoders</span> <span class="kn">import</span> <span class="n">ColumnTransformer</span> <span class="c1"># Scikit-Learn &lt; 0.20</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Alte Version&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>SK-Learn Version passt
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[45]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">num_attribs</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">housing_num</span><span class="p">)</span>
+<span class="n">cat_attribs</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">housing_cat</span><span class="p">)</span>
+
+<span class="n">full_pipeline</span> <span class="o">=</span> <span class="n">ColumnTransformer</span><span class="p">([</span>
+        <span class="p">(</span><span class="s2">&quot;num&quot;</span><span class="p">,</span> <span class="n">num_pipeline</span><span class="p">,</span> <span class="n">num_attribs</span><span class="p">),</span>
+        <span class="p">(</span><span class="s2">&quot;cat&quot;</span><span class="p">,</span> <span class="n">OneHotEncoder</span><span class="p">(),</span> <span class="n">cat_attribs</span><span class="p">),</span>
+    <span class="p">])</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">housing</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+<span class="n">housing_prepared</span> <span class="o">=</span> <span class="n">full_pipeline</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">housing</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">housing</span><span class="o">.</span><span class="n">housing_prepared</span><span class="p">)</span>
 </pre></div>
 
     </div>

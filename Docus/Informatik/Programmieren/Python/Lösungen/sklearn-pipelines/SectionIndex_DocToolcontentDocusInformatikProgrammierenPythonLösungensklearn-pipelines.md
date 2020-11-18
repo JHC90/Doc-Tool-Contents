@@ -1,18 +1,17 @@
 '''''
 {
-"title": "VORLAGE_TITEL",
+"title": "SK-Learn Landing",
 "keywords": "SectionIndex",
 "categories": "",
 "description": "Default Section Index Description",
 "level": "00",
-"pageID": "VORLAGE_PageID"
+"pageID": "SK-Learn18112020"
 }
 '''''
 
 
 <h1>Section-Index Webpage zur Section <i>VORLAGESECTION</i></h1>
 
-<hr><hr><hr><hr><hr>
 
 
 <h3>[SK-Learn-Beispiel](C:/DocTool/output/Docus/Informatik/Programmieren/Python/Lösungen/sklearn-pipelines/10_Basic-Idea-one-Step_Data-Pipeline.md)</h3><br>Default Section Index Description<hr>

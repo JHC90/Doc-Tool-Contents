@@ -18,9 +18,6 @@
 <h3>[Big-Picutre](C:/DocTool/output/Docus/DataScience/Praxis/Regression/HOML-California-Housing-Prices/01_California_Housing_BigPicture.md)</h3><br>Hier geht es um die individuelle Abarbeitung der <em>Big-Picture</em>-Checkliste  im Kontext der California-Housing Problematik<hr>
 
 
-<h3>[1_California-Housing-Notebook](C:/DocTool/output/Docus/DataScience/Praxis/Regression/HOML-California-Housing-Prices/01_Califronia Housing.md)</h3><br>Hier geht es um die individuelle Abarbeitung der Checkliste Big-Picture im Kontext der California-Housing Problematik<hr>
-
-
 <h3>[Data-Management-Checklist](C:/DocTool/output/Docus/DataScience/Praxis/Regression/HOML-California-Housing-Prices/02_Califronia_Housing_Data.md)</h3><br>Hier geht es um die individuelle Abarbeitung der <em>Data</em>-Checkliste im Kontext der California-Housing Problematik<hr>
 
 

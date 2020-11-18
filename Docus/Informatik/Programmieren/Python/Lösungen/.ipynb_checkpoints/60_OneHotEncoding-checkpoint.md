@@ -130,7 +130,7 @@ memory usage: 1.6+ MB
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="One-Hote-Encoding">One Hote Encoding<a class="anchor-link" href="#One-Hote-Encoding">&#182;</a></h1><p>Bei OHE werden kategorische = object Variablen in numerische Werte übertragen. Dazu wird zu jeder mögichen Variable eine Liste angelegt und aus jedem möglichen Wert eine eigene Spate</p>
+<h1 id="One-Hot-Encoding">One Hot Encoding<a class="anchor-link" href="#One-Hot-Encoding">&#182;</a></h1><p>Bei OHE werden kategorische = object Variablen in numerische Werte übertragen. Dazu wird zu jeder mögichen Variable eine Liste angelegt und aus jedem möglichen Wert eine eigene Spate</p>
 
 </div>
 </div>
@@ -184,7 +184,7 @@ memory usage: 1.6+ MB
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="OrdinalEncoder-mit-SK-Learn">OrdinalEncoder mit SK-Learn<a class="anchor-link" href="#OrdinalEncoder-mit-SK-Learn">&#182;</a></h1><p>Beim Ordinal-Encoder werden lediglich die einzlenen Kategorien mit Hilfe einer Map übertragen. Vor und nach dem Ordinal-Encoding besteht lediglich 1 bezugnehmende Spalte</p>
+<h1 id="Ordinal-Encoder-mit-SK-Learn">Ordinal Encoder mit SK-Learn<a class="anchor-link" href="#Ordinal-Encoder-mit-SK-Learn">&#182;</a></h1><p>Beim Ordinal-Encoder werden lediglich die einzlenen Kategorien mit Hilfe einer Map übertragen. Vor und nach dem Ordinal-Encoding besteht lediglich 1 bezugnehmende Spalte</p>
 
 </div>
 </div>
@@ -306,14 +306,14 @@ memory usage: 1.6+ MB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.preprocessing</span> <span class="kn">import</span> <span class="n">LabelEncoder</span>
 <span class="n">encoder</span> <span class="o">=</span> <span class="n">LabelEncoder</span><span class="p">()</span>
-<span class="n">housing_cat</span> <span class="o">=</span> <span class="n">housing</span><span class="p">[</span><span class="s2">&quot;ocean_proximity&quot;</span><span class="p">]</span>
-<span class="n">housing_cat_encoded</span> <span class="o">=</span> <span class="n">encoder</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">housing_cat</span><span class="p">)</span>
-<span class="n">housing_cat_encoded</span>
+<span class="n">housing_cat_LE</span> <span class="o">=</span> <span class="n">housing</span><span class="p">[</span><span class="s2">&quot;ocean_proximity&quot;</span><span class="p">]</span>
+<span class="n">housing_cat_LE_encoded</span> <span class="o">=</span> <span class="n">encoder</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">housing_cat</span><span class="p">)</span>
+<span class="n">housing_cat_LE_encoded</span>
 </pre></div>
 
     </div>
@@ -326,7 +326,7 @@ memory usage: 1.6+ MB
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[15]:</div>
+    <div class="prompt output_prompt">Out[8]:</div>
 
 
 
@@ -343,7 +343,7 @@ memory usage: 1.6+ MB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">encoder</span><span class="o">.</span><span class="n">classes_</span><span class="p">)</span>
@@ -374,12 +374,13 @@ memory usage: 1.6+ MB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">transformedSingleValue</span> <span class="o">=</span> <span class="n">encoder</span><span class="o">.</span><span class="n">transform</span><span class="p">([</span><span class="s1">&#39;ISLAND&#39;</span><span class="p">])</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">transformedSingleValue</span><span class="p">)</span>
-<span class="n">retransformedSingleValue</span> <span class="o">=</span> <span class="n">encoder</span><span class="o">.</span><span class="n">transform</span><span class="p">(</span><span class="n">transformedSingleValue</span><span class="p">)</span>
+<span class="n">retransformedSingleValue</span> <span class="o">=</span> <span class="n">encoder</span><span class="o">.</span><span class="n">inverse_transform</span><span class="p">(</span><span class="n">transformedSingleValue</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">retransformedSingleValue</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -397,6 +398,7 @@ memory usage: 1.6+ MB
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>[2]
+[&#39;ISLAND&#39;]
 </pre>
 </div>
 </div>
@@ -441,7 +443,7 @@ memory usage: 1.6+ MB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">try</span><span class="p">:</span>
@@ -472,7 +474,7 @@ memory usage: 1.6+ MB
 <pre>
 <span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
 <span class="ansi-red-intense-fg ansi-bold">ValueError</span>                                Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-9-3eb0ee419ac8&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-11-3eb0ee419ac8&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
 <span class="ansi-green-fg">      6</span> <span class="ansi-red-intense-fg ansi-bold"># Vorarbeit fürs verständins</span>
 <span class="ansi-green-fg">      7</span> cat_encoder <span class="ansi-yellow-intense-fg ansi-bold">=</span> OneHotEncoder<span class="ansi-yellow-intense-fg ansi-bold">(</span>sparse<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-green-intense-fg ansi-bold">False</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
 <span class="ansi-green-intense-fg ansi-bold">----&gt; 8</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>housing_cat_1hot <span class="ansi-yellow-intense-fg ansi-bold">=</span> cat_encoder<span class="ansi-yellow-intense-fg ansi-bold">.</span>fit_transform<span class="ansi-yellow-intense-fg ansi-bold">(</span>housing_cat<span class="ansi-yellow-intense-fg ansi-bold">)</span>

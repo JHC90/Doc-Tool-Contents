@@ -16,5 +16,5 @@
 - Boxplots
 - Korrelationen
 - Histogramme
-- 
+
 

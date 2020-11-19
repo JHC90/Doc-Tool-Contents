@@ -9,11 +9,12 @@
 }
 '''''
 
-# Data-Copy - Feature Engineering
+# Feature Engineering
 - Wandel kategorische Variablen um
   - One Hot Encoding
   - Füge vielversprechende Funktionen hinzu(log, sqrt, ^2)
   - Aggregiere Feature
+  - 
 
 
 

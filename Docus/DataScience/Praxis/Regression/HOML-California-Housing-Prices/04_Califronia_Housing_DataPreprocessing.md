@@ -173,7 +173,7 @@
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x25d33e11100&gt;</pre>
+<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x226aaee5070&gt;</pre>
 </div>
 
 </div>
@@ -465,22 +465,17 @@ dtype: object
 </div>
 
 </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Feature-Engineering">Feature Engineering<a class="anchor-link" href="#Feature-Engineering">&#182;</a></h1><p>Im folgenden werdeneigene Featrue erstellt</p>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[11]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Feature Creation</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.base</span> <span class="kn">import</span> <span class="n">BaseEstimator</span><span class="p">,</span> <span class="n">TransformerMixin</span>
@@ -515,10 +510,191 @@ dtype: object
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.preprocessing</span> <span class="kn">import</span> <span class="n">FunctionTransformer</span>
+<span class="c1"># Dieser Junkt macht das gleiche wie der vorherige, lediglich als  Funktion verpackt</span>
+<span class="k">def</span> <span class="nf">add_extra_features</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">add_bedrooms_per_room</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+    <span class="n">rooms_per_household</span> <span class="o">=</span> <span class="n">X</span><span class="p">[:,</span> <span class="n">rooms_ix</span><span class="p">]</span> <span class="o">/</span> <span class="n">X</span><span class="p">[:,</span> <span class="n">household_ix</span><span class="p">]</span>
+    <span class="n">population_per_household</span> <span class="o">=</span> <span class="n">X</span><span class="p">[:,</span> <span class="n">population_ix</span><span class="p">]</span> <span class="o">/</span> <span class="n">X</span><span class="p">[:,</span> <span class="n">household_ix</span><span class="p">]</span>
+    <span class="k">if</span> <span class="n">add_bedrooms_per_room</span><span class="p">:</span>
+        <span class="n">bedrooms_per_room</span> <span class="o">=</span> <span class="n">X</span><span class="p">[:,</span> <span class="n">bedrooms_ix</span><span class="p">]</span> <span class="o">/</span> <span class="n">X</span><span class="p">[:,</span> <span class="n">rooms_ix</span><span class="p">]</span>
+        <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">c_</span><span class="p">[</span><span class="n">X</span><span class="p">,</span> <span class="n">rooms_per_household</span><span class="p">,</span> <span class="n">population_per_household</span><span class="p">,</span>
+                     <span class="n">bedrooms_per_room</span><span class="p">]</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">c_</span><span class="p">[</span><span class="n">X</span><span class="p">,</span> <span class="n">rooms_per_household</span><span class="p">,</span> <span class="n">population_per_household</span><span class="p">]</span>
+
+<span class="n">attr_adder</span> <span class="o">=</span> <span class="n">FunctionTransformer</span><span class="p">(</span><span class="n">add_extra_features</span><span class="p">,</span> <span class="n">validate</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+                                 <span class="n">kw_args</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;add_bedrooms_per_room&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">})</span>
+<span class="n">housing_extra_attribs</span> <span class="o">=</span> <span class="n">attr_adder</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">housing</span><span class="o">.</span><span class="n">values</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
 <div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">housing_extra_attribs</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span>
+    <span class="n">housing_extra_attribs</span><span class="p">,</span>
+    <span class="n">columns</span><span class="o">=</span><span class="nb">list</span><span class="p">(</span><span class="n">housing</span><span class="o">.</span><span class="n">columns</span><span class="p">)</span><span class="o">+</span><span class="p">[</span><span class="s2">&quot;rooms_per_household&quot;</span><span class="p">,</span> <span class="s2">&quot;population_per_household&quot;</span><span class="p">],</span>
+    <span class="n">index</span><span class="o">=</span><span class="n">housing</span><span class="o">.</span><span class="n">index</span><span class="p">)</span>
+<span class="n">housing_extra_attribs</span><span class="o">.</span><span class="n">head123</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[13]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody123 tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody123 tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead123 th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead123>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Unnamed: 0</th>
+      <th>longitude</th>
+      <th>latitude</th>
+      <th>housing_median_age</th>
+      <th>total_rooms</th>
+      <th>total_bedrooms</th>
+      <th>population</th>
+      <th>households</th>
+      <th>median_income</th>
+      <th>ocean_proximity</th>
+      <th>income_cat</th>
+      <th>rooms_per_household</th>
+      <th>population_per_household</th>
+    </tr>
+  </thead123>
+  <tbody123>
+    <tr>
+      <th>0</th>
+      <td>17606</td>
+      <td>-121.89</td>
+      <td>37.29</td>
+      <td>38</td>
+      <td>1568</td>
+      <td>351</td>
+      <td>710</td>
+      <td>339</td>
+      <td>2.7042</td>
+      <td>&lt;1H OCEAN</td>
+      <td>2</td>
+      <td>4.62537</td>
+      <td>2.0944</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>18632</td>
+      <td>-121.93</td>
+      <td>37.05</td>
+      <td>14</td>
+      <td>679</td>
+      <td>108</td>
+      <td>306</td>
+      <td>113</td>
+      <td>6.4214</td>
+      <td>&lt;1H OCEAN</td>
+      <td>5</td>
+      <td>6.00885</td>
+      <td>2.70796</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>14650</td>
+      <td>-117.2</td>
+      <td>32.77</td>
+      <td>31</td>
+      <td>1952</td>
+      <td>471</td>
+      <td>936</td>
+      <td>462</td>
+      <td>2.8621</td>
+      <td>NEAR OCEAN</td>
+      <td>2</td>
+      <td>4.22511</td>
+      <td>2.02597</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>3230</td>
+      <td>-119.61</td>
+      <td>36.31</td>
+      <td>25</td>
+      <td>1847</td>
+      <td>371</td>
+      <td>1460</td>
+      <td>353</td>
+      <td>1.8839</td>
+      <td>INLAND</td>
+      <td>2</td>
+      <td>5.23229</td>
+      <td>4.13598</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>3555</td>
+      <td>-118.59</td>
+      <td>34.23</td>
+      <td>17</td>
+      <td>6592</td>
+      <td>1525</td>
+      <td>4459</td>
+      <td>1463</td>
+      <td>3.0347</td>
+      <td>&lt;1H OCEAN</td>
+      <td>3</td>
+      <td>4.50581</td>
+      <td>3.04785</td>
+    </tr>
+  </tbody123>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="inner_cell">
+    <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">housing_extra_attribs</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">housing_extra_attribs</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">housing_extra_attribs</span><span class="o">.</span><span class="n">head123</span><span class="p">(</span><span class="mi">1</span><span class="p">))</span>
 </pre></div>
 
     </div>
@@ -536,8 +712,141 @@ dtype: object
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>(16512, 13)
+&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+  Unnamed: 0 longitude latitude housing_median_age total_rooms total_bedrooms  \
+0      17606   -121.89    37.29                 38        1568            351   
+
+  population households median_income ocean_proximity income_cat  \
+0        710        339        2.7042       &lt;1H OCEAN          2   
+
+  rooms_per_household population_per_household  
+0             4.62537                   2.0944  
 </pre>
 </div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#housing_extra_attribs.info()</span>
+<span class="c1">#housing.info()</span>
+<span class="n">housing_extra_attribs</span><span class="p">[[</span><span class="s1">&#39;longitude&#39;</span><span class="p">]]</span><span class="o">=</span><span class="n">housing_extra_attribs</span><span class="p">[[</span><span class="s1">&#39;longitude&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="s1">&#39;float64&#39;</span><span class="p">)</span> <span class="c1">#</span>
+<span class="n">housing_extra_attribs</span><span class="p">[[</span><span class="s1">&#39;latitude&#39;</span><span class="p">]]</span><span class="o">=</span><span class="n">housing_extra_attribs</span><span class="p">[[</span><span class="s1">&#39;latitude&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="s1">&#39;float64&#39;</span><span class="p">)</span>
+<span class="n">housing_extra_attribs</span><span class="p">[[</span><span class="s1">&#39;housing_median_age&#39;</span><span class="p">]]</span><span class="o">=</span><span class="n">housing_extra_attribs</span><span class="p">[[</span><span class="s1">&#39;housing_median_age&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="s1">&#39;float64&#39;</span><span class="p">)</span>
+<span class="n">housing_extra_attribs</span><span class="p">[[</span><span class="s1">&#39;total_rooms&#39;</span><span class="p">]]</span><span class="o">=</span><span class="n">housing_extra_attribs</span><span class="p">[[</span><span class="s1">&#39;total_rooms&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="s1">&#39;float64&#39;</span><span class="p">)</span>
+<span class="n">housing_extra_attribs</span><span class="p">[[</span><span class="s1">&#39;population&#39;</span><span class="p">]]</span><span class="o">=</span><span class="n">housing_extra_attribs</span><span class="p">[[</span><span class="s1">&#39;population&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="s1">&#39;float64&#39;</span><span class="p">)</span>
+<span class="n">housing_extra_attribs</span><span class="p">[[</span><span class="s1">&#39;households&#39;</span><span class="p">]]</span><span class="o">=</span><span class="n">housing_extra_attribs</span><span class="p">[[</span><span class="s1">&#39;households&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="s1">&#39;float64&#39;</span><span class="p">)</span>
+<span class="n">housing_extra_attribs</span><span class="p">[[</span><span class="s1">&#39;median_income&#39;</span><span class="p">]]</span><span class="o">=</span><span class="n">housing_extra_attribs</span><span class="p">[[</span><span class="s1">&#39;median_income&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="s1">&#39;float64&#39;</span><span class="p">)</span>
+<span class="n">housing_extra_attribs</span><span class="p">[[</span><span class="s1">&#39;rooms_per_household&#39;</span><span class="p">]]</span><span class="o">=</span><span class="n">housing_extra_attribs</span><span class="p">[[</span><span class="s1">&#39;rooms_per_household&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="s1">&#39;float64&#39;</span><span class="p">)</span>
+<span class="n">housing_extra_attribs</span><span class="p">[[</span><span class="s1">&#39;population_per_household&#39;</span><span class="p">]]</span><span class="o">=</span><span class="n">housing_extra_attribs</span><span class="p">[[</span><span class="s1">&#39;population_per_household&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="s1">&#39;float64&#39;</span><span class="p">)</span>
+<span class="n">housing_extra_attribs</span><span class="p">[[</span><span class="s1">&#39;total_bedrooms&#39;</span><span class="p">]]</span><span class="o">=</span><span class="n">housing_extra_attribs</span><span class="p">[[</span><span class="s1">&#39;total_bedrooms&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="s1">&#39;float64&#39;</span><span class="p">)</span>
+<span class="n">housing_extra_attribs</span><span class="p">[[</span><span class="s1">&#39;income_cat&#39;</span><span class="p">]]</span><span class="o">=</span><span class="n">housing_extra_attribs</span><span class="p">[[</span><span class="s1">&#39;income_cat&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="s1">&#39;float64&#39;</span><span class="p">)</span>
+<span class="n">housing_extra_attribs</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 16512 entries, 0 to 16511
+Data columns (total 13 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Unnamed: 0                16512 non-null  object 
+ 1   longitude                 16512 non-null  float64
+ 2   latitude                  16512 non-null  float64
+ 3   housing_median_age        16512 non-null  float64
+ 4   total_rooms               16512 non-null  float64
+ 5   total_bedrooms            16354 non-null  float64
+ 6   population                16512 non-null  float64
+ 7   households                16512 non-null  float64
+ 8   median_income             16512 non-null  float64
+ 9   ocean_proximity           16512 non-null  object 
+ 10  income_cat                16512 non-null  float64
+ 11  rooms_per_household       16512 non-null  float64
+ 12  population_per_household  16512 non-null  float64
+dtypes: float64(11), object(2)
+memory usage: 1.6+ MB
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">housing_extra_attribs</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+<span class="n">corrTestMatrix</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">housing_extra_attribs</span><span class="p">,</span><span class="n">housing_labels</span><span class="p">],</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">corrTestMatrix</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+<span class="n">corr_matrix</span> <span class="o">=</span> <span class="n">corrTestMatrix</span><span class="o">.</span><span class="n">corr</span><span class="p">()</span>
+<span class="n">corr_matrix</span><span class="p">[</span><span class="s2">&quot;median_house_value&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>(16512, 13)
+(16512, 14)
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[16]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>median_house_value          1.000000
+median_income               0.687160
+income_cat                  0.642274
+rooms_per_household         0.146285
+total_rooms                 0.135097
+housing_median_age          0.114110
+households                  0.064506
+total_bedrooms              0.047689
+population_per_household   -0.021985
+population                 -0.026920
+longitude                  -0.047432
+latitude                   -0.142724
+Name: median_house_value, dtype: float64</pre>
+</div>
+
 </div>
 
 </div>
@@ -554,7 +863,7 @@ dtype: object
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">housingDF</span><span class="o">.</span><span class="n">dtypes</span>
@@ -570,7 +879,7 @@ dtype: object
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[14]:</div>
+    <div class="prompt output_prompt">Out[17]:</div>
 
 
 
@@ -602,7 +911,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.preprocessing</span> <span class="kn">import</span> <span class="n">MinMaxScaler</span>
@@ -619,7 +928,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">housing_tr_scaled</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
@@ -668,19 +977,97 @@ dtype: object</pre>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="5.-SK-Learn-Pipeline"><a href="07112020200718-FeatureScaling">5. SK-Learn Pipeline</a><a class="anchor-link" href="#5.-SK-Learn-Pipeline">&#182;</a></h1><p>Die oberen Schritte waren bisher primär für die Entwicklung. Für einen vernünftigen Einsatz werden nun <a href="">SK-Learn Pipelines</a> verwendet.</p>
+<h1 id="5.-SK-Learn-Pipeline"><a href="07112020200718-FeatureScaling">5. SK-Learn Pipeline</a><a class="anchor-link" href="#5.-SK-Learn-Pipeline">&#182;</a></h1><p>Die oberen Schritte waren bisher primär für die Entwicklung. Für einen vernünftigen Einsatz werden nun <a href="">SK-Learn Pipelines</a> verwendet. Dazu werden die oberen Aufgaben nun nochmals auf dem bisher unbehandelten housing_num wiederholt. Sprich der obere Part dient dem Verständnis, wohingehend der folgende Part eher der Proudktivität dient</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[35]:</div>
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">housing</span> <span class="o">=</span> <span class="n">ffc</span><span class="o">.</span><span class="n">load_housing_data</span><span class="p">()</span>
-<span class="n">strat_test_set</span> <span class="o">=</span> <span class="n">ffc</span><span class="o">.</span><span class="n">load_housing_data</span><span class="p">(</span><span class="n">filename</span><span class="o">=</span><span class="s2">&quot;strat_test_set.csv&quot;</span><span class="p">)</span>
-<span class="n">strat_train_set</span> <span class="o">=</span> <span class="n">ffc</span><span class="o">.</span><span class="n">load_housing_data</span><span class="p">(</span><span class="n">filename</span><span class="o">=</span><span class="s2">&quot;strat_train_set.csv&quot;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Es sollen sowohl die Train als auch die Testdaten durch die Pipeline laufen</span>
+<span class="n">housing_train</span> <span class="o">=</span> <span class="n">strat_train_set</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="s2">&quot;median_house_value&quot;</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span> <span class="c1"># drop labels for training set</span>
+<span class="n">housing_train_labels</span> <span class="o">=</span> <span class="n">strat_train_set</span><span class="p">[</span><span class="s2">&quot;median_house_value&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+<span class="n">housing_train_index</span> <span class="o">=</span> <span class="n">strat_train_set</span><span class="p">[</span><span class="s2">&quot;Unnamed: 0&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+
+<span class="n">housing_train_num</span> <span class="o">=</span> <span class="n">housing_train</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="s1">&#39;ocean_proximity&#39;</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">housing_train_num</span> <span class="o">=</span> <span class="n">housing_train_num</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="s1">&#39;Unnamed: 0&#39;</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">housing_train_num</span> <span class="o">=</span> <span class="n">housing_train_num</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="s1">&#39;income_cat&#39;</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="c1">####################</span>
+
+<span class="n">housing_test</span> <span class="o">=</span> <span class="n">strat_test_set</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="s2">&quot;median_house_value&quot;</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span> <span class="c1"># drop labels for training set</span>
+<span class="n">housing_test_labels</span> <span class="o">=</span> <span class="n">strat_test_set</span><span class="p">[</span><span class="s2">&quot;median_house_value&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+<span class="n">housing_test_index</span> <span class="o">=</span> <span class="n">strat_test_set</span><span class="p">[</span><span class="s2">&quot;Unnamed: 0&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+
+<span class="n">housing_test_num</span> <span class="o">=</span> <span class="n">housing_test</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="s1">&#39;ocean_proximity&#39;</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">housing_test_num</span> <span class="o">=</span> <span class="n">housing_test_num</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="s1">&#39;Unnamed: 0&#39;</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">housing_test_num</span> <span class="o">=</span> <span class="n">housing_test_num</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="s1">&#39;income_cat&#39;</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="c1">####################</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">housing</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">housing_num</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">housing_labels</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;####################&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">housing_train</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">housing_train_num</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">housing_train_labels</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;####################&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">housing_test</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">housing_test_num</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">housing_test_labels</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>(16512, 11)
+(16512, 10)
+(16512,)
+####################
+(16512, 11)
+(16512, 8)
+(16512,)
+####################
+(4128, 11)
+(4128, 8)
+(4128,)
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.pipeline</span> <span class="kn">import</span> <span class="n">Pipeline</span>
+<span class="kn">from</span> <span class="nn">sklearn.preprocessing</span> <span class="kn">import</span> <span class="n">StandardScaler</span>
+
+<span class="n">num_pipeline</span> <span class="o">=</span> <span class="n">Pipeline</span><span class="p">([</span>
+        <span class="p">(</span><span class="s1">&#39;imputer&#39;</span><span class="p">,</span> <span class="n">SimpleImputer</span><span class="p">(</span><span class="n">strategy</span><span class="o">=</span><span class="s2">&quot;median&quot;</span><span class="p">)),</span>
+        <span class="p">(</span><span class="s1">&#39;attribs_adder&#39;</span><span class="p">,</span> <span class="n">FunctionTransformer</span><span class="p">(</span><span class="n">add_extra_features</span><span class="p">,</span> <span class="n">validate</span><span class="o">=</span><span class="kc">False</span><span class="p">)),</span>
+        <span class="p">(</span><span class="s1">&#39;std_scaler&#39;</span><span class="p">,</span> <span class="n">StandardScaler</span><span class="p">()),</span>
+    <span class="p">])</span>
+
+<span class="c1"># Verifikation dass dieser Teil der Pipeline steht</span>
+<span class="n">housing_num_tr</span> <span class="o">=</span> <span class="n">num_pipeline</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">housing_num</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -690,10 +1077,141 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">try</span><span class="p">:</span>
+    <span class="kn">from</span> <span class="nn">sklearn.compose</span> <span class="kn">import</span> <span class="n">ColumnTransformer</span>
+<span class="k">except</span> <span class="ne">ImportError</span><span class="p">:</span>
+    <span class="kn">from</span> <span class="nn">future_encoders</span> <span class="kn">import</span> <span class="n">ColumnTransformer</span> <span class="c1"># Scikit-Learn &lt; 0.20</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[23]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">num_attribs</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">housing_num</span><span class="p">)</span>
+<span class="n">cat_attribs</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;ocean_proximity&quot;</span><span class="p">]</span>
+
+<span class="n">full_pipeline</span> <span class="o">=</span> <span class="n">ColumnTransformer</span><span class="p">([</span>
+        <span class="p">(</span><span class="s2">&quot;num&quot;</span><span class="p">,</span> <span class="n">num_pipeline</span><span class="p">,</span> <span class="n">num_attribs</span><span class="p">),</span>
+        <span class="p">(</span><span class="s2">&quot;cat&quot;</span><span class="p">,</span> <span class="n">OneHotEncoder</span><span class="p">(),</span> <span class="n">cat_attribs</span><span class="p">),</span>
+    <span class="p">])</span>
+
+<span class="c1"># Lediglich die Verifikation, dass dieser teil der Pipeline steht</span>
+<span class="n">housing_prepared</span> <span class="o">=</span> <span class="n">full_pipeline</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">housing</span><span class="p">)</span>
+<span class="n">housing_train_prepared</span> <span class="o">=</span> <span class="n">full_pipeline</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">housing_train</span><span class="p">)</span>
+<span class="n">housing_test_prepared</span> <span class="o">=</span> <span class="n">full_pipeline</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">housing_test</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[24]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">housing_prepared</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">housing_train_prepared</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">housing_test_prepared</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>(16512, 18)
+(16512, 18)
+(4128, 18)
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[29]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Erstelle aus housing prepared ein Pandas df mit den entsprechenden Spaltennamen</span>
+<span class="n">housingTitles</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">housing</span><span class="o">.</span><span class="n">columns</span><span class="p">)</span>
+<span class="n">catEncoderTitles</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">cat_encoder</span><span class="o">.</span><span class="n">get_feature_names</span><span class="p">([</span><span class="s1">&#39;ocean_proximity&#39;</span><span class="p">]))</span>
+<span class="n">titlesDFinterim</span> <span class="o">=</span> <span class="n">housingTitles</span> <span class="o">+</span> <span class="p">[</span><span class="s2">&quot;rooms_per_household&quot;</span><span class="p">,</span> <span class="s2">&quot;population_per_household&quot;</span><span class="p">]</span> <span class="o">+</span> <span class="n">catEncoderTitles</span>
+<span class="n">titlesDFinterim</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;IndexScaled&quot;</span>
+<span class="nb">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">titlesDFinterim</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">titlesDFinterim</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>18
+[&#39;IndexScaled&#39;, &#39;longitude&#39;, &#39;latitude&#39;, &#39;housing_median_age&#39;, &#39;total_rooms&#39;, &#39;total_bedrooms&#39;, &#39;population&#39;, &#39;households&#39;, &#39;median_income&#39;, &#39;ocean_proximity&#39;, &#39;income_cat&#39;, &#39;rooms_per_household&#39;, &#39;population_per_household&#39;, &#39;ocean_proximity_&lt;1H OCEAN&#39;, &#39;ocean_proximity_INLAND&#39;, &#39;ocean_proximity_ISLAND&#39;, &#39;ocean_proximity_NEAR BAY&#39;, &#39;ocean_proximity_NEAR OCEAN&#39;]
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[34]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">createAndSaveDataFrame</span><span class="p">(</span><span class="n">numpyArray</span><span class="p">,</span> <span class="n">titles</span><span class="p">,</span> <span class="n">indexSeries</span><span class="p">,</span> <span class="n">filenameFeatureData</span><span class="p">,</span> <span class="n">labels</span><span class="p">,</span> <span class="n">filenameLabelData</span><span class="p">):</span>
+    <span class="n">titles</span> <span class="o">=</span> <span class="n">titles</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+    <span class="n">preparedDF</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">numpyArray</span><span class="p">,</span> <span class="n">columns</span><span class="o">=</span><span class="n">titles</span><span class="p">)</span>
+    <span class="n">preparedDF</span> <span class="o">=</span> <span class="n">preparedDF</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="s2">&quot;IndexScaled&quot;</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span> <span class="c1"># drop labels for training set</span>
+    <span class="n">preparedDF</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">indexSeries</span><span class="p">,</span><span class="n">preparedDF</span><span class="p">],</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+    <span class="n">titles</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;index&quot;</span>
+    <span class="n">preparedDF</span><span class="o">.</span><span class="n">columns</span> <span class="o">=</span> <span class="n">titles</span>
+    <span class="n">preparedDF</span> <span class="o">=</span> <span class="n">preparedDF</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s1">&#39;index&#39;</span><span class="p">)</span>
+    <span class="n">preparedDF</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s1">&#39;./datasets/housing/&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">filenameFeatureData</span><span class="p">),</span><span class="n">index</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    
+    <span class="n">labels</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">indexSeries</span><span class="p">,</span><span class="n">labels</span><span class="p">],</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+    <span class="n">labelTiltle</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;index&quot;</span><span class="p">,</span> <span class="s2">&quot;median_house_value&quot;</span><span class="p">]</span>
+    <span class="n">labels</span><span class="o">.</span><span class="n">columns</span> <span class="o">=</span> <span class="n">labelTiltle</span>
+    <span class="n">labels</span> <span class="o">=</span> <span class="n">labels</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s1">&#39;index&#39;</span><span class="p">)</span>
+    <span class="n">labels</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s1">&#39;./datasets/housing/&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">filenameLabelData</span><span class="p">),</span><span class="n">index</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="k">return</span><span class="p">(</span><span class="n">preparedDF</span><span class="p">)</span>
+   
+<span class="n">checkDFtrain</span> <span class="o">=</span> <span class="n">createAndSaveDataFrame</span><span class="p">(</span><span class="n">housing_train_prepared</span><span class="p">,</span> <span class="n">titlesDFinterim</span><span class="p">,</span> <span class="n">housing_train_index</span><span class="p">,</span> <span class="s2">&quot;train-prepared-Feature.csv&quot;</span><span class="p">,</span> <span class="n">housing_train_labels</span><span class="p">,</span> <span class="s2">&quot;train-prepared-Labels.csv&quot;</span> <span class="p">)</span>
+<span class="n">checkDFtest</span> <span class="o">=</span> <span class="n">createAndSaveDataFrame</span><span class="p">(</span><span class="n">housing_test_prepared</span><span class="p">,</span> <span class="n">titlesDFinterim</span><span class="p">,</span> <span class="n">housing_test_index</span><span class="p">,</span> <span class="s2">&quot;test-prepared-Feature.csv&quot;</span><span class="p">,</span> <span class="n">housing_test_labels</span><span class="p">,</span> <span class="s2">&quot;test-prepared-Labels.csv&quot;</span> <span class="p">)</span>
 </pre></div>
 
     </div>

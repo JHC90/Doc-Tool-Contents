@@ -28,7 +28,7 @@
 <h3>[Data-Preprocessing-Checklist](C:/DocTool/output/Docus/DataScience/Praxis/Regression/HOML-California-Housing-Prices/04_Califronia_Housing_DataPreprocessing.md)</h3><br>Hier geht es um die individuelle Abarbeitung der <em>EDA</em>-Checkliste im Kontext der California-Housing Problematik<hr>
 
 
-<h3>[Data-Preprocessing-Checklist](C:/DocTool/output/Docus/DataScience/Praxis/Regression/HOML-California-Housing-Prices/05_Califronia_Housing_Modeling.md)</h3><br>Hier geht es um die individuelle Abarbeitung der <em>EDA</em>-Checkliste im Kontext der California-Housing Problematik<hr>
+<h3>[Data-Modelling-Checklist](C:/DocTool/output/Docus/DataScience/Praxis/Regression/HOML-California-Housing-Prices/05_Califronia_Housing_Modeling.md)</h3><br>Hier geht es um die individuelle Abarbeitung der <em>EDA</em>-Checkliste im Kontext der California-Housing Problematik<hr>
 
 
 <h3>[Orginal.md](C:/DocTool/output/Docus/DataScience/Praxis/Regression/HOML-California-Housing-Prices/Orginal.md)</h3><br>Kein Frontmatter gepglegt und somit auch kein Titelinformation bzw Description<hr>

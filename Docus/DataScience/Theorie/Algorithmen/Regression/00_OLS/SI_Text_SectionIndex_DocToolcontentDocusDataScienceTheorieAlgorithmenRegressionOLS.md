@@ -1,6 +1,6 @@
 '''''
 {
-"title": "VORLAGE_TITEL",
+"title": "OLS-Section-Index",
 "keywords": "SectionIndex",
 "categories": "",
 "description": "Default Section Index Description",

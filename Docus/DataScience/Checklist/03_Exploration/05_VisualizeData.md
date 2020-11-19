@@ -18,5 +18,7 @@
 - Boxplots
 - Korrelationen
 - Histogramme
+- Stripplots
+- 
 
 

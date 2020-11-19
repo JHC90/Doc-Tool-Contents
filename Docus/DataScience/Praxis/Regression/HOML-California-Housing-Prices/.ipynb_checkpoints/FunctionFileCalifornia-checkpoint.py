@@ -46,3 +46,32 @@ warnings.filterwarnings(action="ignore", message="^internal gelsd")
 def load_housing_data(housing_path=HOUSING_PATH, filename="housing.csv"):
     csv_path = os.path.join(housing_path, filename)
     return pd.read_csv(csv_path)
+
+
+def plot_pred_act(prediction, actual):
+    
+    r_min = actual.min()
+    r_max = actual.max()
+    
+    red_color = '#d5042a'
+    orange_color = '#ED7D31'
+    blue_color = '#43bed8'
+    lightgreen_color = '#98c235'
+    darkgreen_color = '#0b8f6a'
+    darkblue_color = '#0062A7'
+    lightblue_color = '#4DBED3'    
+    
+    plt.figure(figsize=(8,8))
+    plt.scatter(
+        y=prediction,
+        x=actual,
+        alpha=0.2,
+        marker=".",
+        color=lightgreen_color
+    )
+    plt.xlim(r_min, r_max)
+    plt.ylim(r_min, r_max)
+    plt.plot([r_min, r_max], [r_min, r_max], "-", color=red_color)
+    plt.title("Prediction vs Actual")
+    plt.xlabel("actual")
+    plt.ylabel("predicted")

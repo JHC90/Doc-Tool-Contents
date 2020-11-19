@@ -173,7 +173,7 @@
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x226aaee5070&gt;</pre>
+<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x2112cc53160&gt;</pre>
 </div>
 
 </div>
@@ -1152,7 +1152,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[29]:</div>
+<div class="prompt input_prompt">In&nbsp;[25]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Erstelle aus housing prepared ein Pandas df mit den entsprechenden Spaltennamen</span>
@@ -1190,7 +1190,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[33]:</div>
+<div class="prompt input_prompt">In&nbsp;[26]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">createAndSaveDataFrame</span><span class="p">(</span><span class="n">numpyArray</span><span class="p">,</span> <span class="n">titles</span><span class="p">,</span> <span class="n">indexSeries</span><span class="p">,</span> <span class="n">filenameFeatureData</span><span class="p">,</span> <span class="n">labels</span><span class="p">,</span> <span class="n">filenameLabelData</span><span class="p">):</span>
@@ -1227,52 +1227,47 @@ dtype: object</pre>
     <div class="prompt"></div>
 
 
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>   index  median_house_value
-0  17606            286600.0
-1  18632            340600.0
-2  14650            196900.0
-3   3230             46300.0
-4   3555            254500.0
-   index  median_house_value
-0   5241            500001.0
-1  10970            240300.0
-2  20351            218200.0
-3   6568            182100.0
-4  13285            121300.0
-</pre>
+<div class="output_subarea output_text output_error">
+<pre>
+<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
+<span class="ansi-red-intense-fg ansi-bold">PermissionError</span>                           Traceback (most recent call last)
+<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-26-d2a4070453ae&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-fg">     17</span> 
+<span class="ansi-green-fg">     18</span> checkDFtrain <span class="ansi-yellow-intense-fg ansi-bold">=</span> createAndSaveDataFrame<span class="ansi-yellow-intense-fg ansi-bold">(</span>housing_train_prepared<span class="ansi-yellow-intense-fg ansi-bold">,</span> titlesDFinterim<span class="ansi-yellow-intense-fg ansi-bold">,</span> housing_train_index<span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-blue-intense-fg ansi-bold">&#34;train-prepared-Feature.csv&#34;</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> housing_train_labels<span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-blue-intense-fg ansi-bold">&#34;train-prepared-Labels.csv&#34;</span> <span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-intense-fg ansi-bold">---&gt; 19</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>checkDFtest <span class="ansi-yellow-intense-fg ansi-bold">=</span> createAndSaveDataFrame<span class="ansi-yellow-intense-fg ansi-bold">(</span>housing_test_prepared<span class="ansi-yellow-intense-fg ansi-bold">,</span> titlesDFinterim<span class="ansi-yellow-intense-fg ansi-bold">,</span> housing_test_index<span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-blue-intense-fg ansi-bold">&#34;test-prepared-Feature.csv&#34;</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> housing_test_labels<span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-blue-intense-fg ansi-bold">&#34;test-prepared-Labels.csv&#34;</span> <span class="ansi-yellow-intense-fg ansi-bold">)</span>
+
+<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-26-d2a4070453ae&gt;</span> in <span class="ansi-cyan-fg">createAndSaveDataFrame</span><span class="ansi-blue-intense-fg ansi-bold">(numpyArray, titles, indexSeries, filenameFeatureData, labels, filenameLabelData)</span>
+<span class="ansi-green-fg">      7</span>     preparedDF<span class="ansi-yellow-intense-fg ansi-bold">.</span>columns <span class="ansi-yellow-intense-fg ansi-bold">=</span> titles
+<span class="ansi-green-fg">      8</span>     preparedDF <span class="ansi-yellow-intense-fg ansi-bold">=</span> preparedDF<span class="ansi-yellow-intense-fg ansi-bold">.</span>set_index<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-blue-intense-fg ansi-bold">&#39;index&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-intense-fg ansi-bold">----&gt; 9</span><span class="ansi-yellow-intense-fg ansi-bold">     </span>preparedDF<span class="ansi-yellow-intense-fg ansi-bold">.</span>to_csv<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-blue-intense-fg ansi-bold">&#39;./datasets/housing/&#39;</span> <span class="ansi-yellow-intense-fg ansi-bold">+</span> str<span class="ansi-yellow-intense-fg ansi-bold">(</span>filenameFeatureData<span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">,</span>index<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-green-intense-fg ansi-bold">True</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-fg">     10</span> 
+<span class="ansi-green-fg">     11</span>     labels <span class="ansi-yellow-intense-fg ansi-bold">=</span> pd<span class="ansi-yellow-intense-fg ansi-bold">.</span>concat<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">[</span>indexSeries<span class="ansi-yellow-intense-fg ansi-bold">,</span>labels<span class="ansi-yellow-intense-fg ansi-bold">]</span><span class="ansi-yellow-intense-fg ansi-bold">,</span>axis<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-cyan-intense-fg ansi-bold">1</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
+
+<span class="ansi-green-intense-fg ansi-bold">~\Anaconda3\lib\site-packages\pandas\core\generic.py</span> in <span class="ansi-cyan-fg">to_csv</span><span class="ansi-blue-intense-fg ansi-bold">(self, path_or_buf, sep, na_rep, float_format, columns, head123er123, index, index_label, mode, encoding, compression, quoting, quotechar, line_terminator, chunksize, date_format, doublequote, escapechar, decimal)</span>
+<span class="ansi-green-fg">   3202</span>             decimal<span class="ansi-yellow-intense-fg ansi-bold">=</span>decimal<span class="ansi-yellow-intense-fg ansi-bold">,</span>
+<span class="ansi-green-fg">   3203</span>         )
+<span class="ansi-green-intense-fg ansi-bold">-&gt; 3204</span><span class="ansi-yellow-intense-fg ansi-bold">         </span>formatter<span class="ansi-yellow-intense-fg ansi-bold">.</span>save<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-fg">   3205</span> 
+<span class="ansi-green-fg">   3206</span>         <span class="ansi-green-intense-fg ansi-bold">if</span> path_or_buf <span class="ansi-green-intense-fg ansi-bold">is</span> <span class="ansi-green-intense-fg ansi-bold">None</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
+
+<span class="ansi-green-intense-fg ansi-bold">~\Anaconda3\lib\site-packages\pandas\io\formats\csvs.py</span> in <span class="ansi-cyan-fg">save</span><span class="ansi-blue-intense-fg ansi-bold">(self)</span>
+<span class="ansi-green-fg">    182</span>             close <span class="ansi-yellow-intense-fg ansi-bold">=</span> <span class="ansi-green-intense-fg ansi-bold">False</span>
+<span class="ansi-green-fg">    183</span>         <span class="ansi-green-intense-fg ansi-bold">else</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
+<span class="ansi-green-intense-fg ansi-bold">--&gt; 184</span><span class="ansi-yellow-intense-fg ansi-bold">             f, handles = get_handle(
+</span><span class="ansi-green-fg">    185</span>                 self<span class="ansi-yellow-intense-fg ansi-bold">.</span>path_or_buf<span class="ansi-yellow-intense-fg ansi-bold">,</span>
+<span class="ansi-green-fg">    186</span>                 self<span class="ansi-yellow-intense-fg ansi-bold">.</span>mode<span class="ansi-yellow-intense-fg ansi-bold">,</span>
+
+<span class="ansi-green-intense-fg ansi-bold">~\Anaconda3\lib\site-packages\pandas\io\common.py</span> in <span class="ansi-cyan-fg">get_handle</span><span class="ansi-blue-intense-fg ansi-bold">(path_or_buf, mode, encoding, compression, memory_map, is_text)</span>
+<span class="ansi-green-fg">    426</span>         <span class="ansi-green-intense-fg ansi-bold">if</span> encoding<span class="ansi-yellow-intense-fg ansi-bold">:</span>
+<span class="ansi-green-fg">    427</span>             <span class="ansi-red-intense-fg ansi-bold"># Encoding</span>
+<span class="ansi-green-intense-fg ansi-bold">--&gt; 428</span><span class="ansi-yellow-intense-fg ansi-bold">             </span>f <span class="ansi-yellow-intense-fg ansi-bold">=</span> open<span class="ansi-yellow-intense-fg ansi-bold">(</span>path_or_buf<span class="ansi-yellow-intense-fg ansi-bold">,</span> mode<span class="ansi-yellow-intense-fg ansi-bold">,</span> encoding<span class="ansi-yellow-intense-fg ansi-bold">=</span>encoding<span class="ansi-yellow-intense-fg ansi-bold">,</span> newline<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-blue-intense-fg ansi-bold">&#34;&#34;</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-fg">    429</span>         <span class="ansi-green-intense-fg ansi-bold">elif</span> is_text<span class="ansi-yellow-intense-fg ansi-bold">:</span>
+<span class="ansi-green-fg">    430</span>             <span class="ansi-red-intense-fg ansi-bold"># No explicit encoding</span>
+
+<span class="ansi-red-intense-fg ansi-bold">PermissionError</span>: [Errno 13] Permission denied: &#39;./datasets/housing/test-prepared-Feature.csv&#39;</pre>
 </div>
 </div>
 
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">checkDFtrain</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">housing_train_labels</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">checkDFtest</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">housing_test_labels</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">housing_test_labels</span><span class="p">)</span>
-</pre></div>
-
-    </div>
 </div>
 </div>
 

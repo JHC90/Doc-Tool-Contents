@@ -4071,7 +4071,7 @@ Index([&#39;longitude&#39;, &#39;latitude&#39;, &#39;housing_median_age&#39;, &#
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[89]:</div>
+<div class="prompt input_prompt">In&nbsp;[91]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">housing_prepared</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
@@ -4125,7 +4125,7 @@ Index([&#39;longitude&#39;, &#39;latitude&#39;, &#39;housing_median_age&#39;, &#
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[92]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.linear_model</span> <span class="kn">import</span> <span class="n">LinearRegression</span>
@@ -4138,10 +4138,30 @@ Index([&#39;longitude&#39;, &#39;latitude&#39;, &#39;housing_median_age&#39;, &#
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[92]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>LinearRegression()</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[93]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># let&#39;s try the full preprocessing pipeline on a few training instances</span>
@@ -4156,6 +4176,25 @@ Index([&#39;longitude&#39;, &#39;latitude&#39;, &#39;housing_median_age&#39;, &#
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Predictions: [210644.60459286 317768.80697211 210956.43331178  59218.98886849
+ 189747.55849879]
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
@@ -4167,7 +4206,7 @@ Index([&#39;longitude&#39;, &#39;latitude&#39;, &#39;housing_median_age&#39;, &#
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[94]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Labels:&quot;</span><span class="p">,</span> <span class="nb">list</span><span class="p">(</span><span class="n">some_labels</span><span class="p">))</span>
@@ -4177,10 +4216,28 @@ Index([&#39;longitude&#39;, &#39;latitude&#39;, &#39;housing_median_age&#39;, &#
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Labels: [286600.0, 340600.0, 196900.0, 46300.0, 254500.0]
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[95]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">some_data_prepared</span>
@@ -4190,10 +4247,49 @@ Index([&#39;longitude&#39;, &#39;latitude&#39;, &#39;housing_median_age&#39;, &#
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[95]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>array([[-1.15604281,  0.77194962,  0.74333089, -0.49323393, -0.44543821,
+        -0.63621141, -0.42069842, -0.61493744, -0.31205452, -0.08649871,
+         0.15531753,  1.        ,  0.        ,  0.        ,  0.        ,
+         0.        ],
+       [-1.17602483,  0.6596948 , -1.1653172 , -0.90896655, -1.0369278 ,
+        -0.99833135, -1.02222705,  1.33645936,  0.21768338, -0.03353391,
+        -0.83628902,  1.        ,  0.        ,  0.        ,  0.        ,
+         0.        ],
+       [ 1.18684903, -1.34218285,  0.18664186, -0.31365989, -0.15334458,
+        -0.43363936, -0.0933178 , -0.5320456 , -0.46531516, -0.09240499,
+         0.4222004 ,  0.        ,  0.        ,  0.        ,  0.        ,
+         1.        ],
+       [-0.01706767,  0.31357576, -0.29052016, -0.36276217, -0.39675594,
+         0.03604096, -0.38343559, -1.04556555, -0.07966124,  0.08973561,
+        -0.19645314,  0.        ,  1.        ,  0.        ,  0.        ,
+         0.        ],
+       [ 0.49247384, -0.65929936, -0.92673619,  1.85619316,  2.41221109,
+         2.72415407,  2.57097492, -0.44143679, -0.35783383, -0.00419445,
+         0.2699277 ,  1.        ,  0.        ,  0.        ,  0.        ,
+         0.        ]])</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[96]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">mean_squared_error</span>
@@ -4208,10 +4304,30 @@ Index([&#39;longitude&#39;, &#39;latitude&#39;, &#39;housing_median_age&#39;, &#
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[96]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>68628.19819848922</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[97]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">mean_absolute_error</span>
@@ -4224,10 +4340,30 @@ Index([&#39;longitude&#39;, &#39;latitude&#39;, &#39;housing_median_age&#39;, &#
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[97]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>49439.89599001897</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[98]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.tree</span> <span class="kn">import</span> <span class="n">DecisionTreeRegressor</span>
@@ -4240,10 +4376,30 @@ Index([&#39;longitude&#39;, &#39;latitude&#39;, &#39;housing_median_age&#39;, &#
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[98]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>DecisionTreeRegressor(random_state=42)</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[99]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">housing_predictions</span> <span class="o">=</span> <span class="n">tree_reg</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">housing_prepared</span><span class="p">)</span>
@@ -4253,6 +4409,26 @@ Index([&#39;longitude&#39;, &#39;latitude&#39;, &#39;housing_median_age&#39;, &#
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[99]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>0.0</pre>
+</div>
+
+</div>
+
 </div>
 </div>
 

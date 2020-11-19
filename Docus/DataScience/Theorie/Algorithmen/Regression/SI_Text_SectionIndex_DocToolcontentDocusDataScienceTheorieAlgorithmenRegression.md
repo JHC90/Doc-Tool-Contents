@@ -5,11 +5,12 @@
 "categories": "",
 "description": "Default Section Index Description",
 "level": "00",
-"pageID": "VORLAGE_PageID"
+"pageID": "19112020-RegressionsAlgorithmen"
 }
 '''''
 
 
 <h1>Section-Index Webpage zur Section <i>VORLAGESECTION</i></h1>
 
-<hr><hr><hr><hr><hr>
+![Regression-Banner](imgs/2020-11-19-09-17-01.png)
+

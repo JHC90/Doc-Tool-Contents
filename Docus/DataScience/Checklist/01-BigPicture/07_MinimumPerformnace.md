@@ -11,5 +11,7 @@
 
 <h1>Minimum Performance</h1>
 
+![BannerChecklist](./../imgs/2020-11-19-08-20-02.png)
+
 Was ist die mindest Perofrmance, die der Algorithmus erzielen soll?
 

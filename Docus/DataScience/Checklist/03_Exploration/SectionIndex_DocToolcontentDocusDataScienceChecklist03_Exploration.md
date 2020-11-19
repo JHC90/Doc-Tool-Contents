@@ -12,6 +12,8 @@
 
 <h1>Section-Index Webpage zur Section <i>VORLAGESECTION</i></h1>
 
+![BannerChecklist](./../imgs/2020-11-19-08-20-02.png)
+
 
 <h3>[Explore the Data - CreateDataCopy](C:/DocTool/output/Docus/DataScience/Checklist/03_Exploration/01_CreateCopy.md)</h3><br>Hier geht es darum zu ermitteln und niederzuschreiben welche Daten ebnötigt werden<hr>
 

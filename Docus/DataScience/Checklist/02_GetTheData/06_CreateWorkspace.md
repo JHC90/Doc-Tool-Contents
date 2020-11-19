@@ -11,6 +11,8 @@
 
 <h1>Speicherbedarf</h1>
 
+![BannerChecklist](./../imgs/2020-11-19-08-20-02.png)
+
 
 # Mögliche Tools
 - lokale ausführung am Dev-Device

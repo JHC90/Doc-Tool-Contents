@@ -11,6 +11,8 @@
 
 <h1>Perfomrance Measure-Fragesettllungen</h1>
 
+![BannerChecklist](./../imgs/2020-11-19-08-20-02.png)
+
 Die Performance Fragestellung ist Grundlegend von dem zugrundeliegenden Algorithmus abhängig.
 
 [Perofmrance-Measures](./../Theorie/005_PerformanceMeasure.md)

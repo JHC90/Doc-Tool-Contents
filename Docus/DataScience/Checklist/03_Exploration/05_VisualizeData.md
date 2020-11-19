@@ -11,6 +11,8 @@
 
 # Visualisierungen
 
+![BannerChecklist](./../imgs/2020-11-19-08-20-02.png)
+
 - Geografische Daten
   - [BSP-California Housing](16112020-10-California-Housing-EDA)<br> hier wird sequenziell die Vosualisierung entlang von Koordinaten dargestellt
 - Boxplots

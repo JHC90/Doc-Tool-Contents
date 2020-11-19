@@ -12,7 +12,7 @@
 
 <h1>Section-Index Webpage zur Section <i>VORLAGESECTION</i></h1>
 
-<hr><hr><hr><hr><hr>
+![BannerChecklist](./../imgs/2020-11-19-08-20-02.png)
 
 
 <h3>[DataPreparation - Data Cleaning](C:/DocTool/output/Docus/DataScience/Checklist/04_Preparation/01_DataCleaning.md)</h3><br>Hier geht es darum zu ermitteln und niederzuschreiben welche Daten ebnötigt werden<hr>

@@ -11,6 +11,9 @@
 
 <h1>Business Objectives</h1>
 
+![BannerChecklist](./../imgs/2020-11-19-08-20-02.png)
+
+
 in diesem Teilbereich des Projektes müssen die Businessobjectives und die  zugehörigen Prozesse verstanden werden. Das "alleinige" Erstellen des Models ist nicht notgedrungen das finale Ziel. Häufig wird das Model entsprechend implementiert. Es wird konkret geklärt wie die Company von dem Model profiitert.
 
 Außerdem wird grob skiziertz wie das Model in den gesamten Werschöpfungsprozess eingebunden wird.

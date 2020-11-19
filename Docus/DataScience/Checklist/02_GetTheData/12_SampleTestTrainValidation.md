@@ -11,5 +11,7 @@
 
 # Train Test Split
 
+![BannerChecklist](./../imgs/2020-11-19-08-20-02.png)
+
 
 [Technische Implementierung in Train-Test-Implementierung](16112020-TrainTestSplit-Implementation)

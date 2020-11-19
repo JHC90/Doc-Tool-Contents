@@ -12,6 +12,8 @@
 
 <h1>Section-Index Webpage zur Section <i>02_GetTheData</i></h1>
 
+![BannerChecklist](./../imgs/2020-11-19-08-20-02.png)
+
 <hr><hr><hr><hr><hr>
 
 
@@ -24,7 +26,7 @@
 <h3>[Get the Data - Prüfe Speicherbedarf](C:/DocTool/output/Docus/DataScience/Checklist/02_GetTheData/03_CheckSpaceForStorage.md)</h3><br>Hier geht es darum Datenquellen zu ermitteln  ermitteln und niederzuschreiben welche Daten ebnötigt werden<hr>
 
 
-<h3>[Get the Data - LegalObligations](C:/DocTool/output/Docus/DataScience/Checklist/02_GetTheData/04.Legal-Obligations.md)</h3><br>Hier geht es darum Datenquellen zu ermitteln  ermitteln und niederzuschreiben welche Daten ebnötigt werden<hr>
+<h3>[Get the Data - LegalObligations](C:/DocTool/output/Docus/DataScience/Checklist/02_GetTheData/04_Legal-Obligations.md)</h3><br>Hier geht es darum Datenquellen zu ermitteln  ermitteln und niederzuschreiben welche Daten ebnötigt werden<hr>
 
 
 <h3>[Get Access](C:/DocTool/output/Docus/DataScience/Checklist/02_GetTheData/05_GetAccessToData.md)</h3><br>Hier geht es darum Datenquellen zu ermitteln  ermitteln und niederzuschreiben welche Daten ebnötigt werden<hr>

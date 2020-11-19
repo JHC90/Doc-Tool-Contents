@@ -10,6 +10,9 @@
 '''''
 
 # Feature Selection
+
+![BannerChecklist](./../imgs/2020-11-19-08-20-02.png)
+
 Aus dem gegebenen Datensatz verwende nur jene Daten, welche für das Model hilfreich sind
 - ggf Dimensionsreduktion via PCA
 

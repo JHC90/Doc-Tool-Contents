@@ -11,6 +11,8 @@
 
 <h1>Detailed DS Framing</h1>
 
+![BannerChecklist](./../imgs/2020-11-19-08-20-02.png)
+
 Detailiertere Fragestellung zu der Zugrundeliegende Problematik
 
 - Supervised / Unsupervised Learnung

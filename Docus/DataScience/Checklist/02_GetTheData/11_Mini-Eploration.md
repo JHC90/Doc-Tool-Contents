@@ -10,4 +10,7 @@
 '''''
 
 # Mini-Exploration
+
+![BannerChecklist](./../imgs/2020-11-19-08-20-02.png)
+
 Hier geht es darum den Datensatz grunsätzlich laden zu können und dessen shape (Zeilen & Spaltenanzahl zu bestimmen. Auch sind die Datentypen hierbei nicht uninteressant. 

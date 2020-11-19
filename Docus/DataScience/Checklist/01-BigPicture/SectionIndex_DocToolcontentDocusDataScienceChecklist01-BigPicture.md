@@ -12,6 +12,8 @@
 
 <h1>Section-Index Webpage zur Section <i>01-BigPicture</i></h1>
 
+![BannerChecklist](./../imgs/2020-11-19-08-20-02.png)
+
 Hier ist die Checkliste, welche die erste Berührung mit einem DS-Projekt unterstützt. Zusammenfassend werden die organisatorischen Rahmenbedingungen festgelegt. Diese sind wichtig, da hierauf aufbauend die technische Implementierung konkretisiert werden kann.
 
 <hr><hr><hr>

@@ -11,6 +11,8 @@
 
 <h1>Long-Term Verwendung des DS-Projektes</h1>
 
+![BannerChecklist](./../imgs/2020-11-19-08-20-02.png)
+
 in diesem Teilbereich des Projektes wird geklärt wie das fertig implementierte Projekt verwendet wird. 
 
 

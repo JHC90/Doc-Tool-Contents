@@ -18,9 +18,6 @@
 <h3>[Begriffsabgrenzungen Data-Science](C:/DocTool/output/Docus/DataScience/Theorie/000_AI_ML_DL.md)</h3><br>AIDef<hr>
 
 
-<h3>[Algorithmen](C:/DocTool/output/Docus/DataScience/Theorie/001_Algorithmen.md)</h3><br>Hier die Definition und die Aufteilung zu Algorithmen<hr>
-
-
 <h3>[Data](C:/DocTool/output/Docus/DataScience/Theorie/001_Data.md)</h3><br>Hier die Definition und die Aufteilung zu Data<hr>
 
 
@@ -37,4 +34,4 @@
 
 
 <h3>[Supervised vs Unsupervised Data](C:/DocTool/output/Docus/DataScience/Theorie/006_SupervisedUnsupervised.md)</h3><br>Hier die Definition und die Aufteilung zu Parametern<hr><center><hr><hr><hr> # Umliegende Sections
- </h2><br><table><thead> <tr> <th><center>Vorgelagerte Section</center></th> <th><center>Nachgelagerte Section</center></th></tr></thead><tbody><tr><td><h3>[Vorherige Section: DataScience](C:/DocTool/output/Docus/DataScience/SectionIndex_DocTooloutputDocusDataScience.html)</h3><br>Default Section Index Description<hr></td><td><h3>[Nachfolgende Section:</h3><h2><br> AnwendungenVonMachineLearning</h2>](C:/DocTool/output/Docus/DataScience/Theorie/AnwendungenVonMachineLearning/SectionIndex_DocTooloutputDocusDataScienceTheorieAnwendungenVonMachineLearning.html)<br>Default Section Index Description<hr></td></tr></tbody></table>
+ </h2><br><table><thead> <tr> <th><center>Vorgelagerte Section</center></th> <th><center>Nachgelagerte Section</center></th></tr></thead><tbody><tr><td><h3>[Vorherige Section: DataScience](C:/DocTool/output/Docus/DataScience/SectionIndex_DocTooloutputDocusDataScience.html)</h3><br>Default Section Index Description<hr></td><td><h3>Nachfolgende Section:</h3><br><h2> Die Metadaten wurde nicht eingelesen<br></h2><h3>[Nachfolgende Section:</h3><h2><br> AnwendungenVonMachineLearning</h2>](C:/DocTool/output/Docus/DataScience/Theorie/AnwendungenVonMachineLearning/SectionIndex_DocTooloutputDocusDataScienceTheorieAnwendungenVonMachineLearning.html)<br>Default Section Index Description<hr></td></tr></tbody></table>

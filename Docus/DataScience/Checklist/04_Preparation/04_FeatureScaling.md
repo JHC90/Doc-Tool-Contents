@@ -10,6 +10,9 @@
 '''''
 
 # Feature Scaling
+
+![BannerChecklist](./../imgs/2020-11-19-08-20-02.png)
+
 - normalisiere
 - Standartisiere
 

@@ -11,6 +11,8 @@
 
 <h1>Technologie Auswahl</h1>
 
+![BannerChecklist](./../imgs/2020-11-19-08-20-02.png)
+
 Hierbei wird geklärt weclhe basierende Technologie für das Projekt verwendet wird. Dazu gibt es DS-spezifisch die Möglichkeit von der Programmiersprache:
 - [Python](15112020-SectionIndexPython)
     - [Auswahl der Python-IDE](15112020-Section-IndexPythonIDE)

@@ -10,6 +10,9 @@
 '''''
 
 # Feature Engineering
+
+![BannerChecklist](./../imgs/2020-11-19-08-20-02.png)
+
 - Wandel kategorische Variablen um
   - One Hot Encoding
   - Füge vielversprechende Funktionen hinzu(log, sqrt, ^2)

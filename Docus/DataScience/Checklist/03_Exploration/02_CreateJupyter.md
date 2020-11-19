@@ -10,6 +10,10 @@
 '''''
 
 # Create Jupyter
+
+![BannerChecklist](./../imgs/2020-11-19-08-20-02.png)
+
+
 Für die Dokumentation der weitergehenden Schritte empfihelt es sich spätestens jetz eine [Jupyter-Lösung](15112020-Section-IndexPythonIDE) zu verwenden. Hier können die Daten und die Prozessschritt sauber dokumentiert werden.
 
 

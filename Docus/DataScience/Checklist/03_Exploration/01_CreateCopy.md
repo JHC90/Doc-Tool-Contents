@@ -9,7 +9,10 @@
 }
 '''''
 
-# Data-Copy - EDA
+# EDA
+
+![BannerChecklist](./../imgs/2020-11-19-08-20-02.png)
+
 Während der EDA werden die Daten deskriptiv analysiert. Da jedoch "Sorge" besteht, dass bei dieser Analyse die Daten auch manipuliert werden, wird vor der Analyse ein seperates Dataset erstellt welches der Analyse dient.
 
 

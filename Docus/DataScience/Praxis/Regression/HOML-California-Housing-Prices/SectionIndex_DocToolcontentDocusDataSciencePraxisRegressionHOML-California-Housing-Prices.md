@@ -1,9 +1,9 @@
 '''''
 {
 "title": "Section Index - California-Housing-Prices",
-"keywords": "SectionIndex",
-"categories": "",
-"description": "Default Section Index Description",
+"keywords": "SectionIndex-CaliforniaHousing",
+"categories": "Regression, End2End",
+"description": "List-Page zu der Ausarbeitung des California-Housing-Szenarios",
 "level": "00",
 "pageID": "16112020-CaliforniaHousingExample"
 }
@@ -12,6 +12,7 @@
 
 <h1>Section-Index Webpage zur Section <i>HOML-California-Housing-Prices</i></h1>
 
+![](imgs/2020-11-14-21-31-19.png)
 
 
 
@@ -25,6 +26,9 @@
 
 
 <h3>[Data-Preprocessing-Checklist](C:/DocTool/output/Docus/DataScience/Praxis/Regression/HOML-California-Housing-Prices/04_Califronia_Housing_DataPreprocessing.md)</h3><br>Hier geht es um die individuelle Abarbeitung der <em>EDA</em>-Checkliste im Kontext der California-Housing Problematik<hr>
+
+
+<h3>[Data-Preprocessing-Checklist](C:/DocTool/output/Docus/DataScience/Praxis/Regression/HOML-California-Housing-Prices/05_Califronia_Housing_Modeling.md)</h3><br>Hier geht es um die individuelle Abarbeitung der <em>EDA</em>-Checkliste im Kontext der California-Housing Problematik<hr>
 
 
 <h3>[Orginal.md](C:/DocTool/output/Docus/DataScience/Praxis/Regression/HOML-California-Housing-Prices/Orginal.md)</h3><br>Kein Frontmatter gepglegt und somit auch kein Titelinformation bzw Description<hr>

@@ -11,6 +11,8 @@
 
 <h1>List Assumptions</h1>
 
+![BannerChecklist](./../imgs/2020-11-19-08-20-02.png)
+
 Sammle Informationen und Vermutungen
 
 Dokumentiere in einem geeigneten Tool und lasse sowohl "Facts" als auch "assumptions" von einer geeigneten Person verifizieren. Tracke verbindlich die Verifikaiton.
